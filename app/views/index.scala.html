@@ -1,0 +1,223 @@
+@(posts: Seq[io.prismic.Document], authors: Seq[io.prismic.Document])(implicit ctx: Prismic.Context)
+
+@import Html._
+
+@main("Информационно-аналитический молодежный портал", Option("big"), Option(posts.take(1).head), Option(authors)){
+    <section class="dg-feed">
+        <div class="container">
+            <div class="dg-feed__filter">
+                <p class="dg-feed__filter__choose">Выберите раздел</p>
+                <dl class="dg-feed_filter__section dropdown">
+                    <dt><a><span class="dg-feed_filter__section__content">ВСЕ РАЗДЕЛЫ</span><span class="icon-arrow-down"></span></a></dt>
+                    <dd>
+                        <ul>
+                            <li><a class="default">Все разделы</a></li>
+                            <li><a>Известия</a></li>
+                            <li><a>К.О.Н.</a></li>
+                            <li><a>Смысловое взаимодействие</a></li>
+                            <li><a>Хранилище образов</a></li>
+                            <li><a>Домостроительство</a></li>
+                            <li><a>Преображение действительности</a></li>
+                            <li><a>Сетевое добровольчество</a></li>
+                            <li><a>Властеправие</a></li>
+                            <li><a>Мировоззрение</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="dg-feed__social">
+
+                <ul>
+                    <li>
+                        <a href="#" class="dg-feed__social__twitter">
+                            <div class="social-peoples social-twitter">1 568</div>
+                            <span class="twitter-icon"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="dg-feed__social__facebook">
+                            <div class="social-peoples social-facebook">1 568</div>
+                            <span class="facebook-icon"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="dg-feed__social__vkontakte">
+                            <div class="social-peoples social-vkontakte">10 870</div>
+                            <span class="vkontakte-icon"></span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="container-metro dg-feed__content">
+                    @for((post, count) <- posts.zipWithIndex){
+                        @if(count == 0) {
+                            <div class="box-6col">
+                                <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__image box-6col-imgwrapper" @post.getImage("blog.image", "postthumb").map {img => style="background-image: url(@img.url)}">
+                                <span class="read-more button">ЧИТАТЬ</span>
+                                </a>
+                                <div class="clear"></div>
+                                <div class="dg-feed__info">
+                                    <div class="dg-feed__info__util">
+                                        <p class="dg-feed__info__util__sector">@post.getText("blog.category").getOrElse("Общая")</p>
+                                        <p class="dg-feed__info__util__time">@post.getText("blog.body").map{text => @{text.length/900}} мин</p>
+                                    </div>
+                                    <div class="dg-feed__info__header">
+                                        <h2>@post.getText("blog.title").map{title => @title}</h2>
+                                    </div>
+                                    <div class="dg-feed__info__tags">
+                                        <ul>
+                                        @post.tags.map { tag =>
+                                            <li>#@tag</li>
+                                        }
+                                        </ul>
+                                    </div>
+                                    <hr class="delimeter-white">
+                                    <ul class="dg-feed__info__actions">
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        }
+                        @if(count == 1) {
+                            <div class="box-6col-horizont">
+                                <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__image box-6col-horizont-imgwrapper feed--arrow" @post.getImage("blog.image", "postthumb").map {img => style="background-image: url(@img.url)}">
+                                    <span class="read-more button">ЧИТАТЬ</span>
+                                </a>
+
+                                <div class="dg-feed__info--horizont">
+                                    <div class="dg-feed__info__util">
+                                        <p class="dg-feed__info__util__sector">@post.getText("blog.category").getOrElse("Общая")</p>
+                                        <p class="dg-feed__info__util__time">@post.getText("blog.body").map{text => @{text.length/900}} мин</p>
+                                    </div>
+                                    <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__info__header">
+                                        <h2>@post.getText("blog.title").map{title => @title}</h2>
+                                    </a>
+                                    <div class="dg-feed__info__tags">
+                                        <ul>
+                                            @post.tags.map { tag =>
+                                                <li>#@tag</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <hr class="delimeter-gray">
+                                    <ul class="dg-feed__info__actions">
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        }
+                        @if(count == 2) {
+                            <div class="box-6col-horizont">
+
+                                <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__image box-6col-horizont-imgwrapper feed--arrow" @post.getImage("blog.image", "postthumb").map {img => style="background-image: url(@img.url)}">
+                                    <span class="read-more button">ЧИТАТЬ</span>
+                                </a>
+
+                                <div class="dg-feed__info--horizont">
+                                    <div class="dg-feed__info__util">
+                                        <p class="dg-feed__info__util__sector">@post.getText("blog.category").getOrElse("Общая")</p>
+                                        <p class="dg-feed__info__util__time">@post.getText("blog.body").map{text => @{text.length/900}} мин</p>
+                                    </div>
+                                    <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__info__header">
+                                        <h2>@post.getText("blog.title").map{title => @title}</h2>
+                                    </a>
+                                    <div class="dg-feed__info__tags">
+                                        <ul>
+                                            @post.tags.map { tag =>
+                                                <li>#@tag</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <hr class="delimeter-gray">
+                                    <ul class="dg-feed__info__actions">
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        }
+                        @if(count == 3) {
+                            <div class="box-12col-horizont">
+
+                                <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__image box-6col-horizont-imgwrapper box-3col-horizont-imgwrapper feed--arrow" @post.getImage("blog.image", "postthumb").map {img => style="background-image: url(@img.url)}">
+                                    <span class="read-more button">ЧИТАТЬ</span>
+                                </a>
+
+                                <div class="dg-feed__info--horizont box-9col-horizont">
+
+                                    <div class="dg-feed__info__util">
+                                        <p class="dg-feed__info__util__sector">@post.getText("blog.category").getOrElse("Общая")</p>
+                                        <p class="dg-feed__info__util__time">@post.getText("blog.body").map{text => @{text.length/900}} мин</p>
+                                    </div>
+                                    <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__info__header">
+                                        <h2>@post.getText("blog.title").map{title => @title}</h2>
+                                    </a>
+                                    <div class="dg-feed__info__tags">
+                                        <ul>
+                                            @post.tags.map { tag =>
+                                                <li>#@tag</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <hr class="delimeter-gray">
+
+                                    <ul class="dg-feed__info__actions">
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        }
+                    }
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="dg-feed__btn-wrapper">
+                <a class="dg-feed__btn" href="#">
+                    <span class="load-icon"></span>
+                    <span>ЕЩЕ СТАТЬИ</span>
+                </a>
+            </div>
+
+        <div class="clear"></div>
+    </section>
+}

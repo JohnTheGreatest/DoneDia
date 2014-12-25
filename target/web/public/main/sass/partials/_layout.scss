@@ -1,0 +1,335 @@
+@import "susyone";
+
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 6em;            // each column is 6em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+
+$border-box-sizing: true;
+
+.container {
+  @include container;
+  position: relative;
+  @extend %clearfix;
+}
+
+/* Main Page */
+
+/* [MENU+CONTACTS] */
+
+.topmenu {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(6,12);
+  }
+}
+
+/* Header */
+
+.logo-wrapper {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(4,12);
+  }
+}
+
+.dg-header__menubtn {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(8 omega,12);
+  }
+}
+
+.dg-header__btn {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(2,12);
+  }
+}
+
+.dg-banner__info {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(5,12);
+  }
+}
+
+.dg-feed__filter {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(6,12);
+  }
+}
+
+.dg-feed__social {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(6 omega,12);
+  }
+}
+
+
+@include with-grid-settings(12,7em,0em,1em) {
+
+  .container-metro {
+    @include container;
+    position: relative;
+    @extend %clearfix;
+  }
+
+  .box-6col {
+    position: relative;
+    @include single-transition(all 1s);
+    @extend %clearfix;
+    margin: 0 !important; padding: 0 !important; /* Chrome 1px bug */
+
+    @include span-columns(12 omega, 12);
+
+    @include MQ(L) {
+      @include span-columns(6 ,12);
+      @include nth-omega(2n);
+    }
+  }
+
+  .box-6col {
+    position: relative;
+    @include single-transition(all 1s);
+    @extend %clearfix;
+    margin: 0 !important; padding: 0 !important; /* Chrome 1px bug */
+
+    @include span-columns(12 omega, 12);
+
+    @include MQ(L) {
+      @include span-columns(6 ,12);
+      @include nth-omega(2n);
+    }
+
+  }
+
+  .box-6col-horizont {
+    position: relative;
+    @include single-transition(all 1s);
+    @extend %clearfix;
+    margin: 0 !important; padding: 0 !important; /* Chrome 1px bug */
+
+    @include span-columns(12 omega, 12);
+
+    @include MQ(L) {
+      @include span-columns(6 ,12);
+      @include nth-omega(2n);
+    }
+
+    .dg-feed__image {
+      @include span-columns(12 omega, 12);
+
+      @include MQ(M) {
+        @include span-columns(6 omega ,12);
+        @include nth-omega(2n);
+      }
+    }
+
+    .dg-feed__info--horizont {
+      @include span-columns(12 omega, 12);
+
+      @include MQ(M) {
+        @include span-columns(6 alpha,12);
+        @include nth-omega(2n);
+      }
+    }
+  }
+
+  .box-12col-horizont {
+    position: relative;
+    @include single-transition(all 1s);
+    @extend %clearfix;
+    margin: 0 !important; padding: 0 !important; /* Chrome 1px bug */
+    @include span-columns(12 omega, 12);
+
+    .box-3col-horizont-imgwrapper {
+      @include single-transition(all 1s);
+      @include span-columns(12 omega, 12);
+
+      @include MQ(M) {
+        @include span-columns(9 omega,12);
+      }
+    }
+
+    .box-9col-horizont {
+      @include single-transition(all 1s);
+      @include span-columns(12 omega, 12);
+
+      @include MQ(M) {
+        @include span-columns(3 alpha,12);
+      }
+    }
+
+  }
+
+}
+
+.box--left {
+  float: left !important;
+}
+
+.box--right {
+  float: right !important;
+}
+
+.dg-feed__btn-wrapper {
+
+  @include span-columns(12 omega, 12);
+
+  @include MQ(M) {
+    @include pad(3,3);
+  }
+
+}
+
+.dg-team__content {
+
+  @include span-columns(12 omega, 12);
+
+  li {
+    @include single-transition(all 1s);
+    @include span-columns(12 omega, 12);
+
+    @include MQ(S) {
+      @include span-columns(6,12);
+      @include nth-omega(2n);
+    }
+
+    @include MQ(M) {
+      @include span-columns(3,12);
+      @include remove-nth-omega(2n);
+      @include nth-omega(4n);
+    }
+  }
+}
+
+/* FOOTER */
+
+.footer-social {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(4,12);
+  }
+}
+
+.footer-subscribe {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(8 omega,12);
+  }
+}
+
+.footer-logo {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(4,12);
+  }
+
+  .footer-logo__content {
+
+  }
+}
+
+.footer-menu {
+  @include span-columns(12 omega,12);
+
+  @include MQ(M) {
+    @include span-columns(8 omega,12);
+  }
+}
+
+/* BLOG-Inside */
+
+.dg-blog__body {
+  @include span-columns(12 omega,12);
+
+  @include MQ(L) {
+    @include pad(2,2);
+  }
+
+}
+
+.dg-blog__banner__content--center {
+  @include span-columns(12 omega,12);
+
+  @include MQ(L) {
+    @include pad(3,3);
+  }
+}
+
+.db-blog__body__utility {
+  @include span-columns(12 omega, 12);
+}
+
+.dg-blog__body__author {
+  @include span-columns(12 omega, 12);
+
+  @include MQ(M) {
+    @include span-columns(6 omega,12);
+  }
+}
+
+.dg-blog__body__actions {
+  @include span-columns(12 omega, 12);
+
+  @include MQ(M) {
+    @include span-columns(6 omega,12);
+  }
+}
+
+.dg-blog__body {
+  .image-left {
+    @include span-columns(12 omega, 12);
+
+    @include MQ(M) {
+      @include span-columns(6,12);
+    }
+  }
+
+  .image-right {
+    @include span-columns(12 omega, 12);
+
+    @include MQ(M) {
+      @include span-columns(6 omega,12);
+    }
+  }
+}
+
+.dg-blog-header {
+  .logo-wrapper {
+    @include span-columns(12 omega,12);
+
+    @include MQ(L) {
+      @include span-columns(4,12);
+    }
+  }
+
+  .dg-header__menubtn {
+    @include span-columns(12 omega,12);
+
+    @include MQ(L) {
+      @include span-columns(8 omega,12);
+    }
+  }
+}
+
+.jumbo-video__content-layout {
+  @include span-columns(12 omega,12);
+
+  @include MQ(L) {
+    @include pad(3,3);
+  }
+}

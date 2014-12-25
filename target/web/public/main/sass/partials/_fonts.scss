@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'BlissProExtraBold';
+  src: font-url('blisspro-extrabold.eot');
+  src: font-url('blisspro-extrabold.eot') format('embedded-opentype'),
+  font-url('blisspro-extrabold.woff') format('woff'),
+  font-url('blisspro-extrabold.ttf') format('truetype'),
+  font-url('blisspro-extrabold.svg#BlissProExtraBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlissProBold';
+  src: font-url('blisspro-bold.eot');
+  src: font-url('blisspro-bold.eot') format('embedded-opentype'),
+  font-url('blisspro-bold.woff') format('woff'),
+  font-url('blisspro-bold.ttf') format('truetype'),
+  font-url('blisspro-bold.svg#BlissProBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlissProRegular';
+  src: font-url('blisspro-regular_0.eot');
+  src: font-url('blisspro-regular_0.eot') format('embedded-opentype'),
+  font-url('blisspro-regular_0.woff') format('woff'),
+  font-url('blisspro-regular_0.ttf') format('truetype'),
+  font-url('blisspro-regular_0.svg#BlissProRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlissProExtraLight';
+  src: font-url('BLISSPRO-EXTRALIGHT.eot');
+  src: font-url('BLISSPRO-EXTRALIGHT.eot') format('embedded-opentype'),
+  font-url('BLISSPRO-EXTRALIGHT.ttf') format('truetype'),
+  font-url('BLISSPRO-EXTRALIGHT.svg#BlissProRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

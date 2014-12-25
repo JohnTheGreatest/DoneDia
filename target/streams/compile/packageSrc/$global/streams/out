@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\Diapost\target\scala-2.11\diapost_2.11-1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\Diapost\conf\routes[0m
+[0m[[0mdebug[0m] [0m	controllers\Prismic.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\Diapost\app\controllers\Prismic.scala[0m
+[0m[[0mdebug[0m] [0m	models\Post.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\Diapost\app\models\Post.scala[0m
+[0m[[0mdebug[0m] [0m	controllers\Application.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\Diapost\app\controllers\Application.scala[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\Diapost\conf\application.conf[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
