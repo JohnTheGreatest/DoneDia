@@ -1,3 +1,6 @@
-2014-12-25 08:32:52,697 - [INFO] - from play in pool-5895-thread-3 
+2014-12-27 02:31:20,081 - [INFO] - from play in pool-6-thread-1 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9001
+
+2014-12-27 02:32:38,348 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
 

@@ -131,11 +131,11 @@
                         @if(count == 2) {
                             <div class="box-6col-horizont">
 
-                                <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__image box-6col-horizont-imgwrapper feed--arrow" @post.getImage("blog.image", "postthumb").map {img => style="background-image: url(@img.url)}">
+                                <a href="@routes.Application.blogPost(post.id, post.slug)" class="dg-feed__image box-6col-horizont-imgwrapper box--left feed--arrow" @post.getImage("blog.image", "postthumb").map {img => style="background-image: url(@img.url)}">
                                     <span class="read-more button">ЧИТАТЬ</span>
                                 </a>
 
-                                <div class="dg-feed__info--horizont">
+                                <div class="dg-feed__info--horizont box--right">
                                     <div class="dg-feed__info__util">
                                         <p class="dg-feed__info__util__sector">@post.getText("blog.category").getOrElse("Общая")</p>
                                         <p class="dg-feed__info__util__time">@post.getText("blog.body").map{text => @{text.length/900}} мин</p>
