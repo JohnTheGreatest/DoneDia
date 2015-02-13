@@ -78,8 +78,8 @@ Seq[Any](format.raw/*1.1*/("""<footer>
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 25 08:23:29 MSK 2014
-                  SOURCE: C:/Users/d1sp/Desktop/NewDropbox/Dropbox/PlayDev/Diapost/app/views/footer.scala.html
+                  DATE: Thu Feb 12 17:10:32 MSK 2015
+                  SOURCE: /home/n0tel/projects/DoneDia/app/views/footer.scala.html
                   HASH: a35b2f7b180074f2b6548e049493b6ffb8b3260c
                   MATRIX: 581->0
                   LINES: 22->1

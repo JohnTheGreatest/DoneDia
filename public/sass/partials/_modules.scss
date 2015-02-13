@@ -760,6 +760,33 @@ $default-transition-delay: true;
   position: relative;
 }
 
+// FIX for PLUSO, only number of sharings. На главной странице
+.dg-feed__info, .dg-feed__info--horizont {
+  .pluso {
+    .pluso-wrap {display: none; }
+    .pluso-counter b:after {
+      display: none;
+    }
+    .pluso-counter b {
+      color: #ffffff;
+      position: static;
+      padding: 0;
+      font-size: 16px !important;
+      background: transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+}
+.dg-feed__info--horizont {
+  .pluso {
+    .pluso-counter b {
+      color: #b4b4b4;
+    }
+  }
+}
+
 .dg-feed__info--horizont {
   padding: 30px;
   width: 50%;

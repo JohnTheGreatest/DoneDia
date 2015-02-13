@@ -64,7 +64,7 @@ object Application extends Controller {
   implicit val postWrites = Json.writes[Post]
   /*val ajaxPosts:Seq[Post] = Seq(Post("1dasd", Option("ffff"), Option("ffff"),Option(2), Option("Good"), Seq("любовь", "красота"), 3))*/
   // Написать класс с запросом постов по категориям через jsRouter
-  val ajaxPosts: List[Post] = List(Post("asdasd", Option("asdasd"), Option("asdasdasd"), Option(13), Option("Haha"), Seq("красота", "любовь"), 3), Post("asdasd", Option("asdasd"), Option("asdasdasd"), Option(13), Option("Haha"), Seq("красота", "любовь"), 3))
+//  val ajaxPosts: List[Post] = List(Post("asdasd", Option("asdasd"), Option("asdasdasd"), Option(13), Option("Haha"), Seq("красота", "любовь"), 3), Post("asdasd", Option("asdasd"), Option("asdasdasd"), Option(13), Option("Haha"), Seq("красота", "любовь"), 3))
 
   def blogAjax(maybeCategory: Option[String]) = Prismic.action { implicit request =>
     for {
@@ -76,6 +76,7 @@ object Application extends Controller {
           .submit()
       }.getOrElse(ctx.api.forms("blog-posts").orderings("[my.blog.date desc]").ref(ctx.ref).submit())
     } yield {
+      println(posts.results.map(_.slug))
       Ok(Json.toJson(Post.toList(posts.results)))
     }
   }

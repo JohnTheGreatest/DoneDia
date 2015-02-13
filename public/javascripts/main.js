@@ -31,37 +31,123 @@ $(document).ready(function(){
 
     /* DROPDOWN MENU */
 
-    var dropdowns = $(".dropdown");
+    var $dropdownContainer = $(".dropdown");
+    var $currentCategoryElem = $dropdownContainer.find('.dg-feed_filter__section__content');
 
+    // Контейнер для блоков статей
+    var $feedContainer = $('.dg-feed__content');
+    
     // Onclick on a dropdown, toggle visibility
-    dropdowns.find("dt").click(function(){
-        dropdowns.find("dd ul").hide();
+    $dropdownContainer.find("dt").click(function(){
+        $dropdownContainer.find("dd ul").hide();
         $(this).next().children().toggle();
     });
 
-    // Click handler for dropdown
-    dropdowns.find("dd ul li a").click(function(){
-        var leSpan = $(this).parents(".dropdown").find("dt a span:first");
+    // Нажатие на категорию из выпадающего списка
+    $dropdownContainer.find("dd ul li a").click(function(){
+        var $this = $(this);
 
-        // Remove selected class
+        // проверка, выбрана текущая категория или другая
+        // Если текущцая, ничего не делаем, иначе продолжаем
+        var $selectedCategoryElem = $this;
+        if($selectedCategoryElem.hasClass('selected')) return;
+
+        // Называние выбранной категории
+        var selectedCategory = $selectedCategoryElem.text();
+
+        // Отправить запрос на получение данных
+        var url = '/blogAjax?category=' + selectedCategory;
+        $.get(url, function(data) {
+            console.log(data);
+            // В зависимости от кол-ва возвращенных статей, скрыть лишние блоки.
+            // Если вернулось 0 статей, отобразить сообщение что в данной категории нет статей.
+            
+            // Получаем кол-во возвращенных статей
+            var numArticles = data.length;
+            
+            // делаем видимыми кол-во блоков == кол-во полученных статей
+            // остальные скрываем
+            $feedContainer.find('> div').each(function(index, article){
+                var $article = $(article);
+                if(index < numArticles) {
+                    $article.show();
+                } else {
+                    $article.hide();
+                    return;
+                }
+                // Меняем категорию
+                $article.find('.dg-feed__info__util__sector').text(data[index].category);
+                // Ссылку
+                $article.find('.dg-feed__image').attr('href', '/' + data[index].id + '/' + data[index].slug);
+                // Картинку
+                $article.find('.dg-feed__image').css('background-image', 'url(' + data[index].thumbUrl + ')');
+                // Время на прочтение
+                $article.find('.dg-feed__info__util__time').text(data[index].minToRead + ' мин');
+                // Заголовок
+                $article.find('.dg-feed__info__header h2').text(data[index].title);
+                // Тэги
+                var $newTagList = $('<ul></ul>');
+                $(data[index].tags).each(function(index, tag){
+                    $newTagList.append('<li>#' + tag + '</li>');
+                });
+                $article.find('.dg-feed__info__tags').empty().append($newTagList);
+                // Переинициализируем плюсы (пока не знаю как)
+                $article.find('.dg-feed__info__actions').hide();
+                // Переинициализируем кол-во комментов от DISQUS (тоже пока не знаю)
+                
+            });
+
+
+            //if (window.pluso)if (typeof window.pluso.start == "function") return;
+            //if (window.ifpluso==undefined) { window.ifpluso = 1;
+            //    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+            //    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+            //    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+            //    var h=d[g]('body')[0];
+            //    h.appendChild(s);
+            //};
+        });
+
+        
+
+        // Для каждого возвращенного поста:
+        // Меняем категорию
+
+        // Время на прочтение
+
+        // Заголовок
+
+        // Тэги
+
+        // Переинициализируем плюсы (пока не знаю как)
+
+        // Переинициализируем кол-во комментов от DISQUS (тоже пока не знаю)
+
+
+
+
+        // Удаляем класс .selected, для предыдущего выбранного элемента
         $(this).parents(".dropdown").find('dd a').each(function(){
             $(this).removeClass('selected');
         });
 
-        // Update selected value
-        leSpan.html($(this).html());
+        // Обновляем текущую категорию
+        $currentCategoryElem.html($(this).html());
 
-        // If back to default, remove selected class else addclass on right element
+        // Если выбран элемент по-умолчанию, удаляем у него класс .selected
         if($(this).hasClass('default')){
-            leSpan.removeClass('selected')
+            $currentCategoryElem.removeClass('selected')
         }
         else{
-            leSpan.addClass('selected');
-            $(this).addClass('selected');
+            $currentCategoryElem.addClass('selected');
         }
 
-        // Close dropdown
+        // Выделяем выбранный элемент списка
+        $(this).addClass('selected');
+
+        // Закрываем выпадающий список
         $(this).parents("ul").hide();
+
     });
 
 // Close all dropdown onclick on another element

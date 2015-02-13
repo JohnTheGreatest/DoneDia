@@ -11,7 +11,7 @@
                     <dt><a><span class="dg-feed_filter__section__content">ВСЕ РАЗДЕЛЫ</span><span class="icon-arrow-down"></span></a></dt>
                     <dd>
                         <ul>
-                            <li><a class="default">Все разделы</a></li>
+                            <li><a class="default selected">Все разделы</a></li>
                             <li><a>Известия</a></li>
                             <li><a>К.О.Н.</a></li>
                             <li><a>Смысловое взаимодействие</a></li>
@@ -54,6 +54,18 @@
             </div>
         </div>
 
+        @* PLUSO script *@
+        <script type="text/javascript">(function() {
+        if (window.pluso)if (typeof window.pluso.start == "function") return;
+        if (window.ifpluso==undefined) { window.ifpluso = 1;
+        var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+        s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+        s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+        var h=d[g]('body')[0];
+        h.appendChild(s);
+        }})();</script>
+        @* PLUSO script end *@
+        
         <div class="container-metro dg-feed__content">
                     @for((post, count) <- posts.zipWithIndex){
                         @if(count == 0) {
@@ -80,13 +92,13 @@
                                     <hr class="delimeter-white">
                                     <ul class="dg-feed__info__actions">
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                            <div class="pluso dg-feed__info__actions--repost" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="" data-url="@routes.Application.blogPost(post.id, post.slug)" data-user="1194849155"></div>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                            <a href="#" class="dg-feed__info__actions--like"></a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                            <a href="@routes.Application.blogPost(post.id, post.slug)#disqus_thread" class="dg-feed__info__actions--comment">0</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -116,13 +128,13 @@
                                     <hr class="delimeter-gray">
                                     <ul class="dg-feed__info__actions">
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                            <div class="pluso dg-feed__info__actions--repost" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="" data-url="@routes.Application.blogPost(post.id, post.slug)" data-user="1194849155"></div>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                            <a href="#" class="dg-feed__info__actions--like"></a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                            <a href="@routes.Application.blogPost(post.id, post.slug)#disqus_thread" class="dg-feed__info__actions--comment">0</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -153,13 +165,13 @@
                                     <hr class="delimeter-gray">
                                     <ul class="dg-feed__info__actions">
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                            <div class="pluso dg-feed__info__actions--repost" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="" data-url="@routes.Application.blogPost(post.id, post.slug)" data-user="1194849155"></div>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                            <a href="#" class="dg-feed__info__actions--like"></a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                            <a href="@routes.Application.blogPost(post.id, post.slug)#disqus_thread" class="dg-feed__info__actions--comment">0</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -193,13 +205,13 @@
 
                                     <ul class="dg-feed__info__actions">
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                            <div class="pluso dg-feed__info__actions--repost" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="" data-url="@routes.Application.blogPost(post.id, post.slug)" data-user="1194849155"></div>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--like">117</a>
+                                            <a href="#" class="dg-feed__info__actions--like"></a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                            <a href="@routes.Application.blogPost(post.id, post.slug)#disqus_thread" class="dg-feed__info__actions--comment">0</a>
                                         </li>
                                     </ul>
 
@@ -220,4 +232,18 @@
 
         <div class="clear"></div>
     </section>
+
+    @* DISQUS comment count *@
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'diapost-portal'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
 }

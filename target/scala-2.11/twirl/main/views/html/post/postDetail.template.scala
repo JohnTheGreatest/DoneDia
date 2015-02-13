@@ -104,61 +104,106 @@ Seq[Any](format.raw/*1.227*/("""
                         <img src=""""),_display_(/*83.36*/author/*83.42*/.getImage("author.image", "authorthumb").map/*83.86*/{imgUrl=>_display_(_display_(/*83.96*/imgUrl/*83.102*/.url))}),format.raw/*83.107*/(""""/>
                     </div>
 
-                    <div class="dg-blog__body__actions">
+                    """),format.raw/*86.39*/("""
+                    """),format.raw/*87.21*/("""<script type="text/javascript">(function() """),format.raw/*87.64*/("""{"""),format.raw/*87.65*/("""
+                    """),format.raw/*88.21*/("""if (window.pluso)if (typeof window.pluso.start == "function") return;
+                    if (window.ifpluso==undefined) """),format.raw/*89.52*/("""{"""),format.raw/*89.53*/(""" """),format.raw/*89.54*/("""window.ifpluso = 1;
+                    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+                    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+                    var h=d[g]('body')[0];
+                    h.appendChild(s);
+                    """),format.raw/*95.21*/("""}"""),format.raw/*95.22*/("""}"""),format.raw/*95.23*/(""")();</script>
+                    """),format.raw/*96.43*/("""
+
+                    """),format.raw/*98.21*/("""<div class="dg-blog__body__actions">
                         <ul class="dg-feed__info__actions">
                             <li>
-                                <a href="#" class="dg-feed__info__actions--repost">15</a>
+                                <div class="pluso" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="" data-user="1194849155"></div>
                             </li>
                             <li>
-                                <a href="#" class="dg-feed__info__actions--like">117</a>
+                                    <!-- LikeBtn.com BEGIN -->
+                                <span class="likebtn-wrapper" data-lang="ru"></span>
+                                <script>(function(d,e,s)"""),format.raw/*106.57*/("""{"""),format.raw/*106.58*/("""a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.src=s;m.parentNode.insertBefore(a, m)"""),format.raw/*106.159*/("""}"""),format.raw/*106.160*/(""")(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+                                    <!-- LikeBtn.com END -->
                             </li>
                             <li>
-                                <a href="#" class="dg-feed__info__actions--comment">7</a>
+                                <a href="#disqus_thread" class="dg-feed__info__actions--comment">0</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="clear"></div>
                 <article>
-                    """),_display_(/*102.22*/post/*102.26*/.getHtml("blog.body", ctx.linkResolver).map(Html.apply)),format.raw/*102.81*/("""
-                """),format.raw/*103.17*/("""</article>
+                    """),_display_(/*117.22*/post/*117.26*/.getHtml("blog.body", ctx.linkResolver).map(Html.apply)),format.raw/*117.81*/("""
+                """),format.raw/*118.17*/("""</article>
+                
+                """),format.raw/*120.29*/("""
+                """),format.raw/*121.17*/("""<div id="disqus_thread"></div>
+                <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'diapost-portal'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() """),format.raw/*127.29*/("""{"""),format.raw/*127.30*/("""
+                """),format.raw/*128.17*/("""var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                """),format.raw/*131.17*/("""}"""),format.raw/*131.18*/(""")();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
             </div>
 
         </section>
 
         <div class="clear"></div>
 
-        """),_display_(/*110.10*/if(!jumbo.isEmpty)/*110.28*/ {_display_(Seq[Any](format.raw/*110.30*/("""
-            """),format.raw/*111.13*/("""<div class="jumbo-video" data-vide-bg=""""),_display_(/*111.53*/jumbo/*111.58*/.map/*111.62*/{jmb=>_display_(_display_(/*111.69*/jmb/*111.72*/.getLink("jumbo-video.video-mp4").map/*111.109*/{link=>_display_(_display_(/*111.117*/link/*111.121*/.getUrl(ctx.linkResolver).dropRight(4)))}))}),format.raw/*111.161*/("""" data-vide-options="loop: true, muted: false, position: 50% 50%">
+        """),_display_(/*141.10*/if(!jumbo.isEmpty)/*141.28*/ {_display_(Seq[Any](format.raw/*141.30*/("""
+            """),format.raw/*142.13*/("""<div class="jumbo-video" data-vide-bg=""""),_display_(/*142.53*/jumbo/*142.58*/.map/*142.62*/{jmb=>_display_(_display_(/*142.69*/jmb/*142.72*/.getLink("jumbo-video.video-mp4").map/*142.109*/{link=>_display_(_display_(/*142.117*/link/*142.121*/.getUrl(ctx.linkResolver).dropRight(4)))}))}),format.raw/*142.161*/("""" data-vide-options="loop: true, muted: false, position: 50% 50%">
 
                 <div class="jumbo-video__content-wrapper">
                     <div class="container">
                         <div class="jumbo-video__content-layout">
                             <div class="jumbo-video__content">
-                                <h3>"""),_display_(/*117.38*/jumbo/*117.43*/.map/*117.47*/{jmb=>_display_(_display_(/*117.54*/jmb/*117.57*/.getText("jumbo-video.title").map/*117.90*/{txt=>_display_(_display_(/*117.97*/txt))}))}),format.raw/*117.102*/("""</h3>
-                                <p>"""),_display_(/*118.37*/jumbo/*118.42*/.map/*118.46*/{jmb=>_display_(_display_(/*118.53*/jmb/*118.56*/.getStructuredText("jumbo-video.content").flatMap(_.getFirstParagraph).map/*118.130*/{txt=>_display_(_display_(/*118.137*/txt/*118.140*/.text))}))}),format.raw/*118.147*/("""</p>
+                                <h3>"""),_display_(/*148.38*/jumbo/*148.43*/.map/*148.47*/{jmb=>_display_(_display_(/*148.54*/jmb/*148.57*/.getText("jumbo-video.title").map/*148.90*/{txt=>_display_(_display_(/*148.97*/txt))}))}),format.raw/*148.102*/("""</h3>
+                                <p>"""),_display_(/*149.37*/jumbo/*149.42*/.map/*149.46*/{jmb=>_display_(_display_(/*149.53*/jmb/*149.56*/.getStructuredText("jumbo-video.content").flatMap(_.getFirstParagraph).map/*149.130*/{txt=>_display_(_display_(/*149.137*/txt/*149.140*/.text))}))}),format.raw/*149.147*/("""</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        """)))}),format.raw/*124.10*/("""
+        """)))}),format.raw/*155.10*/("""
 
-        """),format.raw/*126.9*/("""<div class="clear"></div>
+        """),format.raw/*157.9*/("""<div class="clear"></div>
 
-        """),_display_(/*128.10*/footer()),format.raw/*128.18*/("""
+        """),_display_(/*159.10*/footer()),format.raw/*159.18*/("""
 
-        """),format.raw/*130.9*/("""</div>
+        """),format.raw/*161.9*/("""</div>
 
         <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-        <script src=""""),_display_(/*133.23*/routes/*133.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*133.69*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*134.23*/routes/*134.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*134.75*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*135.23*/routes/*135.29*/.Assets.at("javascripts/classie.js")),format.raw/*135.65*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*136.23*/routes/*136.29*/.Assets.at("javascripts/navigation.js")),format.raw/*136.68*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*137.23*/routes/*137.29*/.Assets.at("javascripts/jquery.vide.min.js")),format.raw/*137.73*/("""" type="text/javascript"></script>
-        """),_display_(/*138.10*/postDetailScripts()),format.raw/*138.29*/("""
+        <script src=""""),_display_(/*164.23*/routes/*164.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*164.69*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*165.23*/routes/*165.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*165.75*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*166.23*/routes/*166.29*/.Assets.at("javascripts/classie.js")),format.raw/*166.65*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*167.23*/routes/*167.29*/.Assets.at("javascripts/navigation.js")),format.raw/*167.68*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*168.23*/routes/*168.29*/.Assets.at("javascripts/jquery.vide.min.js")),format.raw/*168.73*/("""" type="text/javascript"></script>
+        """),_display_(/*169.10*/postDetailScripts()),format.raw/*169.29*/("""
+        
+        """),format.raw/*171.35*/("""
+        """),format.raw/*172.9*/("""<script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'diapost-portal'; // required: replace example with your forum shortname
 
-    """),format.raw/*140.5*/("""</body>
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () """),format.raw/*177.22*/("""{"""),format.raw/*177.23*/("""
+        """),format.raw/*178.9*/("""var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        """),format.raw/*182.9*/("""}"""),format.raw/*182.10*/("""());
+        </script>
+
+    </body>
 </html>
 
 """))}
@@ -173,11 +218,11 @@ Seq[Any](format.raw/*1.227*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 25 07:39:54 MSK 2014
-                  SOURCE: C:/Users/d1sp/Desktop/NewDropbox/Dropbox/PlayDev/Diapost/app/views/post/postDetail.scala.html
-                  HASH: 78e338f75b78967478a18b14dc55be36ee6238fa
-                  MATRIX: 662->1|976->226|1006->230|1451->648|1464->652|1503->682|1540->691|1569->697|1598->698|1690->763|1703->767|1748->803|1784->811|1812->816|2093->1070|2108->1076|2163->1110|2232->1152|2247->1158|2305->1195|2358->1221|2373->1227|2449->1282|2982->1788|3005->1802|3018->1806|3062->1812|3116->1838|3160->1855|3172->1858|3196->1861|3259->1893|3305->1911|3782->2361|3797->2367|3838->2387|4247->2769|4260->2773|4304->2808|4350->2816|4379->2817|4437->2847|4450->2850|4476->2854|4510->2856|4910->3229|4923->3233|4958->3259|5005->3268|5034->3270|5064->3276|5293->3478|5306->3482|5372->3526|5483->3610|5496->3614|5531->3639|5578->3647|5608->3649|5651->3667|5681->3668|5880->3840|5893->3844|5932->3874|5978->3882|6007->3884|6036->3889|6497->4323|6512->4329|6565->4373|6603->4383|6619->4389|6648->4394|7483->5201|7497->5205|7574->5260|7621->5278|7751->5380|7779->5398|7820->5400|7863->5414|7931->5454|7946->5459|7960->5463|7996->5470|8009->5473|8057->5510|8095->5518|8110->5522|8177->5562|8548->5905|8563->5910|8577->5914|8613->5921|8626->5924|8669->5957|8705->5964|8737->5969|8808->6012|8823->6017|8837->6021|8873->6028|8886->6031|8971->6105|9008->6112|9022->6115|9056->6122|9243->6277|9283->6289|9349->6327|9379->6335|9419->6347|9582->6482|9598->6488|9660->6528|9746->6586|9762->6592|9830->6638|9916->6696|9932->6702|9990->6738|10076->6796|10092->6802|10153->6841|10239->6899|10255->6905|10321->6949|10394->6994|10435->7013|10471->7021
-                  LINES: 19->1|22->1|24->3|32->11|32->11|32->11|32->11|32->11|32->11|33->12|33->12|33->12|33->12|33->12|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|52->31|52->31|52->31|52->31|53->32|53->32|53->32|53->32|54->33|55->34|67->46|67->46|67->46|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|83->62|83->62|83->62|83->62|83->62|83->62|86->65|86->65|86->65|87->66|87->66|87->66|87->66|87->66|87->66|87->66|90->69|90->69|90->69|90->69|90->69|90->69|104->83|104->83|104->83|104->83|104->83|104->83|123->102|123->102|123->102|124->103|131->110|131->110|131->110|132->111|132->111|132->111|132->111|132->111|132->111|132->111|132->111|132->111|132->111|138->117|138->117|138->117|138->117|138->117|138->117|138->117|138->117|139->118|139->118|139->118|139->118|139->118|139->118|139->118|139->118|139->118|145->124|147->126|149->128|149->128|151->130|154->133|154->133|154->133|155->134|155->134|155->134|156->135|156->135|156->135|157->136|157->136|157->136|158->137|158->137|158->137|159->138|159->138|161->140
+                  DATE: Fri Feb 13 10:47:20 MSK 2015
+                  SOURCE: /home/n0tel/projects/DoneDia/app/views/post/postDetail.scala.html
+                  HASH: 560e71e5060055b0e8ee9b78c8670800838667c9
+                  MATRIX: 662->1|976->226|1004->228|1441->638|1454->642|1493->672|1530->681|1559->687|1588->688|1679->752|1692->756|1737->792|1773->800|1801->805|2078->1055|2093->1061|2148->1095|2216->1136|2231->1142|2289->1179|2341->1204|2356->1210|2432->1265|2952->1758|2975->1772|2988->1776|3032->1782|3085->1807|3129->1824|3141->1827|3165->1830|3227->1861|3272->1878|3737->2316|3752->2322|3793->2342|4192->2714|4205->2718|4249->2753|4295->2761|4324->2762|4382->2792|4395->2795|4421->2799|4455->2801|4849->3168|4862->3172|4897->3198|4944->3207|4973->3209|5003->3215|5229->3414|5242->3418|5308->3462|5418->3545|5431->3549|5466->3574|5513->3582|5543->3584|5586->3602|5616->3603|5812->3772|5825->3776|5864->3806|5910->3814|5939->3816|5968->3821|6415->4241|6430->4247|6483->4291|6521->4301|6537->4307|6566->4312|6646->4382|6695->4403|6766->4446|6795->4447|6844->4468|6993->4589|7022->4590|7051->4591|7504->5016|7533->5017|7562->5018|7624->5074|7674->5096|8301->5694|8331->5695|8462->5796|8493->5797|9019->6295|9033->6299|9110->6354|9156->6371|9229->6427|9275->6444|9674->6814|9704->6815|9750->6832|10084->7137|10114->7138|10407->7403|10435->7421|10476->7423|10518->7436|10586->7476|10601->7481|10615->7485|10651->7492|10664->7495|10712->7532|10750->7540|10765->7544|10832->7584|11197->7921|11212->7926|11226->7930|11262->7937|11275->7940|11318->7973|11354->7980|11386->7985|11456->8027|11471->8032|11485->8036|11521->8043|11534->8046|11619->8120|11656->8127|11670->8130|11704->8137|11885->8286|11923->8296|11987->8332|12017->8340|12055->8350|12215->8482|12231->8488|12293->8528|12378->8585|12394->8591|12462->8637|12547->8694|12563->8700|12621->8736|12706->8793|12722->8799|12783->8838|12868->8895|12884->8901|12950->8945|13022->8989|13063->9008|13110->9052|13147->9061|13468->9353|13498->9354|13535->9363|13842->9642|13872->9643
+                  LINES: 19->1|22->1|24->3|32->11|32->11|32->11|32->11|32->11|32->11|33->12|33->12|33->12|33->12|33->12|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|52->31|52->31|52->31|52->31|53->32|53->32|53->32|53->32|54->33|55->34|67->46|67->46|67->46|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|83->62|83->62|83->62|83->62|83->62|83->62|86->65|86->65|86->65|87->66|87->66|87->66|87->66|87->66|87->66|87->66|90->69|90->69|90->69|90->69|90->69|90->69|104->83|104->83|104->83|104->83|104->83|104->83|107->86|108->87|108->87|108->87|109->88|110->89|110->89|110->89|116->95|116->95|116->95|117->96|119->98|127->106|127->106|127->106|127->106|138->117|138->117|138->117|139->118|141->120|142->121|148->127|148->127|149->128|152->131|152->131|162->141|162->141|162->141|163->142|163->142|163->142|163->142|163->142|163->142|163->142|163->142|163->142|163->142|169->148|169->148|169->148|169->148|169->148|169->148|169->148|169->148|170->149|170->149|170->149|170->149|170->149|170->149|170->149|170->149|170->149|176->155|178->157|180->159|180->159|182->161|185->164|185->164|185->164|186->165|186->165|186->165|187->166|187->166|187->166|188->167|188->167|188->167|189->168|189->168|189->168|190->169|190->169|192->171|193->172|198->177|198->177|199->178|203->182|203->182
                   -- GENERATED --
               */
           

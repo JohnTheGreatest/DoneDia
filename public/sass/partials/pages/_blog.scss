@@ -92,7 +92,7 @@
     float: right;
     text-align: left;
   }
-
+  
   .dg-feed__info__actions {
     width: auto;
     margin: 0 auto;
@@ -115,36 +115,114 @@
   }
 }
 
+// style fis for PLUSO popup
+.pluso-box {
+  .pluso-go { display: none; }
+}
+
 .db-blog__body__utility {
+  $icons: sprite-map("sprites/utils/*.png");
+  
   @include pie-clearfix();
 
-  .dg-feed__info__actions--repost {
-    @include utils-sprite(repost-gray);
-    color: #b4b4b4;
-    padding-left: 33px;
+  // style fix for PLUSO
+  .pluso {
+    .pluso-110010011001-14 {
+      position: relative;
+      width: 55px;
+    }
+    .pluso-more {
+      height: 20px;
+      margin: 0;
+      background: sprite($icons, repost-gray) no-repeat !important;
 
-    &:hover {
-      @include utils-sprite(repost-hover);
+      &:hover {
+        background: sprite($icons, repost-hover) no-repeat !important;
+      }
+    }
+    .pluso-counter {
+      display: block;
+      height: 100%;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      vertical-align: top;
+      z-index: 2;
+    }
+    .pluso-counter > b:after {
+      display: none;
+    }
+    .pluso-counter b {
+      background: transparent;
+      padding: 3px 0 0;
+      display: block;
+      position: static;
+      font-size: 16px !important;
+      color: #b4b4b4;
+      border: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+  
+  // styles for like
+  .likebtn-wrapper {
+    .lb-dislike, .likebtn-label { display: none; }
+    .lb-like {
+      border: none;
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      position: relative;
+    }
+    .lb-voted .lb-like-icon, .lb-like-icon {
+      margin: 0;
+      height: 20px;
+      background: sprite($icons, like-gray) no-repeat;
+      color: #b4b4b4;
+      padding-left: 33px;
+
+      &:hover {
+        background: sprite($icons, like-hover) no-repeat;
+      }
+    }
+    .lb-voted .lb-a:hover .lb-like-icon, .lb-a:hover .lb-like-icon {
+      background: sprite($icons, like-hover) no-repeat;
+    }
+    .lb-a {
+      width: 55px;
+    }
+    .lb-count {
+      border: none;
+      padding: 0;
+      font-size: 16px;
+      color: #b4b4b4;
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 20px;
     }
   }
 
   .dg-feed__info__actions--like {
-    @include utils-sprite(like-gray);
+    background: sprite($icons, like-gray) no-repeat;
     color: #b4b4b4;
     padding-left: 33px;
 
     &:hover {
-      @include utils-sprite(like-hover);
+      background: sprite($icons, like-hover) no-repeat;
     }
   }
 
   .dg-feed__info__actions--comment {
-    @include utils-sprite(comment-gray);
+    background: sprite($icons, comment-gray) no-repeat;
     color: #b4b4b4;
     padding-left: 40px;
 
     &:hover {
-      @include utils-sprite(comment-hover);
+      background: sprite($icons, comment-hover) no-repeat;
     }
   }
 

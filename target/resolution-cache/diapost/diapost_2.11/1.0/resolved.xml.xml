@@ -4,7 +4,7 @@
 		module="diapost_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20141225073949"
+		publication="20150213134056"
 	>
 		<description>
 		Diapost
@@ -44,8 +44,6 @@
 		<dependency org="com.typesafe.play" name="play-docs_2.11" rev="2.3.6" conf="docs->default(compile)"/>
 		<dependency org="org.aspectj" name="aspectjweaver" rev="1.7.3" conf="echo-weave->default(compile)"/>
 		<dependency org="com.typesafe.trace" name="trace-sigar-libs" rev="0.1.6" conf="echo-sigar->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-jdbc_2.11" rev="2.3.6" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="anorm_2.11" rev="2.3.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ws_2.11" rev="2.3.6" conf="compile->default(compile)"/>
 		<dependency org="io.prismic" name="scala-kit_2.11" rev="1.2.12" conf="compile->default(compile)"/>
