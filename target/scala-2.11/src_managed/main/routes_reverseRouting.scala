@@ -1,6 +1,6 @@
 // @SOURCE:/home/n0tel/projects/DoneDia/conf/routes
-// @HASH:824f160ac6e0db2b2ad22d3acd3cedda0d56d4f4
-// @DATE:Thu Feb 12 17:10:31 MSK 2015
+// @HASH:ce1c7cea312840c5003e128a988804007841781b
+// @DATE:Mon Feb 16 13:48:48 MSK 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -51,6 +51,13 @@ def blogCategory(category:String): Call = {
 }
                         
 
+// @LINE:11
+def blogAjax(category:Option[String] = None, page:Int = 1): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "blogAjax" + queryString(List(if(category == None) None else Some(implicitly[QueryStringBindable[Option[String]]].unbind("category", category)), if(page == 1) None else Some(implicitly[QueryStringBindable[Int]].unbind("page", page)))))
+}
+                        
+
 // @LINE:10
 def blogPost(id:String, slug:String): Call = {
    import ReverseRouteContext.empty
@@ -69,13 +76,6 @@ def brokenLink(): Call = {
 def index(): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix)
-}
-                        
-
-// @LINE:11
-def blogAjax(category:Option[String] = None): Call = {
-   import ReverseRouteContext.empty
-   Call("GET", _prefix + { _defaultPrefix } + "blogAjax" + queryString(List(if(category == None) None else Some(implicitly[QueryStringBindable[Option[String]]].unbind("category", category)))))
 }
                         
 
@@ -131,6 +131,17 @@ def blogCategory : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
+// @LINE:11
+def blogAjax : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.blogAjax",
+   """
+      function(category,page) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "blogAjax" + _qS([(category == null ? null : (""" + implicitly[QueryStringBindable[Option[String]]].javascriptUnbind + """)("category", category)), (page == null ? null : (""" + implicitly[QueryStringBindable[Int]].javascriptUnbind + """)("page", page))])})
+      }
+   """
+)
+                        
+
 // @LINE:10
 def blogPost : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.blogPost",
@@ -159,17 +170,6 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function() {
       return _wA({method:"GET", url:"""" + _prefix + """"})
-      }
-   """
-)
-                        
-
-// @LINE:11
-def blogAjax : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.blogAjax",
-   """
-      function(category) {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "blogAjax" + _qS([(category == null ? null : (""" + implicitly[QueryStringBindable[Option[String]]].javascriptUnbind + """)("category", category))])})
       }
    """
 )
@@ -217,6 +217,12 @@ def blogCategory(category:String): play.api.mvc.HandlerRef[_] = new play.api.mvc
 )
                       
 
+// @LINE:11
+def blogAjax(category:Option[String], page:Int): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.blogAjax(category, page), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "blogAjax", Seq(classOf[Option[String]], classOf[Int]), "GET", """""", _prefix + """blogAjax""")
+)
+                      
+
 // @LINE:10
 def blogPost(id:String, slug:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.blogPost(id, slug), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "blogPost", Seq(classOf[String], classOf[String]), "GET", """""", _prefix + """$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>""")
@@ -232,12 +238,6 @@ def brokenLink(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 // @LINE:6
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "index", Seq(), "GET", """ Home page""", _prefix + """""")
-)
-                      
-
-// @LINE:11
-def blogAjax(category:Option[String]): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.blogAjax(category), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "blogAjax", Seq(classOf[Option[String]]), "GET", """""", _prefix + """blogAjax""")
 )
                       
 

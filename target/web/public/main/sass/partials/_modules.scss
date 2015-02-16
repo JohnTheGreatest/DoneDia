@@ -655,6 +655,14 @@ $default-transition-delay: true;
   }
 }
 
+.empty-posts {
+  display: none;
+}
+.empty-posts-text {
+  font-size: 30px;
+  text-align: center;
+}
+
 .delimeter-white {
   height: 1px;
   display: block;

@@ -221,14 +221,21 @@
                     }
             </div>
 
-            <div class="clear"></div>
-
+        <div class="clear"></div>
+    
+        <div class="empty-posts">
+            <div class="container">
+                <h2 class="empty-posts-text">В данной категории еще нет статей</h2>
+            </div>
+        </div>
+        @if(posts.length > 4) {
             <div class="dg-feed__btn-wrapper">
-                <a class="dg-feed__btn" href="#">
+                <a class="dg-feed__btn" href="#" data-next-page="2">
                     <span class="load-icon"></span>
                     <span>ЕЩЕ СТАТЬИ</span>
                 </a>
             </div>
+        }
 
         <div class="clear"></div>
     </section>

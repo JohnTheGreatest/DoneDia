@@ -62,22 +62,35 @@ object Application extends Controller {
   )(unlift(Post.unapply))*/
 
   implicit val postWrites = Json.writes[Post]
-  /*val ajaxPosts:Seq[Post] = Seq(Post("1dasd", Option("ffff"), Option("ffff"),Option(2), Option("Good"), Seq("любовь", "красота"), 3))*/
-  // Написать класс с запросом постов по категориям через jsRouter
-//  val ajaxPosts: List[Post] = List(Post("asdasd", Option("asdasd"), Option("asdasdasd"), Option(13), Option("Haha"), Seq("красота", "любовь"), 3), Post("asdasd", Option("asdasd"), Option("asdasdasd"), Option(13), Option("Haha"), Seq("красота", "любовь"), 3))
 
-  def blogAjax(maybeCategory: Option[String]) = Prismic.action { implicit request =>
+  /**
+   * Делает запрос в призмик, на получение статей (постов). 
+   * @param maybeCategory - категория, из которой необходимо получить посты. Если не указана,
+   *                      возвращаются все.*
+   * @param page - страница постов. На одной странице по 4 поста. По умолчанию возвращается первая.
+   * @return json формата
+   *         {
+   *          hasNext: boolean,
+   *          posts: [<объекты постов>]
+   *         }         
+   */
+  def blogAjax(maybeCategory: Option[String], page: Int) = Prismic.action { implicit request =>
     for {
       posts <- maybeCategory.map {category =>
         ctx.api.forms("blog-posts")
           .query(s"""[[:d = at(my.blog.category, "$category")]]""")
+          .pageSize(4)
+          .page(page)
           .orderings("[my.blog.date desc]")
           .ref(ctx.ref)
           .submit()
-      }.getOrElse(ctx.api.forms("blog-posts").orderings("[my.blog.date desc]").ref(ctx.ref).submit())
+      }.getOrElse(ctx.api.forms("blog-posts").pageSize(4).page(page).orderings("[my.blog.date desc]").ref(ctx.ref).submit())
     } yield {
-      println(posts.results.map(_.slug))
-      Ok(Json.toJson(Post.toList(posts.results)))
+      val postsJsonArr = Json.toJson(Post.toList(posts.results))
+      Ok(JsObject(Seq(
+        "hasNext" -> JsBoolean(posts.nextPage.isDefined),
+        "posts" -> postsJsonArr
+      )))
     }
   }
 

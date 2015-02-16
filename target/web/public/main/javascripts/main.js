@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    var $dropdownContainer = $(".dropdown");
+    var $currentCategoryElem = $dropdownContainer.find('.dg-feed_filter__section__content');
+    /** Кнопка доп. загрузки статей */
+    var $loadMoreBtn = $('.dg-feed__btn');
+    
     $('#layerslider').layerSlider({
         skinsPath : 'images/skins/',
         globalBGColor : '#333',
@@ -7,7 +12,7 @@ $(document).ready(function(){
         pauseOnHover : 'false'
     });
 
-    $(".dg-feed__btn" ).hover(function(e){
+    $loadMoreBtn.hover(function(e){
         $(this ).find(".load-icon").toggleClass("load-animation");
     });
 
@@ -31,8 +36,7 @@ $(document).ready(function(){
 
     /* DROPDOWN MENU */
 
-    var $dropdownContainer = $(".dropdown");
-    var $currentCategoryElem = $dropdownContainer.find('.dg-feed_filter__section__content');
+    
 
     // Контейнер для блоков статей
     var $feedContainer = $('.dg-feed__content');
@@ -43,6 +47,31 @@ $(document).ready(function(){
         $(this).next().children().toggle();
     });
 
+    /**
+     *  Обновляем содержание блока поста, на новые данные
+     */
+    function refreshPostBlock($postBlock, postData) {
+        // Меняем категорию
+        $postBlock.find('.dg-feed__info__util__sector').text(postData.category);
+        // Ссылку
+        $postBlock.find('.dg-feed__image').attr('href', '/' + postData.id + '/' + postData.slug);
+        // Картинку
+        $postBlock.find('.dg-feed__image').css('background-image', 'url(' + postData.thumbUrl + ')');
+        // Время на прочтение
+        $postBlock.find('.dg-feed__info__util__time').text(postData.minToRead + ' мин');
+        // Заголовок
+        $postBlock.find('.dg-feed__info__header h2').text(postData.title);
+        // Тэги
+        var $newTagList = $('<ul></ul>');
+        $(postData.tags).each(function(index, tag){
+            $newTagList.append('<li>#' + tag + '</li>');
+        });
+        $postBlock.find('.dg-feed__info__tags').empty().append($newTagList);
+        // Переинициализируем плюсы (пока не знаю как)
+        $postBlock.find('.dg-feed__info__actions').hide();
+        // Переинициализируем кол-во комментов от DISQUS (тоже пока не знаю)
+    }
+    
     // Нажатие на категорию из выпадающего списка
     $dropdownContainer.find("dd ul li a").click(function(){
         var $this = $(this);
@@ -56,48 +85,62 @@ $(document).ready(function(){
         var selectedCategory = $selectedCategoryElem.text();
 
         // Отправить запрос на получение данных
-        var url = '/blogAjax?category=' + selectedCategory;
+        // Если выбраны все разделы, отправляем запрос без параметра category. 
+        // Чтобы получить все посты.
+        var url = '/blogAjax';
+        if(!$selectedCategoryElem.hasClass('default')){
+            url = url + '?category=' + selectedCategory;
+        }
         $.get(url, function(data) {
             console.log(data);
+            var posts = data.posts;
+            
             // В зависимости от кол-ва возвращенных статей, скрыть лишние блоки.
             // Если вернулось 0 статей, отобразить сообщение что в данной категории нет статей.
             
             // Получаем кол-во возвращенных статей
-            var numArticles = data.length;
+            var numArticles = posts.length;
             
             // делаем видимыми кол-во блоков == кол-во полученных статей
             // остальные скрываем
             $feedContainer.find('> div').each(function(index, article){
                 var $article = $(article);
+                
+                // Если блоков с постами больше 4, удаляем лишние (по умолчанию 4 - это максимум)
+                if(index > 3) {
+                    $article.remove();
+                    return;
+                }
+                
                 if(index < numArticles) {
                     $article.show();
                 } else {
                     $article.hide();
                     return;
                 }
-                // Меняем категорию
-                $article.find('.dg-feed__info__util__sector').text(data[index].category);
-                // Ссылку
-                $article.find('.dg-feed__image').attr('href', '/' + data[index].id + '/' + data[index].slug);
-                // Картинку
-                $article.find('.dg-feed__image').css('background-image', 'url(' + data[index].thumbUrl + ')');
-                // Время на прочтение
-                $article.find('.dg-feed__info__util__time').text(data[index].minToRead + ' мин');
-                // Заголовок
-                $article.find('.dg-feed__info__header h2').text(data[index].title);
-                // Тэги
-                var $newTagList = $('<ul></ul>');
-                $(data[index].tags).each(function(index, tag){
-                    $newTagList.append('<li>#' + tag + '</li>');
-                });
-                $article.find('.dg-feed__info__tags').empty().append($newTagList);
-                // Переинициализируем плюсы (пока не знаю как)
-                $article.find('.dg-feed__info__actions').hide();
-                // Переинициализируем кол-во комментов от DISQUS (тоже пока не знаю)
+
+                refreshPostBlock($article, posts[index]);
                 
             });
-
-
+            
+            // Если возвращено 0 статей, показать текст, что в данной категории нет статей и скрывать загрузки доп. статей. 
+            // Иначе скрыть этот текст и показать кнопку.
+            var $emptyPosts = $('.empty-posts');
+            if(numArticles == 0) {
+                $emptyPosts.show();
+            } else {
+                $emptyPosts.hide();
+                
+            }
+            if(data.hasNext){
+                $loadMoreBtn.show();
+            } else {
+                $loadMoreBtn.hide();
+            }
+            
+            // обнуляем счетчик страниц на кнопке доп. загрузки
+            $loadMoreBtn.attr('data-next-page', 2);
+            
             //if (window.pluso)if (typeof window.pluso.start == "function") return;
             //if (window.ifpluso==undefined) { window.ifpluso = 1;
             //    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
@@ -154,7 +197,46 @@ $(document).ready(function(){
     $(document).bind('click', function(e){
         if (! $(e.target).parents().hasClass("dropdown")) $(".dropdown dd ul").hide();
     });
-
+    
+    // Дозагрузка постов
+    $loadMoreBtn.click(function(){
+        var $btn = $(this);
+        // Если кнопка блокирована, ничего не делаем
+        if($btn.attr('disabled')){
+            return false;
+        }
+       // Блокируем кнопку
+        $btn.attr('disabled', 'disabled');
+        // получаем номер страницы и категорию, которые необходимо загрузить
+        var $selectedItem = $dropdownContainer.find('ul .selected');
+        var page = $btn.attr('data-next-page');
+        // Отправляем запрос
+        var url = '/blogAjax?page=' + page;
+        if(!$selectedItem.hasClass('default')){
+            url = url + '&category=' + $selectedItem.text();
+        }
+        $.get(url, function(data){
+            $.each(data.posts, function(index, post){
+                // Для каждого возвращенного поста, клонируем соответствующий блок и заменяем данные
+                var $post = $($feedContainer.find('> div').get(index)).clone();
+                $feedContainer.append($post);
+                
+                refreshPostBlock($post, post);
+                
+            });
+            // Если Больше постов нет, скрываем кнопку дозагрузки
+            // Иначе сохраняем номер следующей страницы и активируем кнопку
+            if(data.hasNext) {
+                $btn.attr('data-next-page', page + 1);
+                $btn.removeAttr('disabled');
+            } else {
+                $btn.hide();
+            }
+        });
+        
+        return false;
+    });
+    
 });
 
 
