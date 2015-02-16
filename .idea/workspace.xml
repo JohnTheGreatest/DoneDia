@@ -2,378 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4415cf9f-888c-4a3d-975b-fbe5bcde8ddc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$1714e5e4cdfd19907295$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$1714e5e4cdfd19907295.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$278eaec6209b5064ebf2$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$278eaec6209b5064ebf2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$5d6d8394dd0d152cd4be$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$5d6d8394dd0d152cd4be.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$710e3bf9729bc36fc055$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$710e3bf9729bc36fc055.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7788d154b5eedc16724f$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7788d154b5eedc16724f.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$8be79ac8d37940a768be$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$8be79ac8d37940a768be.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$8d84b2d4ce9ec8acfa8c$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$8d84b2d4ce9ec8acfa8c.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$af6718d64af964fcaaab$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$af6718d64af964fcaaab$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$af6718d64af964fcaaab.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$b9a5879646715966d6de$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$b9a5879646715966d6de.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$bdc387242a6a5fd25119$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$bdc387242a6a5fd25119.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$e2e9c8d89ada81d2bbf1$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$e2e9c8d89ada81d2bbf1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/44c5e3f25386e050fd555e1a9b8d47e1e5531b2a/%042.pngc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/6f302ceef68e5a4528dc16d59d6958cb10dd97ef/_sassy-button-gradients.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/6f302ceef68e5a4528dc16d59d6958cb10dd97ef/_sassy-button-pseudo-states.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/6f302ceef68e5a4528dc16d59d6958cb10dd97ef/_sassy-button-shadows.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/6f302ceef68e5a4528dc16d59d6958cb10dd97ef/_sassy-button-styles.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/6f302ceef68e5a4528dc16d59d6958cb10dd97ef/_sassy-button-text.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/0c6d10ddae34b4f848f68c4b73d3f2483a863e90/_sassy-buttons.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/playAssetsWithCompilation/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/playCompileEverything/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sprites/utils-s7ff4f8d51e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web/public/main/images/sprites/utils-s7ff4f8d51e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$1714e5e4cdfd19907295.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$278eaec6209b5064ebf2.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$5d6d8394dd0d152cd4be.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$710e3bf9729bc36fc055.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7788d154b5eedc16724f.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$8be79ac8d37940a768be.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$8d84b2d4ce9ec8acfa8c.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$af6718d64af964fcaaab.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$b9a5879646715966d6de.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$bdc387242a6a5fd25119.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$e2e9c8d89ada81d2bbf1.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/2aa0178eacec9c4b44538a3db1bb60d7398c9672/_alternating-rows-and-columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_animation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_appearance.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_background-clip.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_background-origin.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_background-size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_background.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_base.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/9ce5c08957ae052f5e635997c5f84a1f47308f3a/_base.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/bd969b58c39f6c35c294d4294b73e76042e0c86e/_blog.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/2aa0178eacec9c4b44538a3db1bb60d7398c9672/_borders.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_box-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_box-sizing.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/d1d9445275a0c02bcbc9a8891593bc9ad2e89926/_brightness.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/42d49b6efbc4ca83fcd8d4805c86a0a46a06f3e2/_bullets.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/82fee70fc5a9b90e03c1d16e5f5ee54a901e4fb4/_buttons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/4551dfe35fa2e13e6a33f96e51f036677124f460/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/eeb4de380db2a6935aa20fec565b7024972a729e/_color.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/23c618749d7397ff7c6736b62352ac4917cbb741/_compass.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/d1d9445275a0c02bcbc9a8891593bc9ad2e89926/_contrast.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/7053b82e9d8113f303ece738b429b5e82c0b6a8a/_css3.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/82fee70fc5a9b90e03c1d16e5f5ee54a901e4fb4/_danger.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_deprecated-support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a52bc4d973d2df087b067766c16a79d228323d87/_ellipsis.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_filter.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_flag.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_flexbox.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/4551dfe35fa2e13e6a33f96e51f036677124f460/_float.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_font-face.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_fonts.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a52bc4d973d2df087b067766c16a79d228323d87/_force-wrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_functions.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/eeb4de380db2a6935aa20fec565b7024972a729e/_general.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/82fee70fc5a9b90e03c1d16e5f5ee54a901e4fb4/_glow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/e60086d994e026cbfea70b353b33e9848fc1753a/_grid-background.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/4551dfe35fa2e13e6a33f96e51f036677124f460/_hacks.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/42d49b6efbc4ca83fcd8d4805c86a0a46a06f3e2/_horizontal-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/446f7ab6a0a56fed6d4c789cef8765803fafa0ad/_hover-link.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_hyphenation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_images.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/42d49b6efbc4ca83fcd8d4805c86a0a46a06f3e2/_inline-block-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_inline-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/42d49b6efbc4ca83fcd8d4805c86a0a46a06f3e2/_inline-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_isolation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_layout.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/446f7ab6a0a56fed6d4c789cef8765803fafa0ad/_link-colors.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/609cea6968cf6d5679ad5b7872cb1dfe6d27ffa4/_links.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/609cea6968cf6d5679ad5b7872cb1dfe6d27ffa4/_lists.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_margin.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_media.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/4551dfe35fa2e13e6a33f96e51f036677124f460/_min.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_modules.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_normalize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a52bc4d973d2df087b067766c16a79d228323d87/_nowrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_opacity.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/82fee70fc5a9b90e03c1d16e5f5ee54a901e4fb4/_options.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_padding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_placeholders.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_regions.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a52bc4d973d2df087b067766c16a79d228323d87/_replacement.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/4551dfe35fa2e13e6a33f96e51f036677124f460/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/2aa0178eacec9c4b44538a3db1bb60d7398c9672/_scaffolding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/a65eaeef4fab73151885e04936577429b0f46dd4/_settings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/9ce5c08957ae052f5e635997c5f84a1f47308f3a/_sprite-img.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/eeb4de380db2a6935aa20fec565b7024972a729e/_sprites.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/7053b82e9d8113f303ece738b429b5e82c0b6a8a/_support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/2d8e410b43c27950a5fb43ff56b14189f0079464/_susyone.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/516cdac25e41f995387c686b2aa7855d84d7fc81/_susyone.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/eeb4de380db2a6935aa20fec565b7024972a729e/_tables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/4551dfe35fa2e13e6a33f96e51f036677124f460/_tag-cloud.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_text-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/609cea6968cf6d5679ad5b7872cb1dfe6d27ffa4/_text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_transform.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_transition.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/7053b82e9d8113f303ece738b429b5e82c0b6a8a/_typography.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/609cea6968cf6d5679ad5b7872cb1dfe6d27ffa4/_units.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/446f7ab6a0a56fed6d4c789cef8765803fafa0ad/_unstyled-link.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5ce7a34098513e66667b86d16cb73503a52dc64b/_user-interface.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/7053b82e9d8113f303ece738b429b5e82c0b6a8a/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/fd648eec24ed498e13ba095104590eb5404aa114/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/609cea6968cf6d5679ad5b7872cb1dfe6d27ffa4/_vertical_rhythm.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/69b7866f0c4c4fd1620ed78eb20831c7769b37bf/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/managedSources/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/play.plugins" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/sprites/utils-sf9e41f11e1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogCategory$1$$anonfun$apply$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15$$anonfun$apply$17$$anonfun$apply$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15$$anonfun$apply$17$$anonfun$apply$19$$anonfun$apply$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15$$anonfun$apply$17$$anonfun$apply$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15$$anonfun$apply$17$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15$$anonfun$apply$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12$$anonfun$apply$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1$$anonfun$apply$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/controllers/routes$javascript.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/controllers/routes$ref.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/controllers/routes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web/public/main/images/sprites/utils-sf9e41f11e1.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogAjax$1$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogAjax$1$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogCategory$1$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogCategory$1$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogCategory$1$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogCategory$1$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogCategory$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogCategory$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$blogPost$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$linkResolver$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$linkResolver$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$$anonfun$toList$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Post.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Prismic$$anonfun$bodyAction$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Prismic$$anonfun$bodyAction$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Prismic$$anonfun$checkSlug$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Prismic$$anonfun$checkSlug$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2$$anonfun$apply$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1$$anonfun$apply$23.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1$$anonfun$apply$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1$$anonfun$apply$23.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1$$anonfun$apply$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/coffeescript/$global/streams/copy-resource/op-cache" afterPath="$PROJECT_DIR$/target/streams/$global/coffeescript/$global/streams/copy-resource/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/jshint/$global/streams/copy-resource/op-cache" afterPath="$PROJECT_DIR$/target/streams/$global/jshint/$global/streams/copy-resource/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/less/$global/streams/copy-resource/op-cache" afterPath="$PROJECT_DIR$/target/streams/$global/less/$global/streams/copy-resource/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetailScripts$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetailScripts$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetailScripts$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetailScripts$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes$javascript.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes$javascript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes$ref.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes$ref.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/.npmignore" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/.npmignore" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/.npmignore" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/.npmignore" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/.travis.yml" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/.travis.yml" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/.travis.yml" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/test/00-setup.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/test/00-setup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.scala" afterPath="$PROJECT_DIR$/app/controllers/Application.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Diapost.iml" afterPath="$PROJECT_DIR$/.idea/modules/Diapost.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/opener/LICENSE.txt" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/opener/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/LICENSE" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/LICENSE" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/LICENSE" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/Makefile" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Post.scala" afterPath="$PROJECT_DIR$/app/models/Post.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/README.md" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/opener/README.md" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/opener/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/README.md" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/README.md" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" afterPath="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/sass/partials/pages/_blog.scss" afterPath="$PROJECT_DIR$/target/web/public/main/sass/partials/pages/_blog.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/partials/_modules.scss" afterPath="$PROJECT_DIR$/public/sass/partials/_modules.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/sass/partials/_modules.scss" afterPath="$PROJECT_DIR$/target/web/public/main/sass/partials/_modules.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/test/basic.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/test/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-sigar.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-sigar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-weave.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-weave.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/escaper.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/escaper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/footer.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/footer.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/node-gyp/gyp/gyp.bat" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/node-gyp/gyp/gyp.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/highlighting.xml" afterPath="$PROJECT_DIR$/.idea/highlighting.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/index.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/index.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/sha/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" afterPath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/javascripts/main.js" afterPath="$PROJECT_DIR$/target/web/public/main/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/main.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/bin/node-gyp-bin/node-gyp.cmd" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/bin/node-gyp-bin/node-gyp.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/bin/npm.cmd" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/bin/npm.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/pageNotFound.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/pageNotFound.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" afterPath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetail.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetail.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetailScripts.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetailScripts.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/posts.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/posts.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/controllers/routes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_reverseRouting.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_routing.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/node-gyp/gyp/samples/samples.bat" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/node-gyp/gyp/samples/samples.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/webjars-plugin.cache" afterPath="$PROJECT_DIR$/project/target/webjars-plugin.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/test/zz-cleanup.js" afterPath="$PROJECT_DIR$/project/target/node-modules/webjars/npm/node_modules/cmd-shim/test/zz-cleanup.js" />
     </list>
     <ignored path="play-scala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -446,14 +79,9 @@
       <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-96.0" vertical-offset="1188" max-vertical-offset="4590">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="4590">
               <caret line="210" column="93" selection-start-line="210" selection-start-column="93" selection-end-line="210" selection-end-column="93" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#section#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -461,8 +89,8 @@
       <file leaf-file-name="_modules.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/sass/partials/_modules.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5163934" vertical-offset="13372" max-vertical-offset="24030">
-              <caret line="784" column="20" selection-start-line="784" selection-start-column="20" selection-end-line="784" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.40778688" vertical-offset="10331" max-vertical-offset="24030">
+              <caret line="585" column="14" selection-start-line="585" selection-start-column="1" selection-end-line="585" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -477,6 +105,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/views/post/postDetail.scala.html" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
@@ -540,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -701,6 +333,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -843,6 +476,7 @@
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -992,32 +626,38 @@
       <workItem from="1419633000634" duration="153000" />
       <workItem from="1423747103133" duration="106000" />
       <workItem from="1423747215752" duration="17334000" />
-      <workItem from="1423808051238" duration="11288000" />
+      <workItem from="1423808051238" duration="11785000" />
+      <workItem from="1424077487067" duration="61000" />
+      <workItem from="1424077557623" duration="320000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавление шаринга, лайков, комментов, выбора статей по dropdown">
+      <created>1423823484178</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1423823484178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157364000" />
+    <option name="totallyTimeSpent" value="158242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16030957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="996" y="546" width="774" height="384" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34270832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15699281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34270832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1027,8 +667,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="996" y="546" width="774" height="384" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1046,9 +689,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Добавление шаринга, лайков, комментов, выбора статей по dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление шаринга, лайков, комментов, выбора статей по dropdown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1070,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="360">
           <caret line="5" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1458">
           <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5634" max-vertical-offset="6120">
           <caret line="313" column="0" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.330494" vertical-offset="835" max-vertical-offset="1422">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.37037" vertical-offset="1594" max-vertical-offset="2484">
           <caret line="76" column="217" selection-start-line="76" selection-start-column="217" selection-end-line="76" selection-end-column="217" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.549312" vertical-offset="5073" max-vertical-offset="5976">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,9 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.639399" vertical-offset="2299" max-vertical-offset="2898">
           <caret line="149" column="50" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="50" />
-          <folding>
-            <element signature="e#21#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1359,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6501767" vertical-offset="3304" max-vertical-offset="9558">
           <caret line="204" column="24" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6917808" vertical-offset="1504" max-vertical-offset="3474">
           <caret line="106" column="60" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4078517" vertical-offset="1372" max-vertical-offset="2988">
           <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.26233184" vertical-offset="1188" max-vertical-offset="2214">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48430493" vertical-offset="0" max-vertical-offset="892">
           <caret line="24" column="125" selection-start-line="24" selection-start-column="125" selection-end-line="24" selection-end-column="125" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,27 +1032,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19629225" vertical-offset="0" max-vertical-offset="917">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-96.0" vertical-offset="1188" max-vertical-offset="4590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="4590">
           <caret line="210" column="93" selection-start-line="210" selection-start-column="93" selection-end-line="210" selection-end-column="93" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#section#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_modules.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5163934" vertical-offset="13372" max-vertical-offset="24030">
-          <caret line="784" column="20" selection-start-line="784" selection-start-column="20" selection-end-line="784" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.40778688" vertical-offset="10331" max-vertical-offset="24030">
+          <caret line="585" column="14" selection-start-line="585" selection-start-column="1" selection-end-line="585" selection-end-column="14" />
           <folding />
         </state>
       </provider>
