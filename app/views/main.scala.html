@@ -15,8 +15,25 @@
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/main.css")">
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/animate.css")">
         <script src="@routes.Assets.at("javascripts/vendor/modernizr-2.6.2.min.js")"></script>
+        
+        @* vk SDK *@
+            <!-- Put this script tag to the <head> of your page -->
+        <script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+        
     </head>
     <body>
+        
+        @* facebook sdk *@
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=796700970371157&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+        
+        
             <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->

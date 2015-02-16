@@ -10,6 +10,8 @@
 @import "sprites/utils/*.png";
 @include  all-utils-sprites;
 
+$icons: sprite-map("sprites/utils/*.png");
+
 $legacy-support-for-ie: true;
 $default-transition-delay: true;
 
@@ -426,10 +428,14 @@ $default-transition-delay: true;
     float: right;
 
     li {
+      float: left;
       display: inline;
       margin-left: 20px;
 
       &:first-child {
+        margin-left: 0;
+      }
+      &:nth-child(2){
         margin-left: 0;
       }
     }
@@ -717,6 +723,12 @@ $default-transition-delay: true;
   }
 }
 
+.dg-feed__social__vkontakte {
+  a {
+    box-sizing: content-box;
+  }
+}
+
 .dg-feed__info__actions--like {
   @include utils-sprite(like);
   padding-left: 42px;
@@ -728,12 +740,12 @@ $default-transition-delay: true;
 }
 
 .dg-feed__info__actions--comment {
-  @include utils-sprite(comment);
+  background: sprite($icons, comment) no-repeat;
   padding-left: 50px;
   color: #ffffff;
 
   &:hover {
-    @include utils-sprite(comment-hover);
+    background: sprite($icons, comment-hover) no-repeat;
   }
 }
 
@@ -855,12 +867,12 @@ $default-transition-delay: true;
   }
 
   .dg-feed__info__actions--comment {
-    @include utils-sprite(comment-gray);
+    background: sprite($icons, comment-gray) no-repeat;
     padding-left: 50px;
     color: #b4b4b4;
 
     &:hover {
-      @include utils-sprite(comment-hover);
+      background: sprite($icons, comment-hover) no-repeat;
     }
   }
 
