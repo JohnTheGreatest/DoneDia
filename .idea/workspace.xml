@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4415cf9f-888c-4a3d-975b-fbe5bcde8ddc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$apply$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/partials/_modules.scss" afterPath="$PROJECT_DIR$/public/sass/partials/_modules.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/sass/partials/_modules.scss" afterPath="$PROJECT_DIR$/target/web/public/main/sass/partials/_modules.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_modules.scssc" afterPath="$PROJECT_DIR$/public/.sass-cache/5da79ea6d4a1237396ace0951faeb298835a6e65/_modules.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" afterPath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" afterPath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetail.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetail.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="play-scala.iws" />
@@ -76,21 +103,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <file leaf-file-name="postDetail.scala.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/post/postDetail.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="4590">
-              <caret line="210" column="93" selection-start-line="210" selection-start-column="93" selection-end-line="210" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_modules.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/sass/partials/_modules.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40778688" vertical-offset="10331" max-vertical-offset="24030">
-              <caret line="585" column="14" selection-start-line="585" selection-start-column="1" selection-end-line="585" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.72727275" vertical-offset="2188" max-vertical-offset="3492">
+              <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -122,13 +139,13 @@
         <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/conf/play.plugins" />
-        <option value="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
         <option value="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" />
         <option value="$PROJECT_DIR$/app/models/Post.scala" />
         <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/public/sass/partials/_modules.scss" />
+        <option value="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
       </list>
     </option>
   </component>
@@ -628,7 +645,7 @@
       <workItem from="1423747215752" duration="17334000" />
       <workItem from="1423808051238" duration="11785000" />
       <workItem from="1424077487067" duration="61000" />
-      <workItem from="1424077557623" duration="320000" />
+      <workItem from="1424077557623" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление шаринга, лайков, комментов, выбора статей по dropdown">
       <created>1423823484178</created>
@@ -636,27 +653,34 @@
       <option name="project" value="LOCAL" />
       <updated>1423823484178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dg-feed__info --- padding: 20px">
+      <created>1424077887566</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1424077887566</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158242000" />
+    <option name="totallyTimeSpent" value="158707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16030957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34270832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16030957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -668,7 +692,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="996" y="546" width="774" height="384" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -695,7 +718,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Добавление шаринга, лайков, комментов, выбора статей по dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление шаринга, лайков, комментов, выбора статей по dropdown" />
+    <MESSAGE value="dg-feed__info --- padding: 20px" />
+    <option name="LAST_COMMIT_MESSAGE" value="dg-feed__info --- padding: 20px" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1000,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/post/postDetail.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6917808" vertical-offset="1504" max-vertical-offset="3474">
-          <caret line="106" column="60" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4078517" vertical-offset="1372" max-vertical-offset="2988">
@@ -1045,8 +1062,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_modules.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40778688" vertical-offset="10331" max-vertical-offset="24030">
-          <caret line="585" column="14" selection-start-line="585" selection-start-column="1" selection-end-line="585" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.2488532" vertical-offset="10331" max-vertical-offset="24030">
+          <caret line="586" column="12" selection-start-line="586" selection-start-column="12" selection-end-line="586" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/post/postDetail.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72727275" vertical-offset="2188" max-vertical-offset="3492">
+          <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
           <folding />
         </state>
       </provider>

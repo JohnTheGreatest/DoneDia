@@ -138,69 +138,70 @@ Seq[Any](format.raw/*1.227*/("""
                     """),_display_(/*117.22*/post/*117.26*/.getHtml("blog.body", ctx.linkResolver).map(Html.apply)),format.raw/*117.81*/("""
                 """),format.raw/*118.17*/("""</article>
                 
-                """),format.raw/*120.29*/("""
-                """),format.raw/*121.17*/("""<div id="disqus_thread"></div>
-                <script type="text/javascript">
-                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                var disqus_shortname = 'diapost-portal'; // required: replace example with your forum shortname
-
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() """),format.raw/*127.29*/("""{"""),format.raw/*127.30*/("""
-                """),format.raw/*128.17*/("""var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                """),format.raw/*131.17*/("""}"""),format.raw/*131.18*/(""")();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
             </div>
 
         </section>
 
         <div class="clear"></div>
 
-        """),_display_(/*141.10*/if(!jumbo.isEmpty)/*141.28*/ {_display_(Seq[Any](format.raw/*141.30*/("""
-            """),format.raw/*142.13*/("""<div class="jumbo-video" data-vide-bg=""""),_display_(/*142.53*/jumbo/*142.58*/.map/*142.62*/{jmb=>_display_(_display_(/*142.69*/jmb/*142.72*/.getLink("jumbo-video.video-mp4").map/*142.109*/{link=>_display_(_display_(/*142.117*/link/*142.121*/.getUrl(ctx.linkResolver).dropRight(4)))}))}),format.raw/*142.161*/("""" data-vide-options="loop: true, muted: false, position: 50% 50%">
+        """),_display_(/*126.10*/if(!jumbo.isEmpty)/*126.28*/ {_display_(Seq[Any](format.raw/*126.30*/("""
+            """),format.raw/*127.13*/("""<div class="jumbo-video" data-vide-bg=""""),_display_(/*127.53*/jumbo/*127.58*/.map/*127.62*/{jmb=>_display_(_display_(/*127.69*/jmb/*127.72*/.getLink("jumbo-video.video-mp4").map/*127.109*/{link=>_display_(_display_(/*127.117*/link/*127.121*/.getUrl(ctx.linkResolver).dropRight(4)))}))}),format.raw/*127.161*/("""" data-vide-options="loop: true, muted: false, position: 50% 50%">
 
                 <div class="jumbo-video__content-wrapper">
                     <div class="container">
                         <div class="jumbo-video__content-layout">
                             <div class="jumbo-video__content">
-                                <h3>"""),_display_(/*148.38*/jumbo/*148.43*/.map/*148.47*/{jmb=>_display_(_display_(/*148.54*/jmb/*148.57*/.getText("jumbo-video.title").map/*148.90*/{txt=>_display_(_display_(/*148.97*/txt))}))}),format.raw/*148.102*/("""</h3>
-                                <p>"""),_display_(/*149.37*/jumbo/*149.42*/.map/*149.46*/{jmb=>_display_(_display_(/*149.53*/jmb/*149.56*/.getStructuredText("jumbo-video.content").flatMap(_.getFirstParagraph).map/*149.130*/{txt=>_display_(_display_(/*149.137*/txt/*149.140*/.text))}))}),format.raw/*149.147*/("""</p>
+                                <h3>"""),_display_(/*133.38*/jumbo/*133.43*/.map/*133.47*/{jmb=>_display_(_display_(/*133.54*/jmb/*133.57*/.getText("jumbo-video.title").map/*133.90*/{txt=>_display_(_display_(/*133.97*/txt))}))}),format.raw/*133.102*/("""</h3>
+                                <p>"""),_display_(/*134.37*/jumbo/*134.42*/.map/*134.46*/{jmb=>_display_(_display_(/*134.53*/jmb/*134.56*/.getStructuredText("jumbo-video.content").flatMap(_.getFirstParagraph).map/*134.130*/{txt=>_display_(_display_(/*134.137*/txt/*134.140*/.text))}))}),format.raw/*134.147*/("""</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        """)))}),format.raw/*155.10*/("""
+        """)))}),format.raw/*140.10*/("""
 
-        """),format.raw/*157.9*/("""<div class="clear"></div>
+        """),format.raw/*142.9*/("""<div class="clear"></div>
+        <div class="container">
+            """),format.raw/*144.25*/("""
+            """),format.raw/*145.13*/("""<div id="disqus_thread"></div>
+            <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'diapost-portal'; // required: replace example with your forum shortname
 
-        """),_display_(/*159.10*/footer()),format.raw/*159.18*/("""
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() """),format.raw/*151.25*/("""{"""),format.raw/*151.26*/("""
+            """),format.raw/*152.13*/("""var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            """),format.raw/*155.13*/("""}"""),format.raw/*155.14*/(""")();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
 
-        """),format.raw/*161.9*/("""</div>
+            """),_display_(/*160.14*/footer()),format.raw/*160.22*/("""
+
+        """),format.raw/*162.9*/("""</div>
 
         <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-        <script src=""""),_display_(/*164.23*/routes/*164.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*164.69*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*165.23*/routes/*165.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*165.75*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*166.23*/routes/*166.29*/.Assets.at("javascripts/classie.js")),format.raw/*166.65*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*167.23*/routes/*167.29*/.Assets.at("javascripts/navigation.js")),format.raw/*167.68*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*168.23*/routes/*168.29*/.Assets.at("javascripts/jquery.vide.min.js")),format.raw/*168.73*/("""" type="text/javascript"></script>
-        """),_display_(/*169.10*/postDetailScripts()),format.raw/*169.29*/("""
+        <script src=""""),_display_(/*165.23*/routes/*165.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*165.69*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*166.23*/routes/*166.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*166.75*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*167.23*/routes/*167.29*/.Assets.at("javascripts/classie.js")),format.raw/*167.65*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*168.23*/routes/*168.29*/.Assets.at("javascripts/navigation.js")),format.raw/*168.68*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*169.23*/routes/*169.29*/.Assets.at("javascripts/jquery.vide.min.js")),format.raw/*169.73*/("""" type="text/javascript"></script>
+        """),_display_(/*170.10*/postDetailScripts()),format.raw/*170.29*/("""
         
-        """),format.raw/*171.35*/("""
-        """),format.raw/*172.9*/("""<script type="text/javascript">
+        """),format.raw/*172.35*/("""
+        """),format.raw/*173.9*/("""<script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'diapost-portal'; // required: replace example with your forum shortname
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () """),format.raw/*177.22*/("""{"""),format.raw/*177.23*/("""
-        """),format.raw/*178.9*/("""var s = document.createElement('script'); s.async = true;
+        (function () """),format.raw/*178.22*/("""{"""),format.raw/*178.23*/("""
+        """),format.raw/*179.9*/("""var s = document.createElement('script'); s.async = true;
         s.type = 'text/javascript';
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        """),format.raw/*182.9*/("""}"""),format.raw/*182.10*/("""());
+        """),format.raw/*183.9*/("""}"""),format.raw/*183.10*/("""());
         </script>
 
     </body>
@@ -218,11 +219,11 @@ Seq[Any](format.raw/*1.227*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Fri Feb 13 10:47:20 MSK 2015
+                  DATE: Mon Feb 16 13:17:27 MSK 2015
                   SOURCE: /home/n0tel/projects/DoneDia/app/views/post/postDetail.scala.html
-                  HASH: 560e71e5060055b0e8ee9b78c8670800838667c9
-                  MATRIX: 662->1|976->226|1004->228|1441->638|1454->642|1493->672|1530->681|1559->687|1588->688|1679->752|1692->756|1737->792|1773->800|1801->805|2078->1055|2093->1061|2148->1095|2216->1136|2231->1142|2289->1179|2341->1204|2356->1210|2432->1265|2952->1758|2975->1772|2988->1776|3032->1782|3085->1807|3129->1824|3141->1827|3165->1830|3227->1861|3272->1878|3737->2316|3752->2322|3793->2342|4192->2714|4205->2718|4249->2753|4295->2761|4324->2762|4382->2792|4395->2795|4421->2799|4455->2801|4849->3168|4862->3172|4897->3198|4944->3207|4973->3209|5003->3215|5229->3414|5242->3418|5308->3462|5418->3545|5431->3549|5466->3574|5513->3582|5543->3584|5586->3602|5616->3603|5812->3772|5825->3776|5864->3806|5910->3814|5939->3816|5968->3821|6415->4241|6430->4247|6483->4291|6521->4301|6537->4307|6566->4312|6646->4382|6695->4403|6766->4446|6795->4447|6844->4468|6993->4589|7022->4590|7051->4591|7504->5016|7533->5017|7562->5018|7624->5074|7674->5096|8301->5694|8331->5695|8462->5796|8493->5797|9019->6295|9033->6299|9110->6354|9156->6371|9229->6427|9275->6444|9674->6814|9704->6815|9750->6832|10084->7137|10114->7138|10407->7403|10435->7421|10476->7423|10518->7436|10586->7476|10601->7481|10615->7485|10651->7492|10664->7495|10712->7532|10750->7540|10765->7544|10832->7584|11197->7921|11212->7926|11226->7930|11262->7937|11275->7940|11318->7973|11354->7980|11386->7985|11456->8027|11471->8032|11485->8036|11521->8043|11534->8046|11619->8120|11656->8127|11670->8130|11704->8137|11885->8286|11923->8296|11987->8332|12017->8340|12055->8350|12215->8482|12231->8488|12293->8528|12378->8585|12394->8591|12462->8637|12547->8694|12563->8700|12621->8736|12706->8793|12722->8799|12783->8838|12868->8895|12884->8901|12950->8945|13022->8989|13063->9008|13110->9052|13147->9061|13468->9353|13498->9354|13535->9363|13842->9642|13872->9643
-                  LINES: 19->1|22->1|24->3|32->11|32->11|32->11|32->11|32->11|32->11|33->12|33->12|33->12|33->12|33->12|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|52->31|52->31|52->31|52->31|53->32|53->32|53->32|53->32|54->33|55->34|67->46|67->46|67->46|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|83->62|83->62|83->62|83->62|83->62|83->62|86->65|86->65|86->65|87->66|87->66|87->66|87->66|87->66|87->66|87->66|90->69|90->69|90->69|90->69|90->69|90->69|104->83|104->83|104->83|104->83|104->83|104->83|107->86|108->87|108->87|108->87|109->88|110->89|110->89|110->89|116->95|116->95|116->95|117->96|119->98|127->106|127->106|127->106|127->106|138->117|138->117|138->117|139->118|141->120|142->121|148->127|148->127|149->128|152->131|152->131|162->141|162->141|162->141|163->142|163->142|163->142|163->142|163->142|163->142|163->142|163->142|163->142|163->142|169->148|169->148|169->148|169->148|169->148|169->148|169->148|169->148|170->149|170->149|170->149|170->149|170->149|170->149|170->149|170->149|170->149|176->155|178->157|180->159|180->159|182->161|185->164|185->164|185->164|186->165|186->165|186->165|187->166|187->166|187->166|188->167|188->167|188->167|189->168|189->168|189->168|190->169|190->169|192->171|193->172|198->177|198->177|199->178|203->182|203->182
+                  HASH: 14a97a160e00c1baf1dc66108f3b4a23d387b9e7
+                  MATRIX: 662->1|976->226|1004->228|1441->638|1454->642|1493->672|1530->681|1559->687|1588->688|1679->752|1692->756|1737->792|1773->800|1801->805|2078->1055|2093->1061|2148->1095|2216->1136|2231->1142|2289->1179|2341->1204|2356->1210|2432->1265|2952->1758|2975->1772|2988->1776|3032->1782|3085->1807|3129->1824|3141->1827|3165->1830|3227->1861|3272->1878|3737->2316|3752->2322|3793->2342|4192->2714|4205->2718|4249->2753|4295->2761|4324->2762|4382->2792|4395->2795|4421->2799|4455->2801|4849->3168|4862->3172|4897->3198|4944->3207|4973->3209|5003->3215|5229->3414|5242->3418|5308->3462|5418->3545|5431->3549|5466->3574|5513->3582|5543->3584|5586->3602|5616->3603|5812->3772|5825->3776|5864->3806|5910->3814|5939->3816|5968->3821|6415->4241|6430->4247|6483->4291|6521->4301|6537->4307|6566->4312|6646->4382|6695->4403|6766->4446|6795->4447|6844->4468|6993->4589|7022->4590|7051->4591|7504->5016|7533->5017|7562->5018|7624->5074|7674->5096|8301->5694|8331->5695|8462->5796|8493->5797|9019->6295|9033->6299|9110->6354|9156->6371|9296->6483|9324->6501|9365->6503|9407->6516|9475->6556|9490->6561|9504->6565|9540->6572|9553->6575|9601->6612|9639->6620|9654->6624|9721->6664|10086->7001|10101->7006|10115->7010|10151->7017|10164->7020|10207->7053|10243->7060|10275->7065|10345->7107|10360->7112|10374->7116|10410->7123|10423->7126|10508->7200|10545->7207|10559->7210|10593->7217|10774->7366|10812->7376|10911->7458|10953->7471|11332->7821|11362->7822|11404->7835|11726->8128|11756->8129|11985->8330|12015->8338|12053->8348|12213->8480|12229->8486|12291->8526|12376->8583|12392->8589|12460->8635|12545->8692|12561->8698|12619->8734|12704->8791|12720->8797|12781->8836|12866->8893|12882->8899|12948->8943|13020->8987|13061->9006|13108->9050|13145->9059|13466->9351|13496->9352|13533->9361|13840->9640|13870->9641
+                  LINES: 19->1|22->1|24->3|32->11|32->11|32->11|32->11|32->11|32->11|33->12|33->12|33->12|33->12|33->12|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|52->31|52->31|52->31|52->31|53->32|53->32|53->32|53->32|54->33|55->34|67->46|67->46|67->46|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|77->56|83->62|83->62|83->62|83->62|83->62|83->62|86->65|86->65|86->65|87->66|87->66|87->66|87->66|87->66|87->66|87->66|90->69|90->69|90->69|90->69|90->69|90->69|104->83|104->83|104->83|104->83|104->83|104->83|107->86|108->87|108->87|108->87|109->88|110->89|110->89|110->89|116->95|116->95|116->95|117->96|119->98|127->106|127->106|127->106|127->106|138->117|138->117|138->117|139->118|147->126|147->126|147->126|148->127|148->127|148->127|148->127|148->127|148->127|148->127|148->127|148->127|148->127|154->133|154->133|154->133|154->133|154->133|154->133|154->133|154->133|155->134|155->134|155->134|155->134|155->134|155->134|155->134|155->134|155->134|161->140|163->142|165->144|166->145|172->151|172->151|173->152|176->155|176->155|181->160|181->160|183->162|186->165|186->165|186->165|187->166|187->166|187->166|188->167|188->167|188->167|189->168|189->168|189->168|190->169|190->169|190->169|191->170|191->170|193->172|194->173|199->178|199->178|200->179|204->183|204->183
                   -- GENERATED --
               */
           
