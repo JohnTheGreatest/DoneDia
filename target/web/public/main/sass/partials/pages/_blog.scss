@@ -169,6 +169,9 @@
   
   // styles for like
   .likebtn-wrapper {
+    display: block;
+    span {display: block;}
+    
     .lb-dislike, .likebtn-label { display: none; }
     .lb-like {
       border: none;
@@ -203,6 +206,9 @@
       top: 0;
       right: 0;
       line-height: 20px;
+    }
+    .lb-share-tt-cl {
+      display: none !important;
     }
   }
 
