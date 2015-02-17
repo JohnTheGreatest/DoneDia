@@ -2,51 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4415cf9f-888c-4a3d-975b-fbe5bcde8ddc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2$$anonfun$apply$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1$$anonfun$apply$23.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1$$anonfun$apply$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11$$anonfun$apply$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13$$anonfun$apply$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15$$anonfun$apply$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$apply$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1$$anonfun$apply$18.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$$anonfun$f$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$$anonfun$f$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/post/postDetail$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/post/postDetail.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" afterPath="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/sass/partials/pages/_blog.scss" afterPath="$PROJECT_DIR$/target/web/public/main/sass/partials/pages/_blog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.sass-cache/bd969b58c39f6c35c294d4294b73e76042e0c86e/_blog.scssc" afterPath="$PROJECT_DIR$/public/.sass-cache/bd969b58c39f6c35c294d4294b73e76042e0c86e/_blog.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" afterPath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" afterPath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetail.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/post/postDetail.template.scala" />
@@ -120,16 +103,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0474309" vertical-offset="4114" max-vertical-offset="5004">
-              <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#section#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="4091" max-vertical-offset="5004">
+              <caret line="242" column="35" selection-start-line="242" selection-start-column="35" selection-end-line="242" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,21 +116,19 @@
       <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/partials/pages/_blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8965517" vertical-offset="2968" max-vertical-offset="9666">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2968" max-vertical-offset="9666">
               <caret line="171" column="19" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postDetail.scala.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="postDetail.scala.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/post/postDetail.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.296297" vertical-offset="2224" max-vertical-offset="3546">
-              <caret line="157" column="152" selection-start-line="145" selection-start-column="20" selection-end-line="157" selection-end-column="152" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.6916996" vertical-offset="2494" max-vertical-offset="3564">
+              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,8 +165,8 @@
         <option value="$PROJECT_DIR$/app/views/main.scala.html" />
         <option value="$PROJECT_DIR$/public/sass/partials/_modules.scss" />
         <option value="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" />
-        <option value="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
       </list>
     </option>
   </component>
@@ -234,8 +211,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,6 +397,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -719,7 +696,11 @@
       <workItem from="1424095455153" duration="931000" />
       <workItem from="1424097432640" duration="479000" />
       <workItem from="1424098449875" duration="5578000" />
-      <workItem from="1424158900100" duration="2018000" />
+      <workItem from="1424158900100" duration="2634000" />
+      <workItem from="1424166378400" duration="947000" />
+      <workItem from="1424167496089" duration="510000" />
+      <workItem from="1424168426618" duration="192000" />
+      <workItem from="1424168627001" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление шаринга, лайков, комментов, выбора статей по dropdown">
       <created>1423823484178</created>
@@ -745,11 +726,17 @@
       <option name="project" value="LOCAL" />
       <updated>1424100707069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Убрать нолик слева на главной&#10;После нажатия на сердечко, скрыть ссылку Закрыть&#10;&#10;комментарии - по ширине текста в посте&#10;01:06:07&#10;там контейнер надо добавить и прописать @include span-columns&#10;&#10;внутри поста сердчеко где лайк чуть ниже чем все остальные иконки&#10;там внутри span'ы по-моему, и один из них по высоте не тот, глянь&#10;&#10;Изменить код disqus&#10;&#10;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;/ CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE /&#10;var disqus_shortname = 'diapost-community'; // required: replace example with your forum shortname&#10;&#10;/ DON'T EDIT BELOW THIS LINE /&#10;(function() {&#10;var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;&#10;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';&#10;(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);&#10;})();&#10;&lt;/script&gt;&#10;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&#10;">
+      <created>1424161145871</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1424161145871</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178213000" />
+    <option name="totallyTimeSpent" value="180674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -757,7 +744,7 @@
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16030957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16694306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -807,7 +794,8 @@
     <MESSAGE value="dg-feed__info --- padding: 20px" />
     <MESSAGE value="Комментарии disqus пересены под видео" />
     <MESSAGE value="Подгрузка новых постов по нажатию кнопки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подгрузка новых постов по нажатию кнопки" />
+    <MESSAGE value="Убрать нолик слева на главной&#10;После нажатия на сердечко, скрыть ссылку Закрыть&#10;&#10;комментарии - по ширине текста в посте&#10;01:06:07&#10;там контейнер надо добавить и прописать @include span-columns&#10;&#10;внутри поста сердчеко где лайк чуть ниже чем все остальные иконки&#10;там внутри span'ы по-моему, и один из них по высоте не тот, глянь&#10;&#10;Изменить код disqus&#10;&#10;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;/ CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE /&#10;var disqus_shortname = 'diapost-community'; // required: replace example with your forum shortname&#10;&#10;/ DON'T EDIT BELOW THIS LINE /&#10;(function() {&#10;var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;&#10;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';&#10;(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);&#10;})();&#10;&lt;/script&gt;&#10;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрать нолик слева на главной&#10;После нажатия на сердечко, скрыть ссылку Закрыть&#10;&#10;комментарии - по ширине текста в посте&#10;01:06:07&#10;там контейнер надо добавить и прописать @include span-columns&#10;&#10;внутри поста сердчеко где лайк чуть ниже чем все остальные иконки&#10;там внутри span'ы по-моему, и один из них по высоте не тот, глянь&#10;&#10;Изменить код disqus&#10;&#10;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;/ CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE /&#10;var disqus_shortname = 'diapost-community'; // required: replace example with your forum shortname&#10;&#10;/ DON'T EDIT BELOW THIS LINE /&#10;(function() {&#10;var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;&#10;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';&#10;(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);&#10;})();&#10;&lt;/script&gt;&#10;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -822,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="24390">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,18 +954,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/post/posts.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1458">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5634" max-vertical-offset="6120">
           <caret line="313" column="0" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,13 +1026,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/post/postDetailScripts.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.330494" vertical-offset="835" max-vertical-offset="1422">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/sprites/utils/repost-gray.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1063,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.37037" vertical-offset="1594" max-vertical-offset="2484">
           <caret line="76" column="217" selection-start-line="76" selection-start-column="217" selection-end-line="76" selection-end-column="217" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,37 +1118,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325688" vertical-offset="13876" max-vertical-offset="24390">
           <caret line="787" column="11" selection-start-line="787" selection-start-column="10" selection-end-line="787" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/pages/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8965517" vertical-offset="2968" max-vertical-offset="9666">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2968" max-vertical-offset="9666">
           <caret line="171" column="19" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/post/postDetail.scala.html">
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.296297" vertical-offset="2224" max-vertical-offset="3546">
-          <caret line="157" column="152" selection-start-line="145" selection-start-column="20" selection-end-line="157" selection-end-column="152" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="4091" max-vertical-offset="5004">
+          <caret line="242" column="35" selection-start-line="242" selection-start-column="35" selection-end-line="242" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+    <entry file="file://$PROJECT_DIR$/app/views/post/postDetailScripts.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0474309" vertical-offset="4114" max-vertical-offset="5004">
-          <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#section#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-1.336237" vertical-offset="821" max-vertical-offset="1422">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/post/posts.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9946524" vertical-offset="0" max-vertical-offset="1458">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/post/postDetail.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6916996" vertical-offset="2494" max-vertical-offset="3564">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
