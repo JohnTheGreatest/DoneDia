@@ -2,7 +2,7 @@ $(document).ready(function(){
     var $dropdownContainer = $(".dropdown");
     var $currentCategoryElem = $dropdownContainer.find('.dg-feed_filter__section__content');
     /** Кнопка доп. загрузки статей */
-    var $loadMoreBtn = $('.dg-feed__btn');
+    var $loadMoreBtn = $('.dg-feed__btn:not(.footer-subscribe__btn)');
     
     $('#layerslider').layerSlider({
         skinsPath : 'images/skins/',
