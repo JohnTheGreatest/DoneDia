@@ -149,159 +149,87 @@ Seq[Any](format.raw/*1.162*/("""
                 """),format.raw/*142.39*/("""
 
                 """),format.raw/*144.17*/("""<div class="container-metro dg-feed__content">
-                """),_display_(/*145.18*/for((post, count) <- posts.zipWithIndex) yield /*145.58*/{_display_(Seq[Any](format.raw/*145.59*/("""
+                """),_display_(/*145.18*/for((post, count) <- (posts.map(p => Some(p)) ++ List(None, None, None, None)).take(4).zipWithIndex) yield /*145.118*/{_display_(Seq[Any](format.raw/*145.119*/("""
                     """),_display_(/*146.22*/if(count == 0)/*146.36*/ {_display_(Seq[Any](format.raw/*146.38*/("""
-                        """),format.raw/*147.25*/("""<div class="box-6col">
-                            <a href=""""),_display_(/*148.39*/routes/*148.45*/.Application.blogPost(post.id, post.slug)),format.raw/*148.86*/("""" class="dg-feed__image box-6col-imgwrapper" """),_display_(/*148.132*/post/*148.136*/.getImage("blog.image", "postthumb").map/*148.176*/ {img =>_display_(Seq[Any](format.raw/*148.184*/(""" """),format.raw/*148.185*/("""style="background-image: url("""),_display_(/*148.215*/img/*148.218*/.url),format.raw/*148.222*/(""")""")))}),format.raw/*148.224*/("""">
-                                <span class="read-more button">ЧИТАТЬ</span>
-                            </a>
-                            <div class="clear"></div>
+                    """),format.raw/*147.21*/("""<div class="box-6col" """),_display_(/*147.44*/if(post.isEmpty)/*147.60*/{_display_(Seq[Any](format.raw/*147.61*/("""style="display: none;"""")))}),format.raw/*147.84*/(""">
+                    """)))}),format.raw/*148.22*/("""
+                    """),_display_(/*149.22*/if(count == 1 || count == 2)/*149.50*/ {_display_(Seq[Any](format.raw/*149.52*/("""
+                    """),format.raw/*150.21*/("""<div class="box-6col-horizont" """),_display_(/*150.53*/if(post.isEmpty)/*150.69*/{_display_(Seq[Any](format.raw/*150.70*/("""style="display: none;"""")))}),format.raw/*150.93*/(""">
+                    """)))}),format.raw/*151.22*/("""
+                    """),_display_(/*152.22*/if(count == 3)/*152.36*/{_display_(Seq[Any](format.raw/*152.37*/("""
+                        """),format.raw/*153.25*/("""<div class="box-12col-horizont" """),_display_(/*153.58*/if(post.isEmpty)/*153.74*/{_display_(Seq[Any](format.raw/*153.75*/("""style="display: none;"""")))}),format.raw/*153.98*/(""">
+                    """)))}),format.raw/*154.22*/("""
+                        """),_display_(/*155.26*/if(post.isDefined)/*155.44*/{_display_(Seq[Any](format.raw/*155.45*/("""
+                            """),format.raw/*156.29*/("""<a href=""""),_display_(/*156.39*/routes/*156.45*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*156.94*/("""" class="dg-feed__image """),_display_(/*156.119*/{if(count != 3) " box-6col-imgwrapper" else ""}),format.raw/*156.166*/(""" """),_display_(/*156.168*/{if(count != 0) " feed--arrow" else ""}),format.raw/*156.207*/(""" """),_display_(/*156.209*/{if(count == 2) " box--left" else ""}),format.raw/*156.246*/(""" """),_display_(/*156.248*/{if(count == 3) " box-3col-horizont-imgwrapper box-6col-horizont-imgwrapper" else ""}),format.raw/*156.333*/("""" """),_display_(/*156.336*/post/*156.340*/.get.getImage("blog.image", "postthumb").map/*156.384*/{img =>_display_(Seq[Any](format.raw/*156.391*/(""" """),format.raw/*156.392*/("""style="background-image: url("""),_display_(/*156.422*/img/*156.425*/.url),format.raw/*156.429*/(""")"""")))}),format.raw/*156.432*/(""" """),format.raw/*156.433*/(""">
+                        """)))}),format.raw/*157.26*/("""
+                        """),_display_(/*158.26*/if(post.isEmpty)/*158.42*/{_display_(Seq[Any](format.raw/*158.43*/("""
+                            """),format.raw/*159.29*/("""<a href="#" class="dg-feed__image """),_display_(/*159.64*/{if(count != 3) " box-6col-imgwrapper" else ""}),format.raw/*159.111*/(""" """),_display_(/*159.113*/{if(count != 0) " feed--arrow" else ""}),format.raw/*159.152*/(""" """),_display_(/*159.154*/{if(count == 2) " box--left" else ""}),format.raw/*159.191*/(""" """),_display_(/*159.193*/{if(count == 3) " box-3col-horizont-imgwrapper box-6col-horizont-imgwrapper" else ""}),format.raw/*159.278*/("""">
+                        """)))}),format.raw/*160.26*/("""
+                            """),format.raw/*161.29*/("""<span class="read-more button">ЧИТАТЬ</span>
+                        </a>
+                        """),_display_(/*163.26*/if(count == 0)/*163.40*/ {_display_(Seq[Any](format.raw/*163.42*/("""
+                            """),format.raw/*164.29*/("""<div class="clear"></div>
                             <div class="dg-feed__info">
-                                <div class="dg-feed__info__util">
-                                    <p class="dg-feed__info__util__sector">"""),_display_(/*154.77*/post/*154.81*/.getText("blog.category").getOrElse("Общая")),format.raw/*154.125*/("""</p>
-                                    <p class="dg-feed__info__util__time">"""),_display_(/*155.75*/post/*155.79*/.getText("blog.body").map/*155.104*/{text =>_display_(Seq[Any](format.raw/*155.112*/(""" """),_display_(/*155.114*/{text.length/900})))}),format.raw/*155.132*/(""" """),format.raw/*155.133*/("""мин</p>
-                                </div>
-                                <div class="dg-feed__info__header">
-                                    <h2>"""),_display_(/*158.42*/post/*158.46*/.getText("blog.title").map/*158.72*/{title =>_display_(Seq[Any](format.raw/*158.81*/(""" """),_display_(/*158.83*/title)))}),format.raw/*158.89*/("""</h2>
-                                </div>
-                                <div class="dg-feed__info__tags">
-                                    <ul>
-                                    """),_display_(/*162.38*/post/*162.42*/.tags.map/*162.51*/ { tag =>_display_(Seq[Any](format.raw/*162.60*/("""
-                                        """),format.raw/*163.41*/("""<li>#"""),_display_(/*163.47*/tag),format.raw/*163.50*/("""</li>
-                                    """)))}),format.raw/*164.38*/("""
-                                    """),format.raw/*165.37*/("""</ul>
-                                </div>
-                                <hr class="delimeter-white">
-                                <ul class="dg-feed__info__actions">
-                                    <li>
-                                        """),format.raw/*170.308*/("""
-                                    """),format.raw/*171.37*/("""</li>
-                                    <li>
-                                        <a href="#" class="dg-feed__info__actions--like"></a>
-                                    </li>
-                                    <li>
-                                        <a href=""""),_display_(/*176.51*/routes/*176.57*/.Application.blogPost(post.id, post.slug)),format.raw/*176.98*/("""#disqus_thread" class="dg-feed__info__actions--comment">0</a>
-                                    </li>
-                                </ul>
+                        """)))}),format.raw/*166.26*/("""
+                        """),_display_(/*167.26*/if(count == 1)/*167.40*/ {_display_(Seq[Any](format.raw/*167.42*/("""
+                            """),format.raw/*168.29*/("""<div class="dg-feed__info--horizont">
+                        """)))}),format.raw/*169.26*/("""
+                        """),_display_(/*170.26*/if(count == 2)/*170.40*/ {_display_(Seq[Any](format.raw/*170.42*/("""
+                            """),format.raw/*171.29*/("""<div class="dg-feed__info--horizont box--right">
+                        """)))}),format.raw/*172.26*/("""
+                        """),_display_(/*173.26*/if(count == 3)/*173.40*/ {_display_(Seq[Any](format.raw/*173.42*/("""
+                            """),format.raw/*174.29*/("""<div class="dg-feed__info--horizont box-9col-horizont">
+                        """)))}),format.raw/*175.26*/("""
+                            """),format.raw/*176.29*/("""<div class="dg-feed__info__util">
+                                <p class="dg-feed__info__util__sector">"""),_display_(/*177.73*/post/*177.77*/.map(_.getText("blog.category").getOrElse("Общая")).getOrElse("")),format.raw/*177.142*/("""</p>
+                                <p class="dg-feed__info__util__time">"""),_display_(/*178.71*/post/*178.75*/.map(_.getText("blog.body").map{text => text.length/900 + "мин"}).getOrElse("")),format.raw/*178.154*/("""</p>
                             </div>
-                        </div>
-                    """)))}),format.raw/*181.22*/("""
-                    """),_display_(/*182.22*/if(count == 1)/*182.36*/ {_display_(Seq[Any](format.raw/*182.38*/("""
-                        """),format.raw/*183.25*/("""<div class="box-6col-horizont">
-                            <a href=""""),_display_(/*184.39*/routes/*184.45*/.Application.blogPost(post.id, post.slug)),format.raw/*184.86*/("""" class="dg-feed__image box-6col-horizont-imgwrapper feed--arrow" """),_display_(/*184.153*/post/*184.157*/.getImage("blog.image", "postthumb").map/*184.197*/ {img =>_display_(Seq[Any](format.raw/*184.205*/(""" """),format.raw/*184.206*/("""style="background-image: url("""),_display_(/*184.236*/img/*184.239*/.url),format.raw/*184.243*/(""")""")))}),format.raw/*184.245*/("""">
-                                <span class="read-more button">ЧИТАТЬ</span>
-                            </a>
-
-                            <div class="dg-feed__info--horizont">
-                                <div class="dg-feed__info__util">
-                                    <p class="dg-feed__info__util__sector">"""),_display_(/*190.77*/post/*190.81*/.getText("blog.category").getOrElse("Общая")),format.raw/*190.125*/("""</p>
-                                    <p class="dg-feed__info__util__time">"""),_display_(/*191.75*/post/*191.79*/.getText("blog.body").map/*191.104*/{text =>_display_(Seq[Any](format.raw/*191.112*/(""" """),_display_(/*191.114*/{text.length/900})))}),format.raw/*191.132*/(""" """),format.raw/*191.133*/("""мин</p>
+                            """),_display_(/*180.30*/if(count == 0)/*180.44*/ {_display_(Seq[Any](format.raw/*180.46*/("""
+                                """),format.raw/*181.33*/("""<div class="dg-feed__info__header">
+                                    <h2>"""),_display_(/*182.42*/post/*182.46*/.map(_.getText("blog.title").getOrElse("")).getOrElse("")),format.raw/*182.103*/("""</h2>
                                 </div>
-                                <a href=""""),_display_(/*193.43*/routes/*193.49*/.Application.blogPost(post.id, post.slug)),format.raw/*193.90*/("""" class="dg-feed__info__header">
-                                    <h2>"""),_display_(/*194.42*/post/*194.46*/.getText("blog.title").map/*194.72*/{title =>_display_(Seq[Any](format.raw/*194.81*/(""" """),_display_(/*194.83*/title)))}),format.raw/*194.89*/("""</h2>
+                            """)))}),format.raw/*184.30*/("""
+                            """),_display_(/*185.30*/if(count != 0)/*185.44*/ {_display_(Seq[Any](format.raw/*185.46*/("""
+                                """),_display_(/*186.34*/if(post.isDefined)/*186.52*/{_display_(Seq[Any](format.raw/*186.53*/("""
+                                    """),format.raw/*187.37*/("""<a href=""""),_display_(/*187.47*/routes/*187.53*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*187.102*/("""" class="dg-feed__info__header">
+                                """)))}),format.raw/*188.34*/("""
+                                """),_display_(/*189.34*/if(post.isEmpty)/*189.50*/{_display_(Seq[Any](format.raw/*189.51*/("""
+                                    """),format.raw/*190.37*/("""<a href="#" class="dg-feed__info__header">
+                                """)))}),format.raw/*191.34*/("""
+                                    """),format.raw/*192.37*/("""<h2>"""),_display_(/*192.42*/post/*192.46*/.map(_.getText("blog.title").getOrElse("")).getOrElse("")),format.raw/*192.103*/("""</h2>
                                 </a>
-                                <div class="dg-feed__info__tags">
-                                    <ul>
-                                    """),_display_(/*198.38*/post/*198.42*/.tags.map/*198.51*/ { tag =>_display_(Seq[Any](format.raw/*198.60*/("""
-                                        """),format.raw/*199.41*/("""<li>#"""),_display_(/*199.47*/tag),format.raw/*199.50*/("""</li>
-                                    """)))}),format.raw/*200.38*/("""
-                                    """),format.raw/*201.37*/("""</ul>
-                                </div>
-                                <hr class="delimeter-gray">
-                                <ul class="dg-feed__info__actions">
-                                    <li>
-                                        """),format.raw/*206.300*/("""
-                                    """),format.raw/*207.37*/("""</li>
-                                    <li>
-                                        <a href="#" class="dg-feed__info__actions--like"></a>
-                                    </li>
-                                    <li>
-                                        <a href=""""),_display_(/*212.51*/routes/*212.57*/.Application.blogPost(post.id, post.slug)),format.raw/*212.98*/("""#disqus_thread" class="dg-feed__info__actions--comment">0</a>
-                                    </li>
-                                </ul>
+                            """)))}),format.raw/*194.30*/("""
+                            """),format.raw/*195.29*/("""<div class="dg-feed__info__tags">
+                                <ul>
+                                """),_display_(/*197.34*/post/*197.38*/.map(_.tags.map { tag =>
+                                    Html("<li>#" + tag + "</li>")
+                                }).getOrElse("")),format.raw/*199.49*/("""
+                                """),format.raw/*200.33*/("""</ul>
                             </div>
+                            """),_display_(/*202.30*/if(count == 0)/*202.44*/{_display_(Seq[Any](format.raw/*202.45*/("""
+                                """),format.raw/*203.33*/("""<hr class="delimeter-white">
+                            """)))}),format.raw/*204.30*/("""
+                            """),_display_(/*205.30*/if(count != 0)/*205.44*/{_display_(Seq[Any](format.raw/*205.45*/("""
+                                """),format.raw/*206.33*/("""<hr class="delimeter-gray">
+                            """)))}),format.raw/*207.30*/("""
+                            """),format.raw/*208.29*/("""<ul class="dg-feed__info__actions">
+                                <li>
+                                    """),format.raw/*210.304*/("""
+                                """),format.raw/*211.33*/("""</li>
+                                <li>
+                                    <a href="#" class="dg-feed__info__actions--like"></a>
+                                </li>
+                                <li>
+                                    """),_display_(/*216.38*/if(post.isDefined)/*216.56*/ {_display_(Seq[Any](format.raw/*216.58*/("""
+                                        """),format.raw/*217.41*/("""<a href=""""),_display_(/*217.51*/routes/*217.57*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*217.106*/("""#disqus_thread" class="dg-feed__info__actions--comment">
+                                            0</a>
+                                    """)))}),format.raw/*219.38*/("""
+                                """),format.raw/*220.33*/("""</li>
+                            </ul>
                         </div>
-                    """)))}),format.raw/*217.22*/("""
-                    """),_display_(/*218.22*/if(count == 2)/*218.36*/ {_display_(Seq[Any](format.raw/*218.38*/("""
-                        """),format.raw/*219.25*/("""<div class="box-6col-horizont">
-
-                            <a href=""""),_display_(/*221.39*/routes/*221.45*/.Application.blogPost(post.id, post.slug)),format.raw/*221.86*/("""" class="dg-feed__image box-6col-horizont-imgwrapper box--left feed--arrow" """),_display_(/*221.163*/post/*221.167*/.getImage("blog.image", "postthumb").map/*221.207*/ {img =>_display_(Seq[Any](format.raw/*221.215*/(""" """),format.raw/*221.216*/("""style="background-image: url("""),_display_(/*221.246*/img/*221.249*/.url),format.raw/*221.253*/(""")""")))}),format.raw/*221.255*/("""">
-                                <span class="read-more button">ЧИТАТЬ</span>
-                            </a>
-
-                            <div class="dg-feed__info--horizont box--right">
-                                <div class="dg-feed__info__util">
-                                    <p class="dg-feed__info__util__sector">"""),_display_(/*227.77*/post/*227.81*/.getText("blog.category").getOrElse("Общая")),format.raw/*227.125*/("""</p>
-                                    <p class="dg-feed__info__util__time">"""),_display_(/*228.75*/post/*228.79*/.getText("blog.body").map/*228.104*/{text =>_display_(Seq[Any](format.raw/*228.112*/(""" """),_display_(/*228.114*/{text.length/900})))}),format.raw/*228.132*/(""" """),format.raw/*228.133*/("""мин</p>
-                                </div>
-                                <a href=""""),_display_(/*230.43*/routes/*230.49*/.Application.blogPost(post.id, post.slug)),format.raw/*230.90*/("""" class="dg-feed__info__header">
-                                    <h2>"""),_display_(/*231.42*/post/*231.46*/.getText("blog.title").map/*231.72*/{title =>_display_(Seq[Any](format.raw/*231.81*/(""" """),_display_(/*231.83*/title)))}),format.raw/*231.89*/("""</h2>
-                                </a>
-                                <div class="dg-feed__info__tags">
-                                    <ul>
-                                    """),_display_(/*235.38*/post/*235.42*/.tags.map/*235.51*/ { tag =>_display_(Seq[Any](format.raw/*235.60*/("""
-                                        """),format.raw/*236.41*/("""<li>#"""),_display_(/*236.47*/tag),format.raw/*236.50*/("""</li>
-                                    """)))}),format.raw/*237.38*/("""
-                                    """),format.raw/*238.37*/("""</ul>
-                                </div>
-                                <hr class="delimeter-gray">
-                                <ul class="dg-feed__info__actions">
-                                    <li>
-                                        """),format.raw/*243.300*/("""
-                                    """),format.raw/*244.37*/("""</li>
-                                    <li>
-                                        <a href="#" class="dg-feed__info__actions--like"></a>
-                                    </li>
-                                    <li>
-                                        <a href=""""),_display_(/*249.51*/routes/*249.57*/.Application.blogPost(post.id, post.slug)),format.raw/*249.98*/("""#disqus_thread" class="dg-feed__info__actions--comment">0</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    """)))}),format.raw/*255.22*/("""
-                    """),_display_(/*256.22*/if(count == 3)/*256.36*/ {_display_(Seq[Any](format.raw/*256.38*/("""
-                        """),format.raw/*257.25*/("""<div class="box-12col-horizont">
-
-                            <a href=""""),_display_(/*259.39*/routes/*259.45*/.Application.blogPost(post.id, post.slug)),format.raw/*259.86*/("""" class="dg-feed__image box-6col-horizont-imgwrapper box-3col-horizont-imgwrapper feed--arrow" """),_display_(/*259.182*/post/*259.186*/.getImage("blog.image", "postthumb").map/*259.226*/ {img =>_display_(Seq[Any](format.raw/*259.234*/(""" """),format.raw/*259.235*/("""style="background-image: url("""),_display_(/*259.265*/img/*259.268*/.url),format.raw/*259.272*/(""")""")))}),format.raw/*259.274*/("""">
-                                <span class="read-more button">ЧИТАТЬ</span>
-                            </a>
-
-                            <div class="dg-feed__info--horizont box-9col-horizont">
-
-                                <div class="dg-feed__info__util">
-                                    <p class="dg-feed__info__util__sector">"""),_display_(/*266.77*/post/*266.81*/.getText("blog.category").getOrElse("Общая")),format.raw/*266.125*/("""</p>
-                                    <p class="dg-feed__info__util__time">"""),_display_(/*267.75*/post/*267.79*/.getText("blog.body").map/*267.104*/{text =>_display_(Seq[Any](format.raw/*267.112*/(""" """),_display_(/*267.114*/{text.length/900})))}),format.raw/*267.132*/(""" """),format.raw/*267.133*/("""мин</p>
-                                </div>
-                                <a href=""""),_display_(/*269.43*/routes/*269.49*/.Application.blogPost(post.id, post.slug)),format.raw/*269.90*/("""" class="dg-feed__info__header">
-                                    <h2>"""),_display_(/*270.42*/post/*270.46*/.getText("blog.title").map/*270.72*/{title =>_display_(Seq[Any](format.raw/*270.81*/(""" """),_display_(/*270.83*/title)))}),format.raw/*270.89*/("""</h2>
-                                </a>
-                                <div class="dg-feed__info__tags">
-                                    <ul>
-                                    """),_display_(/*274.38*/post/*274.42*/.tags.map/*274.51*/ { tag =>_display_(Seq[Any](format.raw/*274.60*/("""
-                                        """),format.raw/*275.41*/("""<li>#"""),_display_(/*275.47*/tag),format.raw/*275.50*/("""</li>
-                                    """)))}),format.raw/*276.38*/("""
-                                    """),format.raw/*277.37*/("""</ul>
-                                </div>
-                                <hr class="delimeter-gray">
-
-                                <ul class="dg-feed__info__actions">
-                                    <li>
-                                        """),format.raw/*283.300*/("""
-                                    """),format.raw/*284.37*/("""</li>
-                                    <li>
-                                        <a href="#" class="dg-feed__info__actions--like"></a>
-                                    </li>
-                                    <li>
-                                        <a href=""""),_display_(/*289.51*/routes/*289.57*/.Application.blogPost(post.id, post.slug)),format.raw/*289.98*/("""#disqus_thread" class="dg-feed__info__actions--comment">0</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    """)))}),format.raw/*295.22*/("""
-                """)))}),format.raw/*296.18*/("""
-                """),format.raw/*297.17*/("""</div>
+                    </div>
+                """)))}),format.raw/*224.18*/("""
+                """),format.raw/*225.17*/("""</div>
 
                 <div class="clear"></div>
 
@@ -310,30 +238,28 @@ Seq[Any](format.raw/*1.162*/("""
                         <h2 class="empty-posts-text">В данной категории еще нет статей</h2>
                     </div>
                 </div>
-                """),_display_(/*306.18*/if(posts.length > 4)/*306.38*/ {_display_(Seq[Any](format.raw/*306.40*/("""
-                    """),format.raw/*307.21*/("""<div class="dg-feed__btn-wrapper">
-                        <a class="dg-feed__btn" href="#" data-next-page="2">
-                            <span class="load-icon"></span>
-                            <span>ЕЩЕ СТАТЬИ</span>
-                        </a>
-                    </div>
-                """)))}),format.raw/*313.18*/("""
+                <div class="dg-feed__btn-wrapper">
+                    <a class="dg-feed__btn" href="#" data-next-page="2" """),_display_(/*235.74*/if(posts.length < 5)/*235.94*/{_display_(Seq[Any](format.raw/*235.95*/("""style="display: none;"""")))}),format.raw/*235.118*/(""">
+                        <span class="load-icon"></span>
+                        <span>ЕЩЕ СТАТЬИ</span>
+                    </a>
+                </div>
 
-                """),format.raw/*315.17*/("""<div class="clear"></div>
+                <div class="clear"></div>
             </section>
 
-            """),format.raw/*318.39*/("""
-            """),format.raw/*319.13*/("""<script type="text/javascript">
+            """),format.raw/*244.39*/("""
+            """),format.raw/*245.13*/("""<script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'diapost-community'; // required: replace example with your forum shortname
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function () """),format.raw/*324.26*/("""{"""),format.raw/*324.27*/("""
-            """),format.raw/*325.13*/("""var s = document.createElement('script'); s.async = true;
+            (function () """),format.raw/*250.26*/("""{"""),format.raw/*250.27*/("""
+            """),format.raw/*251.13*/("""var s = document.createElement('script'); s.async = true;
             s.type = 'text/javascript';
             s.src = '//' + disqus_shortname + '.disqus.com/count.js';
             (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-            """),format.raw/*329.13*/("""}"""),format.raw/*329.14*/("""());
+            """),format.raw/*255.13*/("""}"""),format.raw/*255.14*/("""());
             </script>
             
             <section class="dg-blog-feed">
@@ -345,20 +271,20 @@ Seq[Any](format.raw/*1.162*/("""
 
         <div class="clear"></div>
 
-        """),_display_(/*341.10*/footer(blogCategories)),format.raw/*341.32*/("""
+        """),_display_(/*267.10*/footer(blogCategories)),format.raw/*267.32*/("""
 
-        """),format.raw/*343.9*/("""</div>
+        """),format.raw/*269.9*/("""</div>
 
         
-        <script src=""""),_display_(/*346.23*/routes/*346.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*346.69*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*347.23*/routes/*347.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*347.75*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*348.23*/routes/*348.29*/.Assets.at("javascripts/classie.js")),format.raw/*348.65*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*349.23*/routes/*349.29*/.Assets.at("javascripts/navigation.js")),format.raw/*349.68*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*350.23*/routes/*350.29*/.Assets.at("javascripts/layerslider.kreaturamedia.jquery.js")),format.raw/*350.90*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*351.23*/routes/*351.29*/.Assets.at("javascripts/main.js")),format.raw/*351.62*/(""""></script>
-        """),_display_(/*352.10*/postDetailScripts()),format.raw/*352.29*/("""
+        <script src=""""),_display_(/*272.23*/routes/*272.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*272.69*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*273.23*/routes/*273.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*273.75*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*274.23*/routes/*274.29*/.Assets.at("javascripts/classie.js")),format.raw/*274.65*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*275.23*/routes/*275.29*/.Assets.at("javascripts/navigation.js")),format.raw/*275.68*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*276.23*/routes/*276.29*/.Assets.at("javascripts/layerslider.kreaturamedia.jquery.js")),format.raw/*276.90*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*277.23*/routes/*277.29*/.Assets.at("javascripts/main.js")),format.raw/*277.62*/(""""></script>
+        """),_display_(/*278.10*/postDetailScripts()),format.raw/*278.29*/("""
 
-    """),format.raw/*354.5*/("""</body>
+    """),format.raw/*280.5*/("""</body>
 </html>
 
 """))}
@@ -373,11 +299,11 @@ Seq[Any](format.raw/*1.162*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 19 18:16:25 MSK 2015
+                  DATE: Fri Feb 20 03:57:11 MSK 2015
                   SOURCE: /home/n0tel/projects/DoneDia/app/views/post/posts.scala.html
-                  HASH: 335b3751085bc4f89d2e3cb9fdf3d229dc4d71bd
-                  MATRIX: 604->1|853->161|881->163|1639->894|1654->900|1709->934|1777->975|1792->981|1850->1018|1902->1043|1917->1049|1993->1104|2054->1138|2069->1144|2143->1197|2216->1254|2257->1267|2492->1492|2524->1497|2609->1554|2638->1555|2670->1560|2961->1824|2989->1825|3533->2342|3556->2356|3569->2360|3613->2366|3662->2387|3703->2401|3718->2407|3772->2440|3802->2443|3814->2446|3838->2449|3896->2476|3941->2493|4406->2931|4421->2937|4462->2957|5148->3616|5174->3632|5221->3657|5430->3839|5467->3867|5506->3868|5535->3869|5575->3878|5662->3938|5704->3964|5743->3965|5812->4006|5847->4014|5921->4078|5961->4079|6010->4096|6040->4098|6053->4101|6078->4104|6156->4151|6217->4184|6678->4617|6707->4618|6844->4726|6874->4727|7016->4840|7046->4841|7076->4842|7184->5228|7242->5257|7550->5845|7608->5874|8016->6253|8046->6254|8108->6286|8139->6287|8257->6584|8319->6617|8485->6772|8531->6789|8603->6832|8633->6833|8679->6850|8825->6967|8855->6968|8885->6969|9315->7370|9345->7371|9375->7372|9434->7424|9481->7442|9573->7506|9630->7546|9670->7547|9720->7569|9744->7583|9785->7585|9839->7610|9928->7671|9944->7677|10007->7718|10082->7764|10097->7768|10148->7808|10196->7816|10227->7817|10286->7847|10300->7850|10327->7854|10362->7856|10755->8221|10769->8225|10836->8269|10943->8348|10957->8352|10993->8377|11041->8385|11072->8387|11116->8405|11147->8406|11331->8562|11345->8566|11381->8592|11429->8601|11459->8603|11490->8609|11707->8798|11721->8802|11740->8811|11788->8820|11858->8861|11892->8867|11917->8870|11992->8913|12058->8950|12343->9472|12409->9509|12711->9783|12727->9789|12790->9830|13051->10059|13101->10081|13125->10095|13166->10097|13220->10122|13318->10192|13334->10198|13397->10239|13493->10306|13508->10310|13559->10350|13607->10358|13638->10359|13697->10389|13711->10392|13738->10396|13773->10398|14123->10720|14137->10724|14204->10768|14311->10847|14325->10851|14361->10876|14409->10884|14440->10886|14484->10904|14515->10905|14632->10994|14648->11000|14711->11041|14813->11115|14827->11119|14863->11145|14911->11154|14941->11156|14972->11162|15187->11349|15201->11353|15220->11362|15268->11371|15338->11412|15372->11418|15397->11421|15472->11464|15538->11501|15822->12014|15888->12051|16190->12325|16206->12331|16269->12372|16530->12601|16580->12623|16604->12637|16645->12639|16699->12664|16798->12735|16814->12741|16877->12782|16983->12859|16998->12863|17049->12903|17097->12911|17128->12912|17187->12942|17201->12945|17228->12949|17263->12951|17624->13284|17638->13288|17705->13332|17812->13411|17826->13415|17862->13440|17910->13448|17941->13450|17985->13468|18016->13469|18133->13558|18149->13564|18212->13605|18314->13679|18328->13683|18364->13709|18412->13718|18442->13720|18473->13726|18688->13913|18702->13917|18721->13926|18769->13935|18839->13976|18873->13982|18898->13985|18973->14028|19039->14065|19323->14578|19389->14615|19691->14889|19707->14895|19770->14936|20032->15166|20082->15188|20106->15202|20147->15204|20201->15229|20301->15301|20317->15307|20380->15348|20505->15444|20520->15448|20571->15488|20619->15496|20650->15497|20709->15527|20723->15530|20750->15534|20785->15536|21154->15877|21168->15881|21235->15925|21342->16004|21356->16008|21392->16033|21440->16041|21471->16043|21515->16061|21546->16062|21663->16151|21679->16157|21742->16198|21844->16272|21858->16276|21894->16302|21942->16311|21972->16313|22003->16319|22218->16506|22232->16510|22251->16519|22299->16528|22369->16569|22403->16575|22428->16578|22503->16621|22569->16658|22854->17172|22920->17209|23222->17483|23238->17489|23301->17530|23563->17760|23613->17778|23659->17795|23983->18091|24013->18111|24054->18113|24104->18134|24433->18431|24480->18449|24571->18537|24613->18550|24953->18861|24983->18862|25025->18875|25349->19170|25379->19171|25578->19342|25622->19364|25660->19374|25727->19413|25743->19419|25805->19459|25890->19516|25906->19522|25974->19568|26059->19625|26075->19631|26133->19667|26218->19724|26234->19730|26295->19769|26380->19826|26396->19832|26479->19893|26564->19950|26580->19956|26635->19989|26684->20010|26725->20029|26759->20035
-                  LINES: 19->1|22->1|24->3|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|40->19|40->19|40->19|43->22|44->23|49->28|50->29|51->30|51->30|52->31|57->36|57->36|69->48|69->48|69->48|69->48|70->49|70->49|70->49|70->49|70->49|70->49|70->49|71->50|72->51|84->63|84->63|84->63|97->76|97->76|97->76|100->79|100->79|100->79|100->79|100->79|101->80|101->80|101->80|102->81|102->81|102->81|102->81|102->81|102->81|102->81|102->81|103->82|104->83|115->94|115->94|115->94|115->94|115->94|115->94|115->94|117->102|118->103|122->112|123->113|129->119|129->119|129->119|129->119|131->124|132->125|139->132|140->133|140->133|140->133|141->134|142->135|142->135|142->135|148->141|148->141|148->141|149->142|151->144|152->145|152->145|152->145|153->146|153->146|153->146|154->147|155->148|155->148|155->148|155->148|155->148|155->148|155->148|155->148|155->148|155->148|155->148|155->148|161->154|161->154|161->154|162->155|162->155|162->155|162->155|162->155|162->155|162->155|165->158|165->158|165->158|165->158|165->158|165->158|169->162|169->162|169->162|169->162|170->163|170->163|170->163|171->164|172->165|177->170|178->171|183->176|183->176|183->176|188->181|189->182|189->182|189->182|190->183|191->184|191->184|191->184|191->184|191->184|191->184|191->184|191->184|191->184|191->184|191->184|191->184|197->190|197->190|197->190|198->191|198->191|198->191|198->191|198->191|198->191|198->191|200->193|200->193|200->193|201->194|201->194|201->194|201->194|201->194|201->194|205->198|205->198|205->198|205->198|206->199|206->199|206->199|207->200|208->201|213->206|214->207|219->212|219->212|219->212|224->217|225->218|225->218|225->218|226->219|228->221|228->221|228->221|228->221|228->221|228->221|228->221|228->221|228->221|228->221|228->221|228->221|234->227|234->227|234->227|235->228|235->228|235->228|235->228|235->228|235->228|235->228|237->230|237->230|237->230|238->231|238->231|238->231|238->231|238->231|238->231|242->235|242->235|242->235|242->235|243->236|243->236|243->236|244->237|245->238|250->243|251->244|256->249|256->249|256->249|262->255|263->256|263->256|263->256|264->257|266->259|266->259|266->259|266->259|266->259|266->259|266->259|266->259|266->259|266->259|266->259|266->259|273->266|273->266|273->266|274->267|274->267|274->267|274->267|274->267|274->267|274->267|276->269|276->269|276->269|277->270|277->270|277->270|277->270|277->270|277->270|281->274|281->274|281->274|281->274|282->275|282->275|282->275|283->276|284->277|290->283|291->284|296->289|296->289|296->289|302->295|303->296|304->297|313->306|313->306|313->306|314->307|320->313|322->315|325->318|326->319|331->324|331->324|332->325|336->329|336->329|348->341|348->341|350->343|353->346|353->346|353->346|354->347|354->347|354->347|355->348|355->348|355->348|356->349|356->349|356->349|357->350|357->350|357->350|358->351|358->351|358->351|359->352|359->352|361->354
+                  HASH: d9f471d6ce56764d5ab23ce2f5c221d89e5a6e9b
+                  MATRIX: 604->1|853->161|881->163|1639->894|1654->900|1709->934|1777->975|1792->981|1850->1018|1902->1043|1917->1049|1993->1104|2054->1138|2069->1144|2143->1197|2216->1254|2257->1267|2492->1492|2524->1497|2609->1554|2638->1555|2670->1560|2961->1824|2989->1825|3533->2342|3556->2356|3569->2360|3613->2366|3662->2387|3703->2401|3718->2407|3772->2440|3802->2443|3814->2446|3838->2449|3896->2476|3941->2493|4406->2931|4421->2937|4462->2957|5148->3616|5174->3632|5221->3657|5430->3839|5467->3867|5506->3868|5535->3869|5575->3878|5662->3938|5704->3964|5743->3965|5812->4006|5847->4014|5921->4078|5961->4079|6010->4096|6040->4098|6053->4101|6078->4104|6156->4151|6217->4184|6678->4617|6707->4618|6844->4726|6874->4727|7016->4840|7046->4841|7076->4842|7184->5228|7242->5257|7550->5845|7608->5874|8016->6253|8046->6254|8108->6286|8139->6287|8257->6584|8319->6617|8485->6772|8531->6789|8603->6832|8633->6833|8679->6850|8825->6967|8855->6968|8885->6969|9315->7370|9345->7371|9375->7372|9434->7424|9481->7442|9573->7506|9691->7606|9732->7607|9782->7629|9806->7643|9847->7645|9897->7666|9948->7689|9974->7705|10014->7706|10069->7729|10124->7752|10174->7774|10212->7802|10253->7804|10303->7825|10363->7857|10389->7873|10429->7874|10484->7897|10539->7920|10589->7942|10613->7956|10653->7957|10707->7982|10768->8015|10794->8031|10834->8032|10889->8055|10944->8078|10998->8104|11026->8122|11066->8123|11124->8152|11162->8162|11178->8168|11249->8217|11303->8242|11373->8289|11404->8291|11466->8330|11497->8332|11557->8369|11588->8371|11696->8456|11728->8459|11743->8463|11798->8507|11845->8514|11876->8515|11935->8545|11949->8548|11976->8552|12012->8555|12043->8556|12102->8583|12156->8609|12182->8625|12222->8626|12280->8655|12343->8690|12413->8737|12444->8739|12506->8778|12537->8780|12597->8817|12628->8819|12736->8904|12796->8932|12854->8961|12981->9060|13005->9074|13046->9076|13104->9105|13243->9212|13297->9238|13321->9252|13362->9254|13420->9283|13515->9346|13569->9372|13593->9386|13634->9388|13692->9417|13798->9491|13852->9517|13876->9531|13917->9533|13975->9562|14088->9643|14146->9672|14280->9778|14294->9782|14382->9847|14485->9922|14499->9926|14601->10005|14698->10074|14722->10088|14763->10090|14825->10123|14930->10200|14944->10204|15024->10261|15130->10335|15188->10365|15212->10379|15253->10381|15315->10415|15343->10433|15383->10434|15449->10471|15487->10481|15503->10487|15575->10536|15673->10602|15735->10636|15761->10652|15801->10653|15867->10690|15975->10766|16041->10803|16074->10808|16088->10812|16168->10869|16272->10941|16330->10970|16462->11074|16476->11078|16637->11217|16699->11250|16797->11320|16821->11334|16861->11335|16923->11368|17013->11426|17071->11456|17095->11470|17135->11471|17197->11504|17286->11561|17344->11590|17483->11966|17545->11999|17818->12244|17846->12262|17887->12264|17957->12305|17995->12315|18011->12321|18083->12370|18259->12514|18321->12547|18468->12662|18514->12679|18945->13082|18975->13102|19015->13103|19071->13126|19333->13385|19375->13398|19715->13709|19745->13710|19787->13723|20111->14018|20141->14019|20340->14190|20384->14212|20422->14222|20489->14261|20505->14267|20567->14307|20652->14364|20668->14370|20736->14416|20821->14473|20837->14479|20895->14515|20980->14572|20996->14578|21057->14617|21142->14674|21158->14680|21241->14741|21326->14798|21342->14804|21397->14837|21446->14858|21487->14877|21521->14883
+                  LINES: 19->1|22->1|24->3|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|40->19|40->19|40->19|43->22|44->23|49->28|50->29|51->30|51->30|52->31|57->36|57->36|69->48|69->48|69->48|69->48|70->49|70->49|70->49|70->49|70->49|70->49|70->49|71->50|72->51|84->63|84->63|84->63|97->76|97->76|97->76|100->79|100->79|100->79|100->79|100->79|101->80|101->80|101->80|102->81|102->81|102->81|102->81|102->81|102->81|102->81|102->81|103->82|104->83|115->94|115->94|115->94|115->94|115->94|115->94|115->94|117->102|118->103|122->112|123->113|129->119|129->119|129->119|129->119|131->124|132->125|139->132|140->133|140->133|140->133|141->134|142->135|142->135|142->135|148->141|148->141|148->141|149->142|151->144|152->145|152->145|152->145|153->146|153->146|153->146|154->147|154->147|154->147|154->147|154->147|155->148|156->149|156->149|156->149|157->150|157->150|157->150|157->150|157->150|158->151|159->152|159->152|159->152|160->153|160->153|160->153|160->153|160->153|161->154|162->155|162->155|162->155|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|163->156|164->157|165->158|165->158|165->158|166->159|166->159|166->159|166->159|166->159|166->159|166->159|166->159|166->159|167->160|168->161|170->163|170->163|170->163|171->164|173->166|174->167|174->167|174->167|175->168|176->169|177->170|177->170|177->170|178->171|179->172|180->173|180->173|180->173|181->174|182->175|183->176|184->177|184->177|184->177|185->178|185->178|185->178|187->180|187->180|187->180|188->181|189->182|189->182|189->182|191->184|192->185|192->185|192->185|193->186|193->186|193->186|194->187|194->187|194->187|194->187|195->188|196->189|196->189|196->189|197->190|198->191|199->192|199->192|199->192|199->192|201->194|202->195|204->197|204->197|206->199|207->200|209->202|209->202|209->202|210->203|211->204|212->205|212->205|212->205|213->206|214->207|215->208|217->210|218->211|223->216|223->216|223->216|224->217|224->217|224->217|224->217|226->219|227->220|231->224|232->225|242->235|242->235|242->235|242->235|251->244|252->245|257->250|257->250|258->251|262->255|262->255|274->267|274->267|276->269|279->272|279->272|279->272|280->273|280->273|280->273|281->274|281->274|281->274|282->275|282->275|282->275|283->276|283->276|283->276|284->277|284->277|284->277|285->278|285->278|287->280
                   -- GENERATED --
               */
           
