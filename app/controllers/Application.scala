@@ -22,7 +22,7 @@ object Application extends Controller {
 
   // -- Page not found
 
-  def PageNotFound(implicit ctx: Prismic.Context) = NotFound(views.html.pageNotFound())
+  def PageNotFound(implicit ctx: Prismic.Context) = NotFound(views.html.pageNotFound(BlogCategories))
 
   def brokenLink = Prismic.action { implicit request =>
     Future.successful(PageNotFound)
@@ -45,7 +45,7 @@ object Application extends Controller {
         .ref(ctx.ref)
         .submit()
     } yield {
-      Ok(views.html.index(posts.results, authors.results))
+      Ok(views.html.index(posts.results, authors.results, BlogCategories))
     }
   }
 
@@ -104,7 +104,7 @@ object Application extends Controller {
           .submit()
       }.getOrElse(ctx.api.forms("blog-posts").orderings("[my.blog.date desc]").ref(ctx.ref).submit())
     } yield {
-      Ok(views.html.post.posts(posts.results, BlogCategories))
+      Ok(views.html.post.posts(posts.results, BlogCategories, BlogCategories.get(category)))
     }
   }
 

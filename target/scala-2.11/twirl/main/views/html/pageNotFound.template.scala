@@ -13,31 +13,33 @@ import play.api.data._
 import views.html._
 
 /**/
-object pageNotFound extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
+object pageNotFound extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[collection.immutable.ListMap[String, String],play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply():play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(blogCategories: collection.immutable.ListMap[String,String]):play.twirl.api.HtmlFormat.Appendable = {
       _display_ {
 
-Seq[Any](_display_(/*1.2*/main("Страница не найдена - Диапост.Ру", None, None, None)/*1.60*/ {_display_(Seq[Any](format.raw/*1.62*/("""
-    """),format.raw/*2.5*/("""<h1>Страница не найдена. Попробуйте позже.</h1>
+Seq[Any](format.raw/*1.63*/("""
+
+"""),_display_(/*3.2*/main("Страница не найдена - Диапост.Ру", None, None, None, blogCategories = blogCategories)/*3.93*/ {_display_(Seq[Any](format.raw/*3.95*/("""
+    """),format.raw/*4.5*/("""<h1>Страница не найдена. Попробуйте позже.</h1>
 """)))}))}
   }
 
-  def render(): play.twirl.api.HtmlFormat.Appendable = apply()
+  def render(blogCategories:collection.immutable.ListMap[String, String]): play.twirl.api.HtmlFormat.Appendable = apply(blogCategories)
 
-  def f:(() => play.twirl.api.HtmlFormat.Appendable) = () => apply()
+  def f:((collection.immutable.ListMap[String, String]) => play.twirl.api.HtmlFormat.Appendable) = (blogCategories) => apply(blogCategories)
 
   def ref: this.type = this
 
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 12 17:10:32 MSK 2015
+                  DATE: Thu Feb 19 18:00:48 MSK 2015
                   SOURCE: /home/n0tel/projects/DoneDia/app/views/pageNotFound.scala.html
-                  HASH: db545d9d07ac660678a944364c570d0c49a46755
-                  MATRIX: 587->1|653->59|692->61|723->66
-                  LINES: 22->1|22->1|22->1|23->2
+                  HASH: dde5a2f24f4bd967bd43fd3f54f43a5141425fe0
+                  MATRIX: 550->1|699->62|727->65|826->156|865->158|896->163
+                  LINES: 19->1|22->1|24->3|24->3|24->3|25->4
                   -- GENERATED --
               */
           

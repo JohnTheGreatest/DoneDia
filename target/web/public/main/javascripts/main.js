@@ -43,6 +43,7 @@ $(document).ready(function(){
     
     // Onclick on a dropdown, toggle visibility
     $dropdownContainer.find("dt").click(function(){
+        console.log('click')
         $dropdownContainer.find("dd ul").hide();
         $(this).next().children().toggle();
     });

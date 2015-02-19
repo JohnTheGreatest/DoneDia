@@ -1,4 +1,4 @@
-@(title: String, typeOfHeader: Option[String], post: Option[io.prismic.Document], authors: Option[Seq[io.prismic.Document]])(content: Html)
+@(title: String, typeOfHeader: Option[String], post: Option[io.prismic.Document], authors: Option[Seq[io.prismic.Document]],  blogCategories: collection.immutable.ListMap[String,String])(content: Html)
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -45,7 +45,7 @@
             <nav class="mobile-nav">
                 <ul>
                     <li><a href="#">О проекте</a></li>
-                    <li><a href="#">Статьи</a></li>
+                    <li><a href="@routes.Application.blogCategory("")">Статьи</a></li>
                     <li><a href="#">Авторы</a></li>
                 </ul>
             </nav>
@@ -74,7 +74,7 @@
                     <nav class="topmenu">
                         <ul>
                             <li><a href="#">О ПРОЕКТЕ</a></li>
-                            <li><a href="#">СТАТЬИ</a></li>
+                            <li><a href="@routes.Application.blogCategory("")">СТАТЬИ</a></li>
                             <li><a href="#">АВТОРЫ</a></li>
                             <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>
                             <!--<li><a href="#">ВОЙТИ</a><span class="person-icon"></span></li>-->
@@ -134,7 +134,7 @@
                 </div>
             </section>
 
-            @footer()
+            @footer(blogCategories)
 
         </div>
 

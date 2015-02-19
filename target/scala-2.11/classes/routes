@@ -6,6 +6,7 @@
 GET        /                                         controllers.Application.index
 
 # Blog
+GET        /blog                                     controllers.Application.blogCategory(category: String ?= "")
 GET        /blog/:category                           controllers.Application.blogCategory(category: String)
 GET        /$id<[-_a-zA-Z0-9]{16}>/:slug             controllers.Application.blogPost(id, slug)
 GET        /blogAjax                                 controllers.Application.blogAjax(category: Option[String] ?= None, page: Int ?= 1)

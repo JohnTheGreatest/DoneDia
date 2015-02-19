@@ -1,3 +1,5 @@
+@(blogCategories: collection.immutable.ListMap[String,String])
+
 <footer>
     <div class="container">
         <div class="footer-social">
@@ -33,15 +35,9 @@
         <div class="footer-menu">
             <h2 class="footer-social__header">Статьи</h2>
             <ul>
-                <li><a href="">Известия</a></li>
-                <li><a href="">К.О.Н.</a></li>
-                <li><a href="">Смысловое взаимодействие</a></li>
-                <li><a href="">Хранилище образов</a></li>
-                <li><a href="">Домостроительство</a></li>
-                <li><a href="">Преображение действительности</a></li>
-                <li><a href="">Сетевое добровольчество</a></li>
-                <li><a href="">Властеправие</a></li>
-                <li><a href="">Мировоззрение</a></li>
+                @for(blogCategory <- blogCategories){
+                    <li><a href="@routes.Application.blogCategory(blogCategory._1)">@blogCategory._2</a></li>
+                }
             </ul>
         </div>
     </div>

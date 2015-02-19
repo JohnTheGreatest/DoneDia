@@ -29,7 +29,7 @@
             <nav>
                 <ul>
                     @blogCategories.map{cat=>
-                        <li><a href="#">@cat._2</a></li>
+                        <li><a href="@routes.Application.blogCategory(cat._1)">@cat._2</a></li>
                     }
                 </ul>
             </nav>
@@ -161,7 +161,7 @@
             </div>
         <div class="clear"></div>
 
-            @footer()
+            @footer(blogCategories)
 
         </div>
 

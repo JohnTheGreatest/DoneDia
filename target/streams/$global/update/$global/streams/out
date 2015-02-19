@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for diapost#diapost_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diapost#diapost_2.11;1.0->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ec771c9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@248d42ce[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
@@ -7887,6 +7887,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies diapost#diapost_2.11;1.0->com.typesafe.trace#trace-sigar-libs;0.1.6 [echo-sigar->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diapost#diapost_2.11;1.0->com.typesafe.trace#trace-sigar-libs;0.1.6 [echo-sigar->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diapost#diapost_2.11;1.0->com.typesafe.trace#trace-sigar-libs;0.1.6 [echo-sigar->master][0m
+[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-compiler;2.11.0->...[0m
+[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2->...[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
@@ -8018,7 +8020,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.trace#trace-sigar-libs;0.1.6!trace-sigar-libs.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 897ms :: artifacts dl 24ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2195ms :: artifacts dl 47ms[0m
 [0m[[0mdebug[0m] [0m	report for diapost#diapost_2.11;1.0 compile produced in /home/n0tel/projects/DoneDia/target/resolution-cache/reports/diapost-diapost_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for diapost#diapost_2.11;1.0 runtime produced in /home/n0tel/projects/DoneDia/target/resolution-cache/reports/diapost-diapost_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for diapost#diapost_2.11;1.0 test produced in /home/n0tel/projects/DoneDia/target/resolution-cache/reports/diapost-diapost_2.11-test.xml[0m
@@ -8036,7 +8038,5 @@
 [0m[[0mdebug[0m] [0m	report for diapost#diapost_2.11;1.0 echo-trace-test produced in /home/n0tel/projects/DoneDia/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-test.xml[0m
 [0m[[0mdebug[0m] [0m	report for diapost#diapost_2.11;1.0 echo-weave produced in /home/n0tel/projects/DoneDia/target/resolution-cache/reports/diapost-diapost_2.11-echo-weave.xml[0m
 [0m[[0mdebug[0m] [0m	report for diapost#diapost_2.11;1.0 echo-sigar produced in /home/n0tel/projects/DoneDia/target/resolution-cache/reports/diapost-diapost_2.11-echo-sigar.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (897ms resolve - 24ms download)[0m
-[0m[[0minfo[0m] [0mDone updating.[0m
-ve done (1089ms resolve - 41ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2195ms resolve - 47ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

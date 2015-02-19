@@ -1,8 +1,8 @@
-@(posts: Seq[io.prismic.Document], authors: Seq[io.prismic.Document])(implicit ctx: Prismic.Context)
+@(posts: Seq[io.prismic.Document], authors: Seq[io.prismic.Document], blogCategories: collection.immutable.ListMap[String,String])(implicit ctx: Prismic.Context)
 
 @import Html._
 
-@main("Информационно-аналитический молодежный портал", Option("big"), Option(posts.take(1).head), Option(authors)){
+@main("Информационно-аналитический молодежный портал", Option("big"), Option(posts.take(1).head), Option(authors), blogCategories = blogCategories){
     <section class="dg-feed">
         <div class="container">
             <div class="dg-feed__filter">
