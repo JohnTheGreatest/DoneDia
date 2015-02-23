@@ -74,10 +74,10 @@
 
                     <nav class="topmenu">
                         <ul>
-                            <li><a href="@routes.Application.about()">О ПРОЕКТЕ</a></li>
+                            <li><a href="@routes.Application.about()" @if(title=="О проекте"){class="topmenu-active"}>О ПРОЕКТЕ</a></li>
                             <li><a href="@routes.Application.blogCategory("")">СТАТЬИ</a></li>
-                            <!--<li><a href="#">АВТОРЫ</a></li>
-                            <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
+                            <li><a href="@routes.Application.authors()" @if(title=="Авторы"){class="topmenu-active"}>АВТОРЫ</a></li>
+                            <!--<li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
                             <!--<li><a href="#">ВОЙТИ</a><span class="person-icon"></span></li>-->
                         </ul>
                     </nav>

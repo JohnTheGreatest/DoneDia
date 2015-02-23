@@ -1,4 +1,4 @@
-@(title: String, blogCategories: collection.immutable.ListMap[String,String])(content: Html)
+@(active: String, title: String, blogCategories: collection.immutable.ListMap[String,String])(content: Html)
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -45,9 +45,9 @@
 
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="#">О проекте</a></li>
+                    <li><a href="@routes.Application.about()">О проекте</a></li>
                     <li><a href="@routes.Application.blogCategory("")">Статьи</a></li>
-                    <li><a href="#">Авторы</a></li>
+                    <li><a href="@routes.Application.authors()">Авторы</a></li>
                 </ul>
             </nav>
 
@@ -74,10 +74,10 @@
 
                     <nav class="topmenu">
                         <ul>
-                            <li><a href="@routes.Application.about()">О ПРОЕКТЕ</a></li>
+                            <li><a href="@routes.Application.about()" @if(active=="О проекте"){class="topmenu-active"}>О ПРОЕКТЕ</a></li>
                             <li><a href="@routes.Application.blogCategory("")">СТАТЬИ</a></li>
-                                <!--<li><a href="#">АВТОРЫ</a></li>
-                            <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
+                            <li><a href="@routes.Application.authors()" @if(active=="Авторы"){class="topmenu-active"}>АВТОРЫ</a></li>
+                            <!--<li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
                                 <!--<li><a href="#">ВОЙТИ</a><span class="person-icon"></span></li>-->
                         </ul>
                     </nav>

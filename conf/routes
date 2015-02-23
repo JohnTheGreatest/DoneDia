@@ -3,18 +3,22 @@
 # ~~~~
 
 # Home page
-GET        /                                         controllers.Application.index
+GET        /                                        controllers.Application.index
 
-GET        /about                                    controllers.Application.about
+GET        /about                                   controllers.Application.about
+
+# Authors
+GET        /authors                                 controllers.Application.authors
+GET        /authors/$id<[-_a-zA-Z0-9]{16}>/:slug    controllers.Application.author(id, slug)
 
 # Blog
-GET        /blog                                     controllers.Application.blogCategory(category: String ?= "")
-GET        /blog/:category                           controllers.Application.blogCategory(category: String)
-GET        /$id<[-_a-zA-Z0-9]{16}>/:slug             controllers.Application.blogPost(id, slug)
-GET        /blogAjax                                 controllers.Application.blogAjax(category: Option[String] ?= None, page: Int ?= 1)
+GET        /blog                                    controllers.Application.blogCategory(category: String ?= "")
+GET        /blog/:category                          controllers.Application.blogCategory(category: String)
+GET        /$id<[-_a-zA-Z0-9]{16}>/:slug            controllers.Application.blogPost(id, slug)
+GET        /blogAjax                                controllers.Application.blogAjax(category: Option[String] ?= None, page: Int ?= 1)
 
 # NotFound
-GET        /not-found                                controllers.Application.brokenLink()
+GET        /not-found                               controllers.Application.brokenLink()
 
 # Map static resources from the /public folder to the /assets URL path
-GET        /assets/*file                             controllers.Assets.at(path="/public", file)
+GET        /assets/*file                            controllers.Assets.at(path="/public", file)

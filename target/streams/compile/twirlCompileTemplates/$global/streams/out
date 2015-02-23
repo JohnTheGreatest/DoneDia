@@ -1,34 +1,4 @@
-java.util.NoSuchElementException: key not found: SOURCE
-	at scala.collection.MapLike$class.default(MapLike.scala:228)
-	at scala.collection.AbstractMap.default(Map.scala:58)
-	at scala.collection.MapLike$class.apply(MapLike.scala:141)
-	at scala.collection.AbstractMap.apply(Map.scala:58)
-	at play.twirl.compiler.GeneratedSource.source(TwirlCompiler.scala:129)
-	at play.twirl.compiler.GeneratedSource.needRecompilation(TwirlCompiler.scala:115)
-	at play.twirl.compiler.TwirlCompiler$.compile(TwirlCompiler.scala:159)
-	at play.twirl.sbt.TemplateCompiler$$anonfun$compile$2.apply(TemplateCompiler.scala:27)
-	at play.twirl.sbt.TemplateCompiler$$anonfun$compile$2.apply(TemplateCompiler.scala:25)
-	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
-	at scala.collection.immutable.List.foreach(List.scala:318)
-	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
-	at play.twirl.sbt.TemplateCompiler$.compile(TemplateCompiler.scala:25)
-	at play.twirl.sbt.SbtTwirl$$anonfun$compileTemplatesTask$1.apply(SbtTwirl.scala:87)
-	at play.twirl.sbt.SbtTwirl$$anonfun$compileTemplatesTask$1.apply(SbtTwirl.scala:86)
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42)
-	at sbt.std.Transform$$anon$4.work(System.scala:64)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
-	at sbt.Execute.work(Execute.scala:244)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
-	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) java.util.NoSuchElementException: key not found: SOURCE[0m
+[0m[[31merror[0m] [0mC:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\app\views\authors\author.scala.html:89: Expected '"' but found 'EOF'[0m
+[0m[[31merror[0m] [0m}[0m
+[0m[[31merror[0m] [0m ^[0m
+[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

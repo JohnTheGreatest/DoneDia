@@ -34,6 +34,9 @@ object Application extends Controller {
     // Blog
     case (Fragment.DocumentLink(id, "blog-posts", _, slug, false), _) => routes.Application.blogPost(id, slug).absoluteURL()
 
+    // Author
+    case (Fragment.DocumentLink(id, "authors", _, slug, false), _) => routes.Application.author(id, slug).absoluteURL()
+
     case anyOtherLink => routes.Application.brokenLink.absoluteURL()
   }
 
@@ -146,6 +149,27 @@ object Application extends Controller {
       checkSlug(maybePost, slug) {
         case Left(newSlug) => MovedPermanently(routes.Application.blogPost(id, newSlug).url)
         case Right(post)   => Ok(views.html.post.postDetail(post, relatedPosts, author.get, BlogCategories, jumbo))
+      }
+    }
+  }
+
+  def authors = Prismic.action { implicit request =>
+    for {
+      authors <- ctx.api.forms("authors")
+        .ref(ctx.ref)
+        .submit()
+    } yield {
+      Ok(views.html.authors.authors(authors.results, BlogCategories))
+    }
+  }
+
+  def author(id: String, slug: String) = Prismic.action { implicit request =>
+    for {
+      author <- getDocument(id)
+    } yield {
+      checkSlug(author, slug) {
+        case Left(newSlug) => MovedPermanently(routes.Application.author(id, newSlug).url)
+        case Right(author)   => Ok(views.html.authors.author(author, BlogCategories))
       }
     }
   }
