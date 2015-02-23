@@ -74,7 +74,7 @@ $(document).ready(function(){
     }
     
     // Нажатие на категорию из выпадающего списка
-    $dropdownContainer.find("dd ul li a").click(function(){
+    $dropdownContainer.find("dd ul li a").click(function(e){
         var $this = $(this);
 
         // проверка, выбрана текущая категория или другая

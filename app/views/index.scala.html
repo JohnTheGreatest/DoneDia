@@ -13,7 +13,7 @@
                         <ul>
                             <li><a class="default selected">Все разделы</a></li>
                             @blogCategories.map{cat=>
-                                <li><a href="@routes.Application.blogCategory(cat._1)" @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
+                                <li><a @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
                             }
                         </ul>
                     </dd>
@@ -77,9 +77,6 @@
         @* PLUSO script end *@
         
         <div class="container-metro dg-feed__content">
-
-
-
                     @for((post, count) <- posts.zipWithIndex){
                         @if(count == 0) {
                             <div class="box-6col">
