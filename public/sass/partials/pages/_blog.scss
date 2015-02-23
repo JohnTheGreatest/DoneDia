@@ -73,6 +73,7 @@
 
 .dg-blog__body__author {
   text-align: center;
+  display: block;
 
   @include MQ(M) {
     float: left;
