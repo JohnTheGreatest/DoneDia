@@ -136,7 +136,7 @@
                         @authors.map{authors =>
                                 @authors.map{ author =>
                                     <li>
-                                        <a class="dg-team__person box-6col-horizont-imgwrapper" style="background-image: url(@author.getImage("author.image", "main").map{imgUrl=>@imgUrl.url})">
+                                        <a href="@routes.Application.author(author.id, author.slug)" class="dg-team__person box-6col-horizont-imgwrapper" style="background-image: url(@author.getImage("author.image", "main").map{imgUrl=>@imgUrl.url})">
                                             <div class="dg-team__person__hover flag">
                                                 <span class="flag__body">@author.getText("author.full_name").map{name=>@name}</span>
                                             </div>

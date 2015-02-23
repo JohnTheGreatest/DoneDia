@@ -1,4 +1,4 @@
-[0m[[31merror[0m] [0mC:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\app\views\authors\author.scala.html:89: Expected '"' but found 'EOF'[0m
+[0m[[31merror[0m] [0mC:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\app\views\index.scala.html:266: Expected '}' but found 'EOF'[0m
 [0m[[31merror[0m] [0m}[0m
 [0m[[31merror[0m] [0m ^[0m
 [0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

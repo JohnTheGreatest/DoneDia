@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4415cf9f-888c-4a3d-975b-fbe5bcde8ddc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" afterPath="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" afterPath="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-sigar.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-sigar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-trace-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-weave.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-echo-weave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/diapost-diapost_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/twirlCompileTemplates/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/twirlCompileTemplates/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/diapost/diapost_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="play-scala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,23 +103,11 @@
       <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="41" selection-start="4184" selection-end="4232" vertical-scroll-proportion="102.51724" vertical-offset="4613" max-vertical-offset="5440">
+            <state line="89" column="118" selection-start="4926" selection-end="4926" vertical-scroll-proportion="32.03448" vertical-offset="2709" max-vertical-offset="5440">
               <folding>
-                <marker date="1424656325801" expanded="true" signature="367:16077" placeholder="(...)" />
-                <marker date="1424656325801" expanded="true" signature="927:1060" placeholder="(...)" />
-                <marker date="1424656325801" expanded="true" signature="1739:1998" placeholder="/**...*/" />
-                <marker date="1424656325801" expanded="true" signature="2274:2555" placeholder="/**...*/" />
-                <marker date="1424656325801" expanded="true" signature="3022:3210" placeholder="/**...*/" />
-                <marker date="1424656325801" expanded="true" signature="4048:14880" placeholder="{...}" />
-                <marker date="1424656325801" expanded="true" signature="4090:6701" placeholder="{...}" />
-                <marker date="1424656325801" expanded="true" signature="5378:5487" placeholder="(...)" />
-                <marker date="1424656325801" expanded="true" signature="6742:9395" placeholder="{...}" />
-                <marker date="1424656325801" expanded="true" signature="8073:8190" placeholder="(...)" />
-                <marker date="1424656325801" expanded="true" signature="9436:12112" placeholder="{...}" />
-                <marker date="1424656325801" expanded="true" signature="10789:10906" placeholder="(...)" />
-                <marker date="1424656325801" expanded="true" signature="12153:14858" placeholder="{...}" />
-                <marker date="1424656325801" expanded="true" signature="13534:13651" placeholder="(...)" />
-                <marker date="1424656325801" expanded="true" signature="15158:15421" placeholder="{...}" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#section#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_blog.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_blog.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/partials/pages/_blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="17" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.3815951" vertical-offset="1189" max-vertical-offset="11520">
+            <state line="79" column="21" selection-start="1404" selection-end="1404" vertical-scroll-proportion="-7.240741" vertical-offset="1189" max-vertical-offset="11520">
               <folding />
             </state>
           </provider>
@@ -151,10 +166,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scala.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.scala.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="96" selection-start="7159" selection-end="7254" vertical-scroll-proportion="-19.551723" vertical-offset="2193" max-vertical-offset="3380">
+            <state line="137" column="40" selection-start="7062" selection-end="7062" vertical-scroll-proportion="0.66142684" vertical-offset="2193" max-vertical-offset="3380">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -226,13 +241,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/public/sass/partials/_layout.scss" />
-        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/app/views/post/posts.scala.html" />
         <option value="$PROJECT_DIR$/app/views/footer.scala.html" />
         <option value="$PROJECT_DIR$/app/views/author/author.scala.html" />
         <option value="$PROJECT_DIR$/public/sass/partials/_modules.scss" />
-        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
         <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
         <option value="$PROJECT_DIR$/app/views/mainContent.scala.html" />
@@ -241,6 +254,8 @@
         <option value="$PROJECT_DIR$/app/views/authors/authors.scala.html" />
         <option value="$PROJECT_DIR$/app/views/post/postDetail.scala.html" />
         <option value="$PROJECT_DIR$/public/sass/partials/pages/_blog.scss" />
+        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
       </list>
     </option>
   </component>
@@ -871,7 +886,7 @@
       <workItem from="1424386473262" duration="2789000" />
       <workItem from="1424638545513" duration="7407000" />
       <workItem from="1424651968432" duration="3861000" />
-      <workItem from="1424689990542" duration="6136000" />
+      <workItem from="1424689990542" duration="6674000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление шаринга, лайков, комментов, выбора статей по dropdown">
       <created>1423823484178</created>
@@ -917,7 +932,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211417000" />
+    <option name="totallyTimeSpent" value="211955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -1231,38 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="41" selection-start="4184" selection-end="4232" vertical-scroll-proportion="102.51724" vertical-offset="4613" max-vertical-offset="5440">
-          <folding>
-            <marker date="1424656325801" expanded="true" signature="367:16077" placeholder="(...)" />
-            <marker date="1424656325801" expanded="true" signature="927:1060" placeholder="(...)" />
-            <marker date="1424656325801" expanded="true" signature="1739:1998" placeholder="/**...*/" />
-            <marker date="1424656325801" expanded="true" signature="2274:2555" placeholder="/**...*/" />
-            <marker date="1424656325801" expanded="true" signature="3022:3210" placeholder="/**...*/" />
-            <marker date="1424656325801" expanded="true" signature="4048:14880" placeholder="{...}" />
-            <marker date="1424656325801" expanded="true" signature="4090:6701" placeholder="{...}" />
-            <marker date="1424656325801" expanded="true" signature="5378:5487" placeholder="(...)" />
-            <marker date="1424656325801" expanded="true" signature="6742:9395" placeholder="{...}" />
-            <marker date="1424656325801" expanded="true" signature="8073:8190" placeholder="(...)" />
-            <marker date="1424656325801" expanded="true" signature="9436:12112" placeholder="{...}" />
-            <marker date="1424656325801" expanded="true" signature="10789:10906" placeholder="(...)" />
-            <marker date="1424656325801" expanded="true" signature="12153:14858" placeholder="{...}" />
-            <marker date="1424656325801" expanded="true" signature="13534:13651" placeholder="(...)" />
-            <marker date="1424656325801" expanded="true" signature="15158:15421" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="96" selection-start="7159" selection-end="7254" vertical-scroll-proportion="-19.551723" vertical-offset="2193" max-vertical-offset="3380">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/mainContent.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="75" selection-start="3109" selection-end="3109" vertical-scroll-proportion="-9.655172" vertical-offset="1080" max-vertical-offset="2500">
@@ -1319,8 +1302,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/pages/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="17" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.3815951" vertical-offset="1189" max-vertical-offset="11520">
+        <state line="79" column="21" selection-start="1404" selection-end="1404" vertical-scroll-proportion="-7.240741" vertical-offset="1189" max-vertical-offset="11520">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="118" selection-start="4926" selection-end="4926" vertical-scroll-proportion="32.03448" vertical-offset="2709" max-vertical-offset="5440">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="40" selection-start="7062" selection-end="7062" vertical-scroll-proportion="0.66142684" vertical-offset="2193" max-vertical-offset="3380">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
