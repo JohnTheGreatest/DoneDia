@@ -5,7 +5,7 @@
         <div class="footer-social">
             <h2 class="footer-social__header">Мы в социальных сетях</h2>
             <ul>
-                <li><a class="footer-social__vk" href="#"></a></li>
+                <li><a class="footer-social__vk" href="http://vk.com/diapost" target="_blank"></a></li>
                 <li><a class="footer-social__fb" href="#"></a></li>
                 <li><a class="footer-social__tw" href="#"></a></li>
             </ul>
@@ -36,7 +36,7 @@
             <h2 class="footer-social__header">Статьи</h2>
             <ul>
                 @for(blogCategory <- blogCategories){
-                    <li><a href="@routes.Application.blogCategory(blogCategory._1)">@blogCategory._2</a></li>
+                    <li><a href="@routes.Application.blogCategory(blogCategory._1)" @if(blogCategory._1.contains("kon-footer")){class="kon"}>@blogCategory._2</a></li>
                 }
             </ul>
         </div>

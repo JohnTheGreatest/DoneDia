@@ -405,6 +405,7 @@ $default-transition-delay: true;
 
   ul {
     display: none;
+    min-width: 300px;
   }
 }
 
@@ -998,6 +999,7 @@ $default-transition-delay: true;
 /* TEAM */
 .dg-team {
   background-color: #f3f3f3;
+  padding-bottom: 30px;
 }
 
 .dg-team__content {
@@ -1039,7 +1041,6 @@ $default-transition-delay: true;
 footer {
   background-color: #7d858c;
   padding: 50px 0;
-  margin-top: 30px;
 }
 
 .footer-social {
@@ -1340,6 +1341,36 @@ $green: #2ecc71;
   opacity: .37;
   height: 500px;
   width: 100%;
+}
+
+.social-btns {
+  margin-top: 25px;
+  text-align: center;
+
+  @include MQ(M) {
+    text-align: left;
+  }
+
+  ul {
+
+    display: inline-block;
+    @extend %inline-block;
+    @include pie-clearfix();
+    margin: 0 auto;
+
+    @include MQ(M) {
+      float: right;
+    }
+
+    li {
+      display: inline-block;
+      @extend %inline-block;
+    }
+  }
+}
+
+.text-right {
+  text-align: right;
 }
 
 

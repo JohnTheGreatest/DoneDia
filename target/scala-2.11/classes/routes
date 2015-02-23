@@ -5,6 +5,8 @@
 # Home page
 GET        /                                         controllers.Application.index
 
+GET        /about                                    controllers.Application.about
+
 # Blog
 GET        /blog                                     controllers.Application.blogCategory(category: String ?= "")
 GET        /blog/:category                           controllers.Application.blogCategory(category: String)

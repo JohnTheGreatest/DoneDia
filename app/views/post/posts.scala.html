@@ -8,8 +8,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> - Диапост.ру</title>
-        <meta name="description" content="">
+        <title>@selectedCategory - Диапост.ру</title>
+        <meta name="description" content="Диапост - это неожиданный ракурс, когда мы говорим на современном языке о вечных ценностях: вере, любви, семье, Родине, правде, справедливости, братстве.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- ADD all SEO meta and OpenGraph -->
             <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -46,7 +46,7 @@
             <nav>
                 <ul>
                 @blogCategories.map{cat=>
-                    <li><a href="@routes.Application.blogCategory(cat._1)">@cat._2</a></li>
+                    <li><a href="@routes.Application.blogCategory(cat._1)" @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
                 }
                 </ul>
             </nav>
@@ -78,7 +78,7 @@
                                 <ul>
                                     <li><a class="default@if(selectedCategory.isEmpty){ selected}">Все разделы</a></li>
                                     @for(cat <- blogCategories){
-                                        <li><a @if(selectedCategory.isDefined && cat._2 == selectedCategory.get){class="selected"}>@cat._2</a></li>
+                                        <li><a @if(selectedCategory.isDefined && cat._2 == selectedCategory.get){class="selected"} @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
                                     }
                                 </ul>
                             </dd>

@@ -44,9 +44,18 @@ object Application extends Controller {
         .pageSize(4)
         .ref(ctx.ref)
         .submit()
+      firstPost <- ctx.api.forms("blog-posts")
+        .query(s"""[[:d = at(my.blog.first, "Yes")]]""")
+        .pageSize(1)
+        .ref(ctx.ref)
+        .submit()
     } yield {
-      Ok(views.html.index(posts.results, authors.results, BlogCategories))
+      Ok(views.html.index(posts.results, firstPost.results, authors.results, BlogCategories))
     }
+  }
+
+  def about = Prismic.action { implicit request =>
+    Future.successful(Ok(views.html.about.about(BlogCategories)))
   }
 
 
@@ -115,10 +124,10 @@ object Application extends Controller {
     "vlast" -> "Власть",
     "domostroitelstvo" -> "Домостроительство",
     "obshestvo" -> "Общество",
-    "kon" -> "К.О.Н.",
+    "kon" -> "Культура.Образование.Наука",
     "mirovozzrenie" -> "Мировоззрение",
     "letopis" -> "Летопись",
-    "obrazi" -> "Хранилище образов"
+    "obrazi" -> "Образы"
   )
 
   def blogPost(id: String, slug: String) = Prismic.action { implicit request =>

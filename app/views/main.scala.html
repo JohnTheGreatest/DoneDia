@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>@title - Диапост.ру</title>
-        <meta name="description" content="Гостиницы Риги приглашают гостей на незабываемый отдых. Доступные цены в гостинице в Риге приятно удивят. Вы легко можете забронировать номер.">
+        <meta name="description" content="Диапост - это неожиданный ракурс, когда мы говорим на современном языке о вечных ценностях: вере, любви, семье, Родине, правде, справедливости, братстве.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- ADD all SEO meta and OpenGraph -->
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -44,9 +44,9 @@
 
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="#">О проекте</a></li>
+                    <li><a href="@routes.Application.about()">О проекте</a></li>
                     <li><a href="@routes.Application.blogCategory("")">Статьи</a></li>
-                    <li><a href="#">Авторы</a></li>
+                    <!--<li><a href="#">Авторы</a></li>-->
                 </ul>
             </nav>
 
@@ -73,15 +73,28 @@
 
                     <nav class="topmenu">
                         <ul>
-                            <li><a href="#">О ПРОЕКТЕ</a></li>
+                            <li><a href="@routes.Application.about()">О ПРОЕКТЕ</a></li>
                             <li><a href="@routes.Application.blogCategory("")">СТАТЬИ</a></li>
-                            <li><a href="#">АВТОРЫ</a></li>
-                            <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>
+                            <!--<li><a href="#">АВТОРЫ</a></li>
+                            <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
                             <!--<li><a href="#">ВОЙТИ</a><span class="person-icon"></span></li>-->
                         </ul>
                     </nav>
 
-                    <a class="button button-flat-primary dg-header__btn" href="#">ИЩЕМ АВТОРОВ</a>
+                    <!--<a class="button button-flat-primary dg-header__btn" href="#">ИЩЕМ АВТОРОВ</a>-->
+                    <div class="dg-header__btn social-btns">
+                        <ul>
+                            <li>
+                                <a href="http://vk.com/diapost" target="_blank" class="vkontakte-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="facebook-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter-icon"></a>
+                            </li>
+                        </ul>
+                    </div>
 
                 </div>
 

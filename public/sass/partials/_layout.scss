@@ -21,6 +21,10 @@ $border-box-sizing: true;
   @include span-columns(12 omega,12);
 
   @include MQ(M) {
+    @include span-columns(5,12);
+  }
+
+  @include MQ(XL) {
     @include span-columns(6,12);
   }
 }
@@ -47,7 +51,11 @@ $border-box-sizing: true;
   @include span-columns(12 omega,12);
 
   @include MQ(M) {
-    @include span-columns(2,12);
+    @include span-columns(3 omega,12);
+  }
+
+  @include MQ(XL) {
+    @include span-columns(2 omega,12);
   }
 }
 
@@ -63,7 +71,7 @@ $border-box-sizing: true;
   @include span-columns(12 omega,12);
 
   @include MQ(M) {
-    @include span-columns(6,12);
+    @include span-columns(8,12);
   }
 }
 
@@ -71,7 +79,7 @@ $border-box-sizing: true;
   @include span-columns(12 omega,12);
 
   @include MQ(M) {
-    @include span-columns(6 omega,12);
+    @include span-columns(4 omega,12);
   }
 }
 

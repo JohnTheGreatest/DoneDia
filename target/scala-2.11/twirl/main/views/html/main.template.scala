@@ -29,7 +29,7 @@ Seq[Any](format.raw/*1.202*/("""
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>"""),_display_(/*10.17*/title),format.raw/*10.22*/(""" """),format.raw/*10.23*/("""- Диапост.ру</title>
-        <meta name="description" content="Гостиницы Риги приглашают гостей на незабываемый отдых. Доступные цены в гостинице в Риге приятно удивят. Вы легко можете забронировать номер.">
+        <meta name="description" content="Диапост - это неожиданный ракурс, когда мы говорим на современном языке о вечных ценностях: вере, любви, семье, Родине, правде, справедливости, братстве.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- ADD all SEO meta and OpenGraph -->
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -65,9 +65,9 @@ Seq[Any](format.raw/*1.202*/("""
 
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="#">О проекте</a></li>
+                    <li><a href=""""),_display_(/*47.35*/routes/*47.41*/.Application.about()),format.raw/*47.61*/("""">О проекте</a></li>
                     <li><a href=""""),_display_(/*48.35*/routes/*48.41*/.Application.blogCategory("")),format.raw/*48.70*/("""">Статьи</a></li>
-                    <li><a href="#">Авторы</a></li>
+                    <!--<li><a href="#">Авторы</a></li>-->
                 </ul>
             </nav>
 
@@ -94,36 +94,49 @@ Seq[Any](format.raw/*1.202*/("""
 
                     <nav class="topmenu">
                         <ul>
-                            <li><a href="#">О ПРОЕКТЕ</a></li>
+                            <li><a href=""""),_display_(/*76.43*/routes/*76.49*/.Application.about()),format.raw/*76.69*/("""">О ПРОЕКТЕ</a></li>
                             <li><a href=""""),_display_(/*77.43*/routes/*77.49*/.Application.blogCategory("")),format.raw/*77.78*/("""">СТАТЬИ</a></li>
-                            <li><a href="#">АВТОРЫ</a></li>
-                            <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>
+                            <!--<li><a href="#">АВТОРЫ</a></li>
+                            <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
                             <!--<li><a href="#">ВОЙТИ</a><span class="person-icon"></span></li>-->
                         </ul>
                     </nav>
 
-                    <a class="button button-flat-primary dg-header__btn" href="#">ИЩЕМ АВТОРОВ</a>
+                    <!--<a class="button button-flat-primary dg-header__btn" href="#">ИЩЕМ АВТОРОВ</a>-->
+                    <div class="dg-header__btn social-btns">
+                        <ul>
+                            <li>
+                                <a href="http://vk.com/diapost" target="_blank" class="vkontakte-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="facebook-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter-icon"></a>
+                            </li>
+                        </ul>
+                    </div>
 
                 </div>
 
             </header>
 
-            """),_display_(/*90.14*/if(typeOfHeader.getOrElse("big").equals("big"))/*90.61*/ {_display_(Seq[Any](format.raw/*90.63*/("""
-                """),_display_(/*91.18*/post/*91.22*/.map/*91.26*/{post =>_display_(Seq[Any](format.raw/*91.34*/("""
-                    """),format.raw/*92.21*/("""<section  class="dg-banner">
+            """),_display_(/*103.14*/if(typeOfHeader.getOrElse("big").equals("big"))/*103.61*/ {_display_(Seq[Any](format.raw/*103.63*/("""
+                """),_display_(/*104.18*/post/*104.22*/.map/*104.26*/{post =>_display_(Seq[Any](format.raw/*104.34*/("""
+                    """),format.raw/*105.21*/("""<section  class="dg-banner">
                         <div id="layerslider" style="width: 100%; height: 500px;">
-                            <div class="ls-layer" rel="slidedelay: 3000; slidedirection: right;" """),_display_(/*94.99*/post/*94.103*/.getImage("blog.image", "main").map/*94.138*/{img =>_display_(Seq[Any](format.raw/*94.145*/(""" """),format.raw/*94.146*/("""style="background-image: url("""),_display_(/*94.176*/img/*94.179*/.url),format.raw/*94.183*/(""")""")))}),format.raw/*94.185*/("""; background-position: top center">
+                            <div class="ls-layer" rel="slidedelay: 3000; slidedirection: right;" """),_display_(/*107.99*/post/*107.103*/.getImage("blog.image", "main").map/*107.138*/{img =>_display_(Seq[Any](format.raw/*107.145*/(""" """),format.raw/*107.146*/("""style="background-image: url("""),_display_(/*107.176*/img/*107.179*/.url),format.raw/*107.183*/(""")""")))}),format.raw/*107.185*/("""; background-position: top center">
                                 <div class="container">
                                     <div class="dg-banner__info">
-                                        <h2 class="dg-banner__info__header">"""),_display_(/*97.78*/post/*97.82*/.getText("blog.title").map/*97.108*/{title =>_display_(Seq[Any](format.raw/*97.117*/(""" """),_display_(/*97.119*/title)))}),format.raw/*97.125*/("""</h2>
+                                        <h2 class="dg-banner__info__header">"""),_display_(/*110.78*/post/*110.82*/.getText("blog.title").map/*110.108*/{title =>_display_(Seq[Any](format.raw/*110.117*/(""" """),_display_(/*110.119*/title)))}),format.raw/*110.125*/("""</h2>
                                         <div class="dg-banner__info__util">
-                                            <p class="dg-banner__info__util__section">"""),_display_(/*99.88*/post/*99.92*/.getText("blog.category").getOrElse("Общая")),format.raw/*99.136*/("""</p>
+                                            <p class="dg-banner__info__util__section">"""),_display_(/*112.88*/post/*112.92*/.getText("blog.category").getOrElse("Общая")),format.raw/*112.136*/("""</p>
                                             <div class="dg-banner__info__time">
-                                                <p class="dg-banner__info__time__content">"""),_display_(/*101.92*/post/*101.96*/.getText("blog.body").map/*101.121*/{text =>_display_(Seq[Any](format.raw/*101.129*/(""" """),_display_(/*101.131*/{text.length/900})))}),format.raw/*101.149*/(""" """),format.raw/*101.150*/("""МИН</p>
+                                                <p class="dg-banner__info__time__content">"""),_display_(/*114.92*/post/*114.96*/.getText("blog.body").map/*114.121*/{text =>_display_(Seq[Any](format.raw/*114.129*/(""" """),_display_(/*114.131*/{text.length/900})))}),format.raw/*114.149*/(""" """),format.raw/*114.150*/("""МИН</p>
                                             </div>
                                         </div>
-                                        <p class="dg-banner__info__description">"""),_display_(/*104.82*/post/*104.86*/.getText("blog.shortlede").map/*104.116*/{lede =>_display_(Seq[Any](format.raw/*104.124*/(""" """),_display_(/*104.126*/lede)))}),format.raw/*104.131*/("""</p>
-                                        <a class="dg-banner__info__btn" href=""""),_display_(/*105.80*/routes/*105.86*/.Application.blogPost(post.id, post.slug)),format.raw/*105.127*/("""">
+                                        <p class="dg-banner__info__description">"""),_display_(/*117.82*/post/*117.86*/.getText("blog.shortlede").map/*117.116*/{lede =>_display_(Seq[Any](format.raw/*117.124*/(""" """),_display_(/*117.126*/lede)))}),format.raw/*117.131*/("""</p>
+                                        <a class="dg-banner__info__btn" href=""""),_display_(/*118.80*/routes/*118.86*/.Application.blogPost(post.id, post.slug)),format.raw/*118.127*/("""">
                                             <span>ЧИТАТЬ</span>
                                         </a>
                                     </div>
@@ -132,39 +145,39 @@ Seq[Any](format.raw/*1.202*/("""
                             </div>
                         </div>
                     </section>
-                """)))}),format.raw/*114.18*/("""
-            """)))}),format.raw/*115.14*/("""
+                """)))}),format.raw/*127.18*/("""
+            """)))}),format.raw/*128.14*/("""
 
-            """),_display_(/*117.14*/content),format.raw/*117.21*/("""
+            """),_display_(/*130.14*/content),format.raw/*130.21*/("""
 
-            """),format.raw/*119.13*/("""<section class="dg-team">
+            """),format.raw/*132.13*/("""<section class="dg-team">
                 <div class="container">
                     <ul class="dg-team__content">
-                        """),_display_(/*122.26*/authors/*122.33*/.map/*122.37*/{authors =>_display_(Seq[Any](format.raw/*122.48*/("""
-                                """),_display_(/*123.34*/authors/*123.41*/.map/*123.45*/{ author =>_display_(Seq[Any](format.raw/*123.56*/("""
-                                    """),format.raw/*124.37*/("""<li>
-                                        <a class="dg-team__person box-6col-horizont-imgwrapper" style="background-image: url("""),_display_(/*125.127*/author/*125.133*/.getImage("author.image", "main").map/*125.170*/{imgUrl=>_display_(_display_(/*125.180*/imgUrl/*125.186*/.url))}),format.raw/*125.191*/(""")">
+                        """),_display_(/*135.26*/authors/*135.33*/.map/*135.37*/{authors =>_display_(Seq[Any](format.raw/*135.48*/("""
+                                """),_display_(/*136.34*/authors/*136.41*/.map/*136.45*/{ author =>_display_(Seq[Any](format.raw/*136.56*/("""
+                                    """),format.raw/*137.37*/("""<li>
+                                        <a class="dg-team__person box-6col-horizont-imgwrapper" style="background-image: url("""),_display_(/*138.127*/author/*138.133*/.getImage("author.image", "main").map/*138.170*/{imgUrl=>_display_(_display_(/*138.180*/imgUrl/*138.186*/.url))}),format.raw/*138.191*/(""")">
                                             <div class="dg-team__person__hover flag">
-                                                <span class="flag__body">"""),_display_(/*127.75*/author/*127.81*/.getText("author.full_name").map/*127.113*/{name=>_display_(_display_(/*127.121*/name))}),format.raw/*127.126*/("""</span>
+                                                <span class="flag__body">"""),_display_(/*140.75*/author/*140.81*/.getText("author.full_name").map/*140.113*/{name=>_display_(_display_(/*140.121*/name))}),format.raw/*140.126*/("""</span>
                                             </div>
                                         </a>
                                     </li>
-                                """)))}),format.raw/*131.34*/("""
-                        """)))}),format.raw/*132.26*/("""
-                    """),format.raw/*133.21*/("""</ul>
+                                """)))}),format.raw/*144.34*/("""
+                        """)))}),format.raw/*145.26*/("""
+                    """),format.raw/*146.21*/("""</ul>
                 </div>
             </section>
 
-            """),_display_(/*137.14*/footer(blogCategories)),format.raw/*137.36*/("""
+            """),_display_(/*150.14*/footer(blogCategories)),format.raw/*150.36*/("""
 
-        """),format.raw/*139.9*/("""</div>
+        """),format.raw/*152.9*/("""</div>
 
-        <script src=""""),_display_(/*141.23*/routes/*141.29*/.Assets.at("javascripts/vendor/jquery-1.10.2.min.js")),format.raw/*141.82*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*142.23*/routes/*142.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*142.75*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*143.23*/routes/*143.29*/.Assets.at("javascripts/hamburger.js")),format.raw/*143.67*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*144.23*/routes/*144.29*/.Assets.at("javascripts/layerslider.kreaturamedia.jquery.js")),format.raw/*144.90*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*145.23*/routes/*145.29*/.Assets.at("javascripts/dropkick.min.js")),format.raw/*145.70*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*146.23*/routes/*146.29*/.Assets.at("javascripts/main.js")),format.raw/*146.62*/(""""></script>
+        <script src=""""),_display_(/*154.23*/routes/*154.29*/.Assets.at("javascripts/vendor/jquery-1.10.2.min.js")),format.raw/*154.82*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*155.23*/routes/*155.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*155.75*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*156.23*/routes/*156.29*/.Assets.at("javascripts/hamburger.js")),format.raw/*156.67*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*157.23*/routes/*157.29*/.Assets.at("javascripts/layerslider.kreaturamedia.jquery.js")),format.raw/*157.90*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*158.23*/routes/*158.29*/.Assets.at("javascripts/dropkick.min.js")),format.raw/*158.70*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*159.23*/routes/*159.29*/.Assets.at("javascripts/main.js")),format.raw/*159.62*/(""""></script>
 
     </body>
 </html>
@@ -180,11 +193,11 @@ Seq[Any](format.raw/*1.202*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 19 21:06:50 MSK 2015
-                  SOURCE: /home/n0tel/projects/DoneDia/app/views/main.scala.html
-                  HASH: ba81255795ac07c22ab363c152ab9d0928b76949
-                  MATRIX: 630->1|919->201|946->202|1383->612|1409->617|1438->618|1920->1073|1935->1079|1990->1113|2058->1154|2073->1160|2131->1197|2183->1222|2198->1228|2274->1283|2331->1324|2372->1337|2616->1571|2648->1576|2733->1633|2762->1634|2794->1639|3085->1903|3113->1904|3669->2433|3684->2439|3734->2468|4297->3004|4312->3010|4353->3030|4798->3448|4813->3454|4863->3483|5377->3970|5433->4017|5473->4019|5518->4037|5531->4041|5544->4045|5590->4053|5639->4074|5876->4284|5890->4288|5935->4323|5981->4330|6011->4331|6069->4361|6082->4364|6108->4368|6142->4370|6404->4605|6417->4609|6453->4635|6501->4644|6531->4646|6562->4652|6758->4821|6771->4825|6837->4869|7041->5045|7055->5049|7091->5074|7139->5082|7170->5084|7214->5102|7245->5103|7460->5290|7474->5294|7515->5324|7563->5332|7594->5334|7625->5339|7737->5423|7753->5429|7817->5470|8229->5850|8275->5864|8318->5879|8347->5886|8390->5900|8559->6041|8576->6048|8590->6052|8640->6063|8702->6097|8719->6104|8733->6108|8783->6119|8849->6156|9009->6287|9026->6293|9074->6330|9114->6340|9131->6346|9161->6351|9353->6515|9369->6521|9412->6553|9450->6561|9480->6566|9691->6745|9749->6771|9799->6792|9893->6858|9937->6880|9975->6890|10033->6920|10049->6926|10124->6979|10209->7036|10225->7042|10293->7088|10378->7145|10394->7151|10454->7189|10539->7246|10555->7252|10638->7313|10723->7370|10739->7376|10802->7417|10887->7474|10903->7480|10958->7513
-                  LINES: 19->1|22->1|23->2|31->10|31->10|31->10|36->15|36->15|36->15|37->16|37->16|37->16|38->17|38->17|38->17|40->19|41->20|47->26|48->27|49->28|49->28|50->29|55->34|55->34|69->48|69->48|69->48|89->68|89->68|89->68|98->77|98->77|98->77|111->90|111->90|111->90|112->91|112->91|112->91|112->91|113->92|115->94|115->94|115->94|115->94|115->94|115->94|115->94|115->94|115->94|118->97|118->97|118->97|118->97|118->97|118->97|120->99|120->99|120->99|122->101|122->101|122->101|122->101|122->101|122->101|122->101|125->104|125->104|125->104|125->104|125->104|125->104|126->105|126->105|126->105|135->114|136->115|138->117|138->117|140->119|143->122|143->122|143->122|143->122|144->123|144->123|144->123|144->123|145->124|146->125|146->125|146->125|146->125|146->125|146->125|148->127|148->127|148->127|148->127|148->127|152->131|153->132|154->133|158->137|158->137|160->139|162->141|162->141|162->141|163->142|163->142|163->142|164->143|164->143|164->143|165->144|165->144|165->144|166->145|166->145|166->145|167->146|167->146|167->146
+                  DATE: Mon Feb 23 04:23:40 MSK 2015
+                  SOURCE: C:/Users/d1sp/Desktop/NewDropbox/Dropbox/PlayDev/DoneDia/app/views/main.scala.html
+                  HASH: b380dd46a6554fe2cd0565c0f5e989a198cdf8f5
+                  MATRIX: 630->1|919->201|947->203|1392->621|1418->626|1447->627|1945->1098|1960->1104|2015->1138|2084->1180|2099->1186|2157->1223|2210->1249|2225->1255|2301->1310|2360->1353|2402->1367|2652->1607|2685->1613|2771->1671|2800->1672|2833->1678|3129->1947|3157->1948|3671->2435|3686->2441|3727->2461|3810->2517|3825->2523|3875->2552|4465->3115|4480->3121|4521->3141|4911->3504|4926->3510|4967->3530|5058->3594|5073->3600|5123->3629|6275->4753|6332->4800|6373->4802|6420->4821|6434->4825|6448->4829|6495->4837|6546->4859|6786->5071|6801->5075|6847->5110|6894->5117|6925->5118|6984->5148|6998->5151|7025->5155|7060->5157|7326->5395|7340->5399|7377->5425|7426->5434|7457->5436|7489->5442|7688->5613|7702->5617|7769->5661|7975->5839|7989->5843|8025->5868|8073->5876|8104->5878|8148->5896|8179->5897|8397->6087|8411->6091|8452->6121|8500->6129|8531->6131|8562->6136|8675->6221|8691->6227|8755->6268|9176->6657|9223->6672|9268->6689|9297->6696|9342->6712|9514->6856|9531->6863|9545->6867|9595->6878|9658->6913|9675->6920|9689->6924|9739->6935|9806->6973|9967->7105|9984->7111|10032->7148|10072->7158|10089->7164|10119->7169|10313->7335|10329->7341|10372->7373|10410->7381|10440->7386|10655->7569|10714->7596|10765->7618|10863->7688|10907->7710|10947->7722|11007->7754|11023->7760|11098->7813|11184->7871|11200->7877|11268->7923|11354->7981|11370->7987|11430->8025|11516->8083|11532->8089|11615->8150|11701->8208|11717->8214|11780->8255|11866->8313|11882->8319|11937->8352
+                  LINES: 19->1|22->1|23->2|31->10|31->10|31->10|36->15|36->15|36->15|37->16|37->16|37->16|38->17|38->17|38->17|40->19|41->20|47->26|48->27|49->28|49->28|50->29|55->34|55->34|68->47|68->47|68->47|69->48|69->48|69->48|89->68|89->68|89->68|97->76|97->76|97->76|98->77|98->77|98->77|124->103|124->103|124->103|125->104|125->104|125->104|125->104|126->105|128->107|128->107|128->107|128->107|128->107|128->107|128->107|128->107|128->107|131->110|131->110|131->110|131->110|131->110|131->110|133->112|133->112|133->112|135->114|135->114|135->114|135->114|135->114|135->114|135->114|138->117|138->117|138->117|138->117|138->117|138->117|139->118|139->118|139->118|148->127|149->128|151->130|151->130|153->132|156->135|156->135|156->135|156->135|157->136|157->136|157->136|157->136|158->137|159->138|159->138|159->138|159->138|159->138|159->138|161->140|161->140|161->140|161->140|161->140|165->144|166->145|167->146|171->150|171->150|173->152|175->154|175->154|175->154|176->155|176->155|176->155|177->156|177->156|177->156|178->157|178->157|178->157|179->158|179->158|179->158|180->159|180->159|180->159
                   -- GENERATED --
               */
           

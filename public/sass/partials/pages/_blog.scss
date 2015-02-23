@@ -529,3 +529,41 @@
   }
 }
 
+.kon {
+  font-size: .7em;
+  padding-left: 1.4em !important;
+}
+
+.kon-footer {
+    font-size: .7em;
+}
+
+.eugene-author {
+  @include vertical-align-block-wrapper();
+  margin: 0 auto;
+  margin-top: 30px;
+
+  img {
+    @include border-radius(100px);
+    @include vertical-align-block();
+  }
+  p {
+    @include vertical-align-block();
+    padding-left: 30px;
+  }
+}
+
+.eugene-btn-wrapper {
+  text-align: center;
+}
+
+.eugene-btn {
+  font-family: BlissProBold, Arial;
+  font-size: 1em;
+  margin-top: 30px;
+
+  &:hover {
+    color: #986700;
+  }
+}
+

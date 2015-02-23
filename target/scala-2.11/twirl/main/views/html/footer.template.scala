@@ -26,7 +26,7 @@ Seq[Any](format.raw/*1.63*/("""
         <div class="footer-social">
             <h2 class="footer-social__header">Мы в социальных сетях</h2>
             <ul>
-                <li><a class="footer-social__vk" href="#"></a></li>
+                <li><a class="footer-social__vk" href="http://vk.com/diapost" target="_blank"></a></li>
                 <li><a class="footer-social__fb" href="#"></a></li>
                 <li><a class="footer-social__tw" href="#"></a></li>
             </ul>
@@ -57,7 +57,7 @@ Seq[Any](format.raw/*1.63*/("""
             <h2 class="footer-social__header">Статьи</h2>
             <ul>
                 """),_display_(/*38.18*/for(blogCategory <- blogCategories) yield /*38.53*/{_display_(Seq[Any](format.raw/*38.54*/("""
-                    """),format.raw/*39.21*/("""<li><a href=""""),_display_(/*39.35*/routes/*39.41*/.Application.blogCategory(blogCategory._1)),format.raw/*39.83*/("""">"""),_display_(/*39.86*/blogCategory/*39.98*/._2),format.raw/*39.101*/("""</a></li>
+                    """),format.raw/*39.21*/("""<li><a href=""""),_display_(/*39.35*/routes/*39.41*/.Application.blogCategory(blogCategory._1)),format.raw/*39.83*/("""" """),_display_(/*39.86*/if(blogCategory._1.contains("kon-footer"))/*39.128*/{_display_(Seq[Any](format.raw/*39.129*/("""class="kon"""")))}),format.raw/*39.141*/(""">"""),_display_(/*39.143*/blogCategory/*39.155*/._2),format.raw/*39.158*/("""</a></li>
                 """)))}),format.raw/*40.18*/("""
             """),format.raw/*41.13*/("""</ul>
         </div>
@@ -74,11 +74,11 @@ Seq[Any](format.raw/*1.63*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 19 18:03:18 MSK 2015
-                  SOURCE: /home/n0tel/projects/DoneDia/app/views/footer.scala.html
-                  HASH: c3b2df4433f16c31c47956eee0abe7fb92e124ac
-                  MATRIX: 544->1|693->62|721->64|2526->1842|2577->1877|2616->1878|2665->1899|2706->1913|2721->1919|2784->1961|2814->1964|2835->1976|2860->1979|2918->2006|2959->2019
-                  LINES: 19->1|22->1|24->3|59->38|59->38|59->38|60->39|60->39|60->39|60->39|60->39|60->39|60->39|61->40|62->41
+                  DATE: Mon Feb 23 04:24:26 MSK 2015
+                  SOURCE: C:/Users/d1sp/Desktop/NewDropbox/Dropbox/PlayDev/DoneDia/app/views/footer.scala.html
+                  HASH: 43d2c510a3fe30e619efb11e2fa39e10dea46a21
+                  MATRIX: 544->1|693->62|723->66|2599->1915|2650->1950|2689->1951|2739->1973|2780->1987|2795->1993|2858->2035|2888->2038|2940->2080|2980->2081|3024->2093|3054->2095|3076->2107|3101->2110|3160->2138|3202->2152
+                  LINES: 19->1|22->1|24->3|59->38|59->38|59->38|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|61->40|62->41
                   -- GENERATED --
               */
           
