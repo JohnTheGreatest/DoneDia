@@ -66,48 +66,44 @@ Seq[Any](format.raw/*1.94*/("""
                     <p>Мы должны вместе учиться формулировать вопросы, создавать модели преобразования реальности, отличать добро от зла.</p>
                     <p>Мы должны учитывать опыт поколений, изучать мотивы, мировоззрения, ценности — смысловую базу волевых решений и последующих действий.</p>
                     <p>Этот портал призван стать инструментом рефлексии и интеллектуальной самореализации.</p>
-                    <div class="eugene-author">
-                        <img src=""""),_display_(/*64.36*/routes/*64.42*/.Assets.at("images/eugene-photo.jpg")),format.raw/*64.79*/("""" class="eugene-author__photo"/>
-                        <p>Главный редактор - Евгений Иванов</p>
-                    </div>
                     <div class="eugene-btn-wrapper">
-                        <a class="button button-flat-primary eugene-btn" href=""""),_display_(/*68.81*/routes/*68.87*/.Application.blogCategory("")),format.raw/*68.116*/("""">ЧИТАТЬ СТАТЬИ</a>
+                        <a class="button button-flat-primary eugene-btn" href=""""),_display_(/*64.81*/routes/*64.87*/.Application.blogCategory("")),format.raw/*64.116*/("""">ЧИТАТЬ СТАТЬИ</a>
                     </div>
 
                 </article>
             </div>
         </div>
 
-        """),format.raw/*75.27*/("""
-        """),format.raw/*76.9*/("""<script type="text/javascript">(function() """),format.raw/*76.52*/("""{"""),format.raw/*76.53*/("""
-        """),format.raw/*77.9*/("""if (window.pluso)if (typeof window.pluso.start == "function") return;
-        if (window.ifpluso==undefined) """),format.raw/*78.40*/("""{"""),format.raw/*78.41*/(""" """),format.raw/*78.42*/("""window.ifpluso = 1;
+        """),format.raw/*71.27*/("""
+        """),format.raw/*72.9*/("""<script type="text/javascript">(function() """),format.raw/*72.52*/("""{"""),format.raw/*72.53*/("""
+        """),format.raw/*73.9*/("""if (window.pluso)if (typeof window.pluso.start == "function") return;
+        if (window.ifpluso==undefined) """),format.raw/*74.40*/("""{"""),format.raw/*74.41*/(""" """),format.raw/*74.42*/("""window.ifpluso = 1;
         var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
         s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
         s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
         var h=d[g]('body')[0];
         h.appendChild(s);
-        """),format.raw/*84.9*/("""}"""),format.raw/*84.10*/("""}"""),format.raw/*84.11*/(""")();</script>
-        """),format.raw/*85.31*/("""
+        """),format.raw/*80.9*/("""}"""),format.raw/*80.10*/("""}"""),format.raw/*80.11*/(""")();</script>
+        """),format.raw/*81.31*/("""
 
-        """),format.raw/*87.9*/("""<div class="clear"></div>
+        """),format.raw/*83.9*/("""<div class="clear"></div>
 
     </section>
 
-    """),format.raw/*91.31*/("""
-    """),format.raw/*92.5*/("""<script type="text/javascript">
+    """),format.raw/*87.31*/("""
+    """),format.raw/*88.5*/("""<script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'diapost-community'; // required: replace example with your forum shortname
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () """),format.raw/*97.22*/("""{"""),format.raw/*97.23*/("""
-        """),format.raw/*98.9*/("""var s = document.createElement('script'); s.async = true;
+        (function () """),format.raw/*93.22*/("""{"""),format.raw/*93.23*/("""
+        """),format.raw/*94.9*/("""var s = document.createElement('script'); s.async = true;
         s.type = 'text/javascript';
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        """),format.raw/*102.9*/("""}"""),format.raw/*102.10*/("""());
+        """),format.raw/*98.9*/("""}"""),format.raw/*98.10*/("""());
     </script>
-""")))}),format.raw/*104.2*/("""
+""")))}),format.raw/*100.2*/("""
 """))}
   }
 
@@ -120,11 +116,11 @@ Seq[Any](format.raw/*1.94*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Mon Feb 23 16:13:30 MSK 2015
+                  DATE: Tue Feb 24 12:59:54 MSK 2015
                   SOURCE: C:/Users/d1sp/Desktop/NewDropbox/Dropbox/PlayDev/DoneDia/app/views/about/about.scala.html
-                  HASH: c39a6219b0d5408ceaf78a719c77333f71fd4ddd
-                  MATRIX: 565->1|758->93|786->110|813->112|874->165|913->167|944->172|1325->525|1354->526|1491->634|1521->635|1663->748|1693->749|1723->750|1822->1088|1871->1109|2154->1633|2203->1654|2570->1993|2599->1994|2659->2026|2689->2027|2790->2284|2843->2309|4656->4095|4671->4101|4729->4138|5014->4396|5029->4402|5080->4431|5226->4567|5262->4576|5333->4619|5362->4620|5398->4629|5535->4738|5564->4739|5593->4740|5973->5093|6002->5094|6031->5095|6081->5139|6118->5149|6193->5222|6225->5227|6548->5522|6577->5523|6613->5532|6920->5811|6950->5812|7001->5832
-                  LINES: 19->1|22->1|24->4|25->5|25->5|25->5|26->6|34->14|34->14|34->14|34->14|34->14|34->14|34->14|36->22|37->23|41->32|42->33|48->39|48->39|48->39|48->39|50->44|51->45|70->64|70->64|70->64|74->68|74->68|74->68|81->75|82->76|82->76|82->76|83->77|84->78|84->78|84->78|90->84|90->84|90->84|91->85|93->87|97->91|98->92|103->97|103->97|104->98|108->102|108->102|110->104
+                  HASH: 3f17c3aad2817f5286cef35058cd59f1c845c925
+                  MATRIX: 565->1|758->93|786->110|813->112|874->165|913->167|944->172|1325->525|1354->526|1491->634|1521->635|1663->748|1693->749|1723->750|1822->1088|1871->1109|2154->1633|2203->1654|2570->1993|2599->1994|2659->2026|2689->2027|2790->2284|2843->2309|4706->4145|4721->4151|4772->4180|4918->4316|4954->4325|5025->4368|5054->4369|5090->4378|5227->4487|5256->4488|5285->4489|5665->4842|5694->4843|5723->4844|5773->4888|5810->4898|5885->4971|5917->4976|6240->5271|6269->5272|6305->5281|6611->5560|6640->5561|6691->5581
+                  LINES: 19->1|22->1|24->4|25->5|25->5|25->5|26->6|34->14|34->14|34->14|34->14|34->14|34->14|34->14|36->22|37->23|41->32|42->33|48->39|48->39|48->39|48->39|50->44|51->45|70->64|70->64|70->64|77->71|78->72|78->72|78->72|79->73|80->74|80->74|80->74|86->80|86->80|86->80|87->81|89->83|93->87|94->88|99->93|99->93|100->94|104->98|104->98|106->100
                   -- GENERATED --
               */
           
