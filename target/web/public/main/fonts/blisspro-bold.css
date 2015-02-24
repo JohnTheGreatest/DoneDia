@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'BlissProBold';
-    src: url('blisspro-bold.eot');
-    src: url('blisspro-bold.eot') format('embedded-opentype'),
-         url('blisspro-bold.woff') format('woff'),
-         url('blisspro-bold.ttf') format('truetype'),
-         url('blisspro-bold.svg#BlissProBold') format('svg');
-}
