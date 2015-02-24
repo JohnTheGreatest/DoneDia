@@ -13,6 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- ADD all SEO meta and OpenGraph -->
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.ico")"/>
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/main.css")">
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/animate.css")">
         <script src="@routes.Assets.at("javascripts/vendor/modernizr-2.6.2.min.js")"></script>
@@ -29,7 +30,7 @@
             <nav>
                 <ul>
                     @blogCategories.map{cat=>
-                        <li><a href="@routes.Application.blogCategory(cat._1)">@cat._2</a></li>
+                        <li><a href="@routes.Application.blogCategory(cat._1)" @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
                     }
                 </ul>
             </nav>
@@ -45,7 +46,7 @@
                     <div class="logo-wrapper">
                         <a href="@routes.Application.index()" class="logo">
                             <p class="logo__name">ДИАПОСТ</p>
-                            <h1 class="logo__descr">Информационно-аналитический<br/>молодежный портал</h1>
+                            <h1 class="logo__descr">Молодежный информационно-<br/>аналитический портал</h1>
                         </a>
                     </div>
                 </div>
@@ -79,9 +80,9 @@
             <div class="container">
 
                 <div class="db-blog__body__utility">
-                    <div class="dg-blog__body__author">
+                    <a href="@routes.Application.author(author.id, author.slug)" class="dg-blog__body__author">
                         <img src="@author.getImage("author.image", "authorthumb").map{imgUrl=>@imgUrl.url}"/>
-                    </div>
+                    </a>
 
                     @* PLUSO script *@
                     <script type="text/javascript">(function() {

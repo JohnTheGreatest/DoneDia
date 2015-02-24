@@ -54,8 +54,9 @@ $(document).ready(function(){
     function refreshPostBlock($postBlock, postData) {
         // Меняем категорию
         $postBlock.find('.dg-feed__info__util__sector').text(postData.category);
-        // Ссылку
+        // Ссылки
         $postBlock.find('.dg-feed__image').attr('href', '/' + postData.id + '/' + postData.slug);
+        $postBlock.find('.dg-feed__info__header').attr('href', '/' + postData.id + '/' + postData.slug);
         // Картинку
         $postBlock.find('.dg-feed__image').css('background-image', 'url(' + postData.thumbUrl + ')');
         // Время на прочтение
@@ -74,7 +75,7 @@ $(document).ready(function(){
     }
     
     // Нажатие на категорию из выпадающего списка
-    $dropdownContainer.find("dd ul li a").click(function(){
+    $dropdownContainer.find("dd ul li a").click(function(e){
         var $this = $(this);
 
         // проверка, выбрана текущая категория или другая

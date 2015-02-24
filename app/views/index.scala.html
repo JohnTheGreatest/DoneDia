@@ -1,8 +1,8 @@
-@(posts: Seq[io.prismic.Document], authors: Seq[io.prismic.Document], blogCategories: collection.immutable.ListMap[String,String])(implicit ctx: Prismic.Context)
+@(posts: Seq[io.prismic.Document], firstPost: Seq[io.prismic.Document], authors: Seq[io.prismic.Document], blogCategories: collection.immutable.ListMap[String,String])(implicit ctx: Prismic.Context)
 
 @import Html._
 
-@main("Информационно-аналитический молодежный портал", Option("big"), Option(posts.take(1).head), Option(authors), blogCategories = blogCategories){
+@main("Молодёжный информационно-аналитический портал", Option("big"), Option(firstPost.take(1).head), Option(authors), blogCategories = blogCategories){
     <section class="dg-feed">
         <div class="container">
             <div class="dg-feed__filter">
@@ -12,15 +12,9 @@
                     <dd>
                         <ul>
                             <li><a class="default selected">Все разделы</a></li>
-                            <li><a>Известия</a></li>
-                            <li><a>К.О.Н.</a></li>
-                            <li><a>Смысловое взаимодействие</a></li>
-                            <li><a>Хранилище образов</a></li>
-                            <li><a>Домостроительство</a></li>
-                            <li><a>Преображение действительности</a></li>
-                            <li><a>Сетевое добровольчество</a></li>
-                            <li><a>Властеправие</a></li>
-                            <li><a>Мировоззрение</a></li>
+                            @blogCategories.map{cat=>
+                                <li><a @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
+                            }
                         </ul>
                     </dd>
                 </dl>
@@ -108,7 +102,7 @@
                                     <hr class="delimeter-white">
                                     <ul class="dg-feed__info__actions">
                                         <li>
-                                     @*       <div class="pluso dg-feed__info__actions--repost" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="" data-url="@routes.Application.blogPost(post.id, post.slug)" data-user="1194849155"></div> *@
+                                            @*       <div class="pluso dg-feed__info__actions--repost" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="" data-url="@routes.Application.blogPost(post.id, post.slug)" data-user="1194849155"></div> *@
                                         </li>
                                         <li>
                                             <a href="#" class="dg-feed__info__actions--like"></a>

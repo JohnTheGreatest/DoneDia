@@ -1,6 +1,6 @@
-// @SOURCE:/home/n0tel/projects/DoneDia/conf/routes
-// @HASH:875b351b2dc5e7090cd86cdfb3de73c9ad6c3a51
-// @DATE:Thu Feb 19 17:23:49 MSK 2015
+// @SOURCE:C:/Users/d1sp/Desktop/NewDropbox/Dropbox/PlayDev/DoneDia/conf/routes
+// @HASH:9ebcc4c7f41aad8b33f3623448411acd93e69faf
+// @DATE:Mon Feb 23 15:39:47 MSK 2015
 
 package controllers;
 

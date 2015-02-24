@@ -8,10 +8,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>@title - Диапост.ру</title>
-        <meta name="description" content="Гостиницы Риги приглашают гостей на незабываемый отдых. Доступные цены в гостинице в Риге приятно удивят. Вы легко можете забронировать номер.">
+        <meta name="description" content="Диапост - это неожиданный ракурс, когда мы говорим на современном языке о вечных ценностях: вере, любви, семье, Родине, правде, справедливости, братстве.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- ADD all SEO meta and OpenGraph -->
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.ico")"/>
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/main.css")">
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/animate.css")">
         <script src="@routes.Assets.at("javascripts/vendor/modernizr-2.6.2.min.js")"></script>
@@ -44,9 +45,9 @@
 
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="#">О проекте</a></li>
+                    <li><a href="@routes.Application.about()">О проекте</a></li>
                     <li><a href="@routes.Application.blogCategory("")">Статьи</a></li>
-                    <li><a href="#">Авторы</a></li>
+                    <!--<li><a href="#">Авторы</a></li>-->
                 </ul>
             </nav>
 
@@ -67,21 +68,34 @@
                     <div class="logo-wrapper">
                         <a href="@routes.Application.index()" class="logo">
                             <p class="logo__name">ДИАПОСТ</p>
-                            <h1 class="logo__descr">Информационно-аналитический<br/>молодежный портал</h1>
+                            <h1 class="logo__descr">Молодежный информационно-<br/>аналитический портал</h1>
                         </a>
                     </div>
 
                     <nav class="topmenu">
                         <ul>
-                            <li><a href="#">О ПРОЕКТЕ</a></li>
+                            <li><a href="@routes.Application.about()" @if(title=="О проекте"){class="topmenu-active"}>О ПРОЕКТЕ</a></li>
                             <li><a href="@routes.Application.blogCategory("")">СТАТЬИ</a></li>
-                            <li><a href="#">АВТОРЫ</a></li>
-                            <li><a href="#">ПОИСК</a><span class="search-icon"></span></li>
+                            <li><a href="@routes.Application.authors()" @if(title=="Авторы"){class="topmenu-active"}>АВТОРЫ</a></li>
+                            <!--<li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
                             <!--<li><a href="#">ВОЙТИ</a><span class="person-icon"></span></li>-->
                         </ul>
                     </nav>
 
-                    <a class="button button-flat-primary dg-header__btn" href="#">ИЩЕМ АВТОРОВ</a>
+                    <!--<a class="button button-flat-primary dg-header__btn" href="#">ИЩЕМ АВТОРОВ</a>-->
+                    <div class="dg-header__btn social-btns">
+                        <ul>
+                            <li>
+                                <a href="http://vk.com/diapost" target="_blank" class="vkontakte-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="facebook-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter-icon"></a>
+                            </li>
+                        </ul>
+                    </div>
 
                 </div>
 
@@ -122,7 +136,7 @@
                         @authors.map{authors =>
                                 @authors.map{ author =>
                                     <li>
-                                        <a class="dg-team__person box-6col-horizont-imgwrapper" style="background-image: url(@author.getImage("author.image", "main").map{imgUrl=>@imgUrl.url})">
+                                        <a href="@routes.Application.author(author.id, author.slug)" class="dg-team__person box-6col-horizont-imgwrapper" style="background-image: url(@author.getImage("author.image", "main").map{imgUrl=>@imgUrl.url})">
                                             <div class="dg-team__person__hover flag">
                                                 <span class="flag__body">@author.getText("author.full_name").map{name=>@name}</span>
                                             </div>

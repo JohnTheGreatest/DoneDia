@@ -8,11 +8,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> - Диапост.ру</title>
-        <meta name="description" content="">
+        <title>@selectedCategory - Диапост.ру</title>
+        <meta name="description" content="Диапост - это неожиданный ракурс, когда мы говорим на современном языке о вечных ценностях: вере, любви, семье, Родине, правде, справедливости, братстве.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- ADD all SEO meta and OpenGraph -->
             <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.ico")"/>
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/main.css")">
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/animate.css")">
         <script src="@routes.Assets.at("javascripts/vendor/modernizr-2.6.2.min.js")"></script>
@@ -46,7 +47,7 @@
             <nav>
                 <ul>
                 @blogCategories.map{cat=>
-                    <li><a href="@routes.Application.blogCategory(cat._1)">@cat._2</a></li>
+                    <li><a href="@routes.Application.blogCategory(cat._1)" @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
                 }
                 </ul>
             </nav>
@@ -62,7 +63,7 @@
                     <div class="logo-wrapper">
                         <a href="@routes.Application.index()" class="logo">
                             <p class="logo__name">ДИАПОСТ</p>
-                            <h1 class="logo__descr">Информационно-аналитический<br/>молодежный портал</h1>
+                            <h1 class="logo__descr">Молодежный информационно-<br/>аналитический портал</h1>
                         </a>
                     </div>
                 </div>
@@ -78,7 +79,7 @@
                                 <ul>
                                     <li><a class="default@if(selectedCategory.isEmpty){ selected}">Все разделы</a></li>
                                     @for(cat <- blogCategories){
-                                        <li><a @if(selectedCategory.isDefined && cat._2 == selectedCategory.get){class="selected"}>@cat._2</a></li>
+                                        <li><a @if(selectedCategory.isDefined && cat._2 == selectedCategory.get){class="selected"} @if(cat._1.contains("kon")){class="kon"}>@cat._2</a></li>
                                     }
                                 </ul>
                             </dd>

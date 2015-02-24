@@ -34,6 +34,9 @@ object Application extends Controller {
     // Blog
     case (Fragment.DocumentLink(id, "blog-posts", _, slug, false), _) => routes.Application.blogPost(id, slug).absoluteURL()
 
+    // Author
+    case (Fragment.DocumentLink(id, "authors", _, slug, false), _) => routes.Application.author(id, slug).absoluteURL()
+
     case anyOtherLink => routes.Application.brokenLink.absoluteURL()
   }
 
@@ -44,9 +47,18 @@ object Application extends Controller {
         .pageSize(4)
         .ref(ctx.ref)
         .submit()
+      firstPost <- ctx.api.forms("blog-posts")
+        .query(s"""[[:d = at(my.blog.first, "Yes")]]""")
+        .pageSize(1)
+        .ref(ctx.ref)
+        .submit()
     } yield {
-      Ok(views.html.index(posts.results, authors.results, BlogCategories))
+      Ok(views.html.index(posts.results, firstPost.results, authors.results, BlogCategories))
     }
+  }
+
+  def about = Prismic.action { implicit request =>
+    Future.successful(Ok(views.html.about.about(BlogCategories)))
   }
 
 
@@ -115,10 +127,10 @@ object Application extends Controller {
     "vlast" -> "Власть",
     "domostroitelstvo" -> "Домостроительство",
     "obshestvo" -> "Общество",
-    "kon" -> "К.О.Н.",
+    "kon" -> "Культура.Образование.Наука",
     "mirovozzrenie" -> "Мировоззрение",
     "letopis" -> "Летопись",
-    "obrazi" -> "Хранилище образов"
+    "obrazi" -> "Образы"
   )
 
   def blogPost(id: String, slug: String) = Prismic.action { implicit request =>
@@ -137,6 +149,27 @@ object Application extends Controller {
       checkSlug(maybePost, slug) {
         case Left(newSlug) => MovedPermanently(routes.Application.blogPost(id, newSlug).url)
         case Right(post)   => Ok(views.html.post.postDetail(post, relatedPosts, author.get, BlogCategories, jumbo))
+      }
+    }
+  }
+
+  def authors = Prismic.action { implicit request =>
+    for {
+      authors <- ctx.api.forms("authors")
+        .ref(ctx.ref)
+        .submit()
+    } yield {
+      Ok(views.html.authors.authors(authors.results, BlogCategories))
+    }
+  }
+
+  def author(id: String, slug: String) = Prismic.action { implicit request =>
+    for {
+      author <- getDocument(id)
+    } yield {
+      checkSlug(author, slug) {
+        case Left(newSlug) => MovedPermanently(routes.Application.author(id, newSlug).url)
+        case Right(author)   => Ok(views.html.authors.author(author, BlogCategories))
       }
     }
   }
