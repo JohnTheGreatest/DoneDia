@@ -1,4 +1,4 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\conf\application.conf,C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\target\scala-2.11\classes\application.conf)[0m
-[0m[[0mdebug[0m] [0m	(C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\conf\play.plugins,C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\target\scala-2.11\classes\play.plugins)[0m
-[0m[[0mdebug[0m] [0m	(C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\conf\routes,C:\Users\d1sp\Desktop\NewDropbox\Dropbox\PlayDev\DoneDia\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/n0tel/projects/DoneDia/conf/play.plugins,/home/n0tel/projects/DoneDia/target/scala-2.11/classes/play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(/home/n0tel/projects/DoneDia/conf/application.conf,/home/n0tel/projects/DoneDia/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/n0tel/projects/DoneDia/conf/routes,/home/n0tel/projects/DoneDia/target/scala-2.11/classes/routes)[0m

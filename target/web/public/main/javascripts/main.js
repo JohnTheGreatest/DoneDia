@@ -211,7 +211,7 @@ $(document).ready(function(){
         $btn.attr('disabled', 'disabled');
         // получаем номер страницы и категорию, которые необходимо загрузить
         var $selectedItem = $dropdownContainer.find('ul .selected');
-        var page = $btn.attr('data-next-page');
+        var page = parseInt($btn.attr('data-next-page'));
         // Отправляем запрос
         var url = '/blogAjax?page=' + page;
         if(!$selectedItem.hasClass('default')){
