@@ -130,7 +130,8 @@ object Application extends Controller {
     "kon" -> "Культура.Образование.Наука",
     "mirovozzrenie" -> "Мировоззрение",
     "letopis" -> "Летопись",
-    "obrazi" -> "Образы"
+    "obrazi" -> "Образы",
+    "preobrazenie" -> "Преображение мира"
   )
 
   def blogPost(id: String, slug: String) = Prismic.action { implicit request =>

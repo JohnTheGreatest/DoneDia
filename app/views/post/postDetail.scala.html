@@ -81,7 +81,10 @@
 
                 <div class="db-blog__body__utility">
                     <a href="@routes.Application.author(author.id, author.slug)" class="dg-blog__body__author">
-                        <img src="@author.getImage("author.image", "authorthumb").map{imgUrl=>@imgUrl.url}"/>
+                        <div class="dg-blog__body__author--wrapper">
+                            <img src="@author.getImage("author.image", "authorthumb").map{imgUrl=>@imgUrl.url}"/>
+                            <p class="dg-blog__body__author__author-text">@author.getText("author.full_name").map{name=>@name}</p>
+                        </div>
                     </a>
 
                     @* PLUSO script *@
