@@ -62,35 +62,7 @@ Seq[Any](format.raw/*1.63*/("""
             """),format.raw/*41.13*/("""</ul>
         </div>
     </div>
-</footer>
-
-<!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-    (function (d, w, c) """),format.raw/*48.25*/("""{"""),format.raw/*48.26*/("""
-    """),format.raw/*49.5*/("""(w[c] = w[c] || []).push(function() """),format.raw/*49.41*/("""{"""),format.raw/*49.42*/("""
-    """),format.raw/*50.5*/("""try """),format.raw/*50.9*/("""{"""),format.raw/*50.10*/("""
-    """),format.raw/*51.5*/("""w.yaCounter28644136 = new Ya.Metrika("""),format.raw/*51.42*/("""{"""),format.raw/*51.43*/("""id:28644136,
-    webvisor:true,
-    clickmap:true,
-    trackLinks:true,
-    accurateTrackBounce:true"""),format.raw/*55.29*/("""}"""),format.raw/*55.30*/(""");
-    """),format.raw/*56.5*/("""}"""),format.raw/*56.6*/(""" """),format.raw/*56.7*/("""catch(e) """),format.raw/*56.16*/("""{"""),format.raw/*56.17*/(""" """),format.raw/*56.18*/("""}"""),format.raw/*56.19*/("""
-    """),format.raw/*57.5*/("""}"""),format.raw/*57.6*/(""");
-
-    var n = d.getElementsByTagName("script")[0],
-    s = d.createElement("script"),
-    f = function () """),format.raw/*61.21*/("""{"""),format.raw/*61.22*/(""" """),format.raw/*61.23*/("""n.parentNode.insertBefore(s, n); """),format.raw/*61.56*/("""}"""),format.raw/*61.57*/(""";
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-    if (w.opera == "[object Opera]") """),format.raw/*66.38*/("""{"""),format.raw/*66.39*/("""
-    """),format.raw/*67.5*/("""d.addEventListener("DOMContentLoaded", f, false);
-    """),format.raw/*68.5*/("""}"""),format.raw/*68.6*/(""" """),format.raw/*68.7*/("""else """),format.raw/*68.12*/("""{"""),format.raw/*68.13*/(""" """),format.raw/*68.14*/("""f(); """),format.raw/*68.19*/("""}"""),format.raw/*68.20*/("""
-    """),format.raw/*69.5*/("""}"""),format.raw/*69.6*/(""")(document, window, "yandex_metrika_callbacks");
-    </script>
-    <noscript><div><img src="//mc.yandex.ru/watch/28644136" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->"""))}
+</footer>"""))}
   }
 
   def render(blogCategories:collection.immutable.ListMap[String, String]): play.twirl.api.HtmlFormat.Appendable = apply(blogCategories)
@@ -102,11 +74,11 @@ Seq[Any](format.raw/*1.63*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 26 00:49:19 MSK 2015
-                  SOURCE: /home/n0tel/projects/DoneDia/app/views/footer.scala.html
-                  HASH: 0787aab3f69500f51518ef8150fac94d2b6a3246
-                  MATRIX: 544->1|693->62|721->64|2562->1878|2613->1913|2652->1914|2701->1935|2742->1949|2757->1955|2820->1997|2850->2000|2902->2042|2942->2043|2986->2055|3016->2057|3038->2069|3063->2072|3121->2099|3162->2112|3325->2247|3354->2248|3386->2253|3450->2289|3479->2290|3511->2295|3542->2299|3571->2300|3603->2305|3668->2342|3697->2343|3825->2443|3854->2444|3888->2451|3916->2452|3944->2453|3981->2462|4010->2463|4039->2464|4068->2465|4100->2470|4128->2471|4264->2579|4293->2580|4322->2581|4383->2614|4412->2615|4636->2811|4665->2812|4697->2817|4778->2871|4806->2872|4834->2873|4867->2878|4896->2879|4925->2880|4958->2885|4987->2886|5019->2891|5047->2892
-                  LINES: 19->1|22->1|24->3|59->38|59->38|59->38|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|61->40|62->41|69->48|69->48|70->49|70->49|70->49|71->50|71->50|71->50|72->51|72->51|72->51|76->55|76->55|77->56|77->56|77->56|77->56|77->56|77->56|77->56|78->57|78->57|82->61|82->61|82->61|82->61|82->61|87->66|87->66|88->67|89->68|89->68|89->68|89->68|89->68|89->68|89->68|89->68|90->69|90->69
+                  DATE: Sun Mar 22 12:29:55 MSK 2015
+                  SOURCE: C:/Users/d1sp/Desktop/Girhub/DoneDia/DoneDia/app/views/footer.scala.html
+                  HASH: 43d2c510a3fe30e619efb11e2fa39e10dea46a21
+                  MATRIX: 544->1|693->62|723->66|2599->1915|2650->1950|2689->1951|2739->1973|2780->1987|2795->1993|2858->2035|2888->2038|2940->2080|2980->2081|3024->2093|3054->2095|3076->2107|3101->2110|3160->2138|3202->2152
+                  LINES: 19->1|22->1|24->3|59->38|59->38|59->38|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|61->40|62->41
                   -- GENERATED --
               */
           

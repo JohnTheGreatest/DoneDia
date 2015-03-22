@@ -47,15 +47,52 @@ Seq[Any](format.raw/*1.162*/("""
         
     </head>
     <body>
-        """),format.raw/*29.27*/("""
-    """),format.raw/*30.5*/("""<div id="fb-root"></div>
-    <script>(function(d, s, id) """),format.raw/*31.33*/("""{"""),format.raw/*31.34*/("""
-    """),format.raw/*32.5*/("""var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=796700970371157&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-    """),format.raw/*37.5*/("""}"""),format.raw/*37.6*/("""(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+        (function (d, w, c) """),format.raw/*32.29*/("""{"""),format.raw/*32.30*/("""
+        """),format.raw/*33.9*/("""(w[c] = w[c] || []).push(function() """),format.raw/*33.45*/("""{"""),format.raw/*33.46*/("""
+        """),format.raw/*34.9*/("""try """),format.raw/*34.13*/("""{"""),format.raw/*34.14*/("""
+        """),format.raw/*35.9*/("""w.yaCounter28644136 = new Ya.Metrika("""),format.raw/*35.46*/("""{"""),format.raw/*35.47*/("""id:28644136,
+        webvisor:true,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true"""),format.raw/*39.33*/("""}"""),format.raw/*39.34*/(""");
+        """),format.raw/*40.9*/("""}"""),format.raw/*40.10*/(""" """),format.raw/*40.11*/("""catch(e) """),format.raw/*40.20*/("""{"""),format.raw/*40.21*/(""" """),format.raw/*40.22*/("""}"""),format.raw/*40.23*/("""
+        """),format.raw/*41.9*/("""}"""),format.raw/*41.10*/(""");
+
+        var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () """),format.raw/*45.25*/("""{"""),format.raw/*45.26*/(""" """),format.raw/*45.27*/("""n.parentNode.insertBefore(s, n); """),format.raw/*45.60*/("""}"""),format.raw/*45.61*/(""";
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") """),format.raw/*50.42*/("""{"""),format.raw/*50.43*/("""
+        """),format.raw/*51.9*/("""d.addEventListener("DOMContentLoaded", f, false);
+        """),format.raw/*52.9*/("""}"""),format.raw/*52.10*/(""" """),format.raw/*52.11*/("""else """),format.raw/*52.16*/("""{"""),format.raw/*52.17*/(""" """),format.raw/*52.18*/("""f(); """),format.raw/*52.23*/("""}"""),format.raw/*52.24*/("""
+        """),format.raw/*53.9*/("""}"""),format.raw/*53.10*/(""")(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="//mc.yandex.ru/watch/28644136" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+
+        <!--LiveInternet counter--><script type="text/javascript"><!--
+        new Image().src = "//counter.yadro.ru/hit?r"+
+        escape(document.referrer)+((typeof(screen)=="undefined")?"":
+        ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+        screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+        ";h"+escape(document.title.substring(0,80))+
+        ";"+Math.random();//--></script><!--/LiveInternet-->
+
+        """),format.raw/*66.27*/("""
+        """),format.raw/*67.9*/("""<div id="fb-root"></div>
+        <script>(function(d, s, id) """),format.raw/*68.37*/("""{"""),format.raw/*68.38*/("""
+        """),format.raw/*69.9*/("""var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=796700970371157&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        """),format.raw/*74.9*/("""}"""),format.raw/*74.10*/("""(document, 'script', 'facebook-jssdk'));</script>
         
             <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -67,10 +104,10 @@ Seq[Any](format.raw/*1.162*/("""
             <button type="button" class="overlay-close">Close</button>
             <nav>
                 <ul>
-                """),_display_(/*49.18*/blogCategories/*49.32*/.map/*49.36*/{cat=>_display_(Seq[Any](format.raw/*49.42*/("""
-                    """),format.raw/*50.21*/("""<li><a href=""""),_display_(/*50.35*/routes/*50.41*/.Application.blogCategory(cat._1)),format.raw/*50.74*/("""" """),_display_(/*50.77*/if(cat._1.contains("kon"))/*50.103*/{_display_(Seq[Any](format.raw/*50.104*/("""class="kon"""")))}),format.raw/*50.116*/(""">"""),_display_(/*50.118*/cat/*50.121*/._2),format.raw/*50.124*/("""</a></li>
-                """)))}),format.raw/*51.18*/("""
-                """),format.raw/*52.17*/("""</ul>
+                """),_display_(/*86.18*/blogCategories/*86.32*/.map/*86.36*/{cat=>_display_(Seq[Any](format.raw/*86.42*/("""
+                    """),format.raw/*87.21*/("""<li><a href=""""),_display_(/*87.35*/routes/*87.41*/.Application.blogCategory(cat._1)),format.raw/*87.74*/("""" """),_display_(/*87.77*/if(cat._1.contains("kon"))/*87.103*/{_display_(Seq[Any](format.raw/*87.104*/("""class="kon"""")))}),format.raw/*87.116*/(""">"""),_display_(/*87.118*/cat/*87.121*/._2),format.raw/*87.124*/("""</a></li>
+                """)))}),format.raw/*88.18*/("""
+                """),format.raw/*89.17*/("""</ul>
             </nav>
         </div>
 
@@ -82,7 +119,7 @@ Seq[Any](format.raw/*1.162*/("""
                         <button class="ir icon-navigation" id="trigger-overlay" type="button"></button>
                     </div>
                     <div class="logo-wrapper">
-                        <a href=""""),_display_(/*64.35*/routes/*64.41*/.Application.index()),format.raw/*64.61*/("""" class="logo">
+                        <a href=""""),_display_(/*101.35*/routes/*101.41*/.Application.index()),format.raw/*101.61*/("""" class="logo">
                             <p class="logo__name">ДИАПОСТ</p>
                             <h1 class="logo__descr">Молодежный информационно-<br/>аналитический портал</h1>
                         </a>
@@ -95,14 +132,14 @@ Seq[Any](format.raw/*1.162*/("""
                     <div class="dg-feed__filter">
                         <p class="dg-feed__filter__choose">Выберите раздел</p>
                         <dl class="dg-feed_filter__section dropdown">
-                            <dt><a><span class="dg-feed_filter__section__content">"""),_display_(/*77.84*/selectedCategory/*77.100*/.getOrElse("ВСЕ РАЗДЕЛЫ")),format.raw/*77.125*/("""</span><span class="icon-arrow-down"></span></a></dt>
+                            <dt><a><span class="dg-feed_filter__section__content">"""),_display_(/*114.84*/selectedCategory/*114.100*/.getOrElse("ВСЕ РАЗДЕЛЫ")),format.raw/*114.125*/("""</span><span class="icon-arrow-down"></span></a></dt>
                             <dd>
                                 <ul>
-                                    <li><a class="default"""),_display_(/*80.59*/if(selectedCategory.isEmpty)/*80.87*/{_display_(Seq[Any](format.raw/*80.88*/(""" """),format.raw/*80.89*/("""selected""")))}),format.raw/*80.98*/("""">Все разделы</a></li>
-                                    """),_display_(/*81.38*/for(cat <- blogCategories) yield /*81.64*/{_display_(Seq[Any](format.raw/*81.65*/("""
-                                        """),format.raw/*82.41*/("""<li><a """),_display_(/*82.49*/if(selectedCategory.isDefined && cat._2 == selectedCategory.get)/*82.113*/{_display_(Seq[Any](format.raw/*82.114*/("""class="selected"""")))}),format.raw/*82.131*/(""" """),_display_(/*82.133*/if(cat._1.contains("kon"))/*82.159*/{_display_(Seq[Any](format.raw/*82.160*/("""class="kon"""")))}),format.raw/*82.172*/(""">"""),_display_(/*82.174*/cat/*82.177*/._2),format.raw/*82.180*/("""</a></li>
-                                    """)))}),format.raw/*83.38*/("""
-                                """),format.raw/*84.33*/("""</ul>
+                                    <li><a class="default"""),_display_(/*117.59*/if(selectedCategory.isEmpty)/*117.87*/{_display_(Seq[Any](format.raw/*117.88*/(""" """),format.raw/*117.89*/("""selected""")))}),format.raw/*117.98*/("""">Все разделы</a></li>
+                                    """),_display_(/*118.38*/for(cat <- blogCategories) yield /*118.64*/{_display_(Seq[Any](format.raw/*118.65*/("""
+                                        """),format.raw/*119.41*/("""<li><a """),_display_(/*119.49*/if(selectedCategory.isDefined && cat._2 == selectedCategory.get)/*119.113*/{_display_(Seq[Any](format.raw/*119.114*/("""class="selected"""")))}),format.raw/*119.131*/(""" """),_display_(/*119.133*/if(cat._1.contains("kon"))/*119.159*/{_display_(Seq[Any](format.raw/*119.160*/("""class="kon"""")))}),format.raw/*119.172*/(""">"""),_display_(/*119.174*/cat/*119.177*/._2),format.raw/*119.180*/("""</a></li>
+                                    """)))}),format.raw/*120.38*/("""
+                                """),format.raw/*121.33*/("""</ul>
                             </dd>
                         </dl>
                     </div>
@@ -113,124 +150,124 @@ Seq[Any](format.raw/*1.162*/("""
                         <ul class="clear">
                             <li>
                                 <a href="https://twitter.com/share" class="twitter-share-button" data-via="diapost" data-hashtags="diapost">Tweet</a>
-                                <script>!function(d,s,id)"""),format.raw/*95.58*/("""{"""),format.raw/*95.59*/("""var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id))"""),format.raw/*95.167*/("""{"""),format.raw/*95.168*/("""js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);"""),format.raw/*95.281*/("""}"""),format.raw/*95.282*/("""}"""),format.raw/*95.283*/("""(document, 'script', 'twitter-wjs');</script>
+                                <script>!function(d,s,id)"""),format.raw/*132.58*/("""{"""),format.raw/*132.59*/("""var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id))"""),format.raw/*132.167*/("""{"""),format.raw/*132.168*/("""js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);"""),format.raw/*132.281*/("""}"""),format.raw/*132.282*/("""}"""),format.raw/*132.283*/("""(document, 'script', 'twitter-wjs');</script>
 
-                                """),format.raw/*103.35*/("""
-                            """),format.raw/*104.29*/("""</li>
+                                """),format.raw/*140.35*/("""
+                            """),format.raw/*141.29*/("""</li>
 
                             <li>
                                 <div class="fb-like" data-href="http://www.diapost.ru/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                                """),format.raw/*113.35*/("""
-                            """),format.raw/*114.29*/("""</li>
+                                """),format.raw/*150.35*/("""
+                            """),format.raw/*151.29*/("""</li>
 
                             <li>
                                 <a href="#" class="dg-feed__social__vkontakte">
                                         <!-- Put this script tag to the place, where the Share button will be -->
                                     <script type="text/javascript"><!--
-                                    document.write(VK.Share.button(false,"""),format.raw/*120.74*/("""{"""),format.raw/*120.75*/("""type: "round", text: "Сохранить""""),format.raw/*120.107*/("""}"""),format.raw/*120.108*/("""));
+                                    document.write(VK.Share.button(false,"""),format.raw/*157.74*/("""{"""),format.raw/*157.75*/("""type: "round", text: "Сохранить""""),format.raw/*157.107*/("""}"""),format.raw/*157.108*/("""));
                                     --></script>
-                                    """),format.raw/*125.39*/("""
-                                """),format.raw/*126.33*/("""</a>
+                                    """),format.raw/*162.39*/("""
+                                """),format.raw/*163.33*/("""</a>
                             </li>
                         </ul>
 
                     </div>
                 </div>
 
-                """),format.raw/*133.35*/("""
-                """),format.raw/*134.17*/("""<script type="text/javascript">(function() """),format.raw/*134.60*/("""{"""),format.raw/*134.61*/("""
-                """),format.raw/*135.17*/("""if (window.pluso)if (typeof window.pluso.start == "function") return;
-                if (window.ifpluso==undefined) """),format.raw/*136.48*/("""{"""),format.raw/*136.49*/(""" """),format.raw/*136.50*/("""window.ifpluso = 1;
+                """),format.raw/*170.35*/("""
+                """),format.raw/*171.17*/("""<script type="text/javascript">(function() """),format.raw/*171.60*/("""{"""),format.raw/*171.61*/("""
+                """),format.raw/*172.17*/("""if (window.pluso)if (typeof window.pluso.start == "function") return;
+                if (window.ifpluso==undefined) """),format.raw/*173.48*/("""{"""),format.raw/*173.49*/(""" """),format.raw/*173.50*/("""window.ifpluso = 1;
                 var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
                 s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
                 s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
                 var h=d[g]('body')[0];
                 h.appendChild(s);
-                """),format.raw/*142.17*/("""}"""),format.raw/*142.18*/("""}"""),format.raw/*142.19*/(""")();</script>
-                """),format.raw/*143.39*/("""
+                """),format.raw/*179.17*/("""}"""),format.raw/*179.18*/("""}"""),format.raw/*179.19*/(""")();</script>
+                """),format.raw/*180.39*/("""
 
-                """),format.raw/*145.17*/("""<div class="container-metro dg-feed__content">
-                """),_display_(/*146.18*/for((post, count) <- (posts.map(p => Some(p)) ++ List(None, None, None, None)).take(4).zipWithIndex) yield /*146.118*/{_display_(Seq[Any](format.raw/*146.119*/("""
-                    """),_display_(/*147.22*/if(count == 0)/*147.36*/ {_display_(Seq[Any](format.raw/*147.38*/("""
-                    """),format.raw/*148.21*/("""<div class="box-6col" """),_display_(/*148.44*/if(post.isEmpty)/*148.60*/{_display_(Seq[Any](format.raw/*148.61*/("""style="display: none;"""")))}),format.raw/*148.84*/(""">
-                    """)))}),format.raw/*149.22*/("""
-                    """),_display_(/*150.22*/if(count == 1 || count == 2)/*150.50*/ {_display_(Seq[Any](format.raw/*150.52*/("""
-                    """),format.raw/*151.21*/("""<div class="box-6col-horizont" """),_display_(/*151.53*/if(post.isEmpty)/*151.69*/{_display_(Seq[Any](format.raw/*151.70*/("""style="display: none;"""")))}),format.raw/*151.93*/(""">
-                    """)))}),format.raw/*152.22*/("""
-                    """),_display_(/*153.22*/if(count == 3)/*153.36*/{_display_(Seq[Any](format.raw/*153.37*/("""
-                        """),format.raw/*154.25*/("""<div class="box-12col-horizont" """),_display_(/*154.58*/if(post.isEmpty)/*154.74*/{_display_(Seq[Any](format.raw/*154.75*/("""style="display: none;"""")))}),format.raw/*154.98*/(""">
-                    """)))}),format.raw/*155.22*/("""
-                        """),_display_(/*156.26*/if(post.isDefined)/*156.44*/{_display_(Seq[Any](format.raw/*156.45*/("""
-                            """),format.raw/*157.29*/("""<a href=""""),_display_(/*157.39*/routes/*157.45*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*157.94*/("""" class="dg-feed__image """),_display_(/*157.119*/{if(count != 3) " box-6col-imgwrapper" else ""}),format.raw/*157.166*/(""" """),_display_(/*157.168*/{if(count != 0) " feed--arrow" else ""}),format.raw/*157.207*/(""" """),_display_(/*157.209*/{if(count == 2) " box--left" else ""}),format.raw/*157.246*/(""" """),_display_(/*157.248*/{if(count == 3) " box-3col-horizont-imgwrapper box-6col-horizont-imgwrapper" else ""}),format.raw/*157.333*/("""" """),_display_(/*157.336*/post/*157.340*/.get.getImage("blog.image", "postthumb").map/*157.384*/{img =>_display_(Seq[Any](format.raw/*157.391*/(""" """),format.raw/*157.392*/("""style="background-image: url("""),_display_(/*157.422*/img/*157.425*/.url),format.raw/*157.429*/(""")"""")))}),format.raw/*157.432*/(""" """),format.raw/*157.433*/(""">
-                        """)))}),format.raw/*158.26*/("""
-                        """),_display_(/*159.26*/if(post.isEmpty)/*159.42*/{_display_(Seq[Any](format.raw/*159.43*/("""
-                            """),format.raw/*160.29*/("""<a href="#" class="dg-feed__image """),_display_(/*160.64*/{if(count != 3) " box-6col-imgwrapper" else ""}),format.raw/*160.111*/(""" """),_display_(/*160.113*/{if(count != 0) " feed--arrow" else ""}),format.raw/*160.152*/(""" """),_display_(/*160.154*/{if(count == 2) " box--left" else ""}),format.raw/*160.191*/(""" """),_display_(/*160.193*/{if(count == 3) " box-3col-horizont-imgwrapper box-6col-horizont-imgwrapper" else ""}),format.raw/*160.278*/("""">
-                        """)))}),format.raw/*161.26*/("""
-                            """),format.raw/*162.29*/("""<span class="read-more button">ЧИТАТЬ</span>
+                """),format.raw/*182.17*/("""<div class="container-metro dg-feed__content">
+                """),_display_(/*183.18*/for((post, count) <- (posts.map(p => Some(p)) ++ List(None, None, None, None)).take(4).zipWithIndex) yield /*183.118*/{_display_(Seq[Any](format.raw/*183.119*/("""
+                    """),_display_(/*184.22*/if(count == 0)/*184.36*/ {_display_(Seq[Any](format.raw/*184.38*/("""
+                    """),format.raw/*185.21*/("""<div class="box-6col" """),_display_(/*185.44*/if(post.isEmpty)/*185.60*/{_display_(Seq[Any](format.raw/*185.61*/("""style="display: none;"""")))}),format.raw/*185.84*/(""">
+                    """)))}),format.raw/*186.22*/("""
+                    """),_display_(/*187.22*/if(count == 1 || count == 2)/*187.50*/ {_display_(Seq[Any](format.raw/*187.52*/("""
+                    """),format.raw/*188.21*/("""<div class="box-6col-horizont" """),_display_(/*188.53*/if(post.isEmpty)/*188.69*/{_display_(Seq[Any](format.raw/*188.70*/("""style="display: none;"""")))}),format.raw/*188.93*/(""">
+                    """)))}),format.raw/*189.22*/("""
+                    """),_display_(/*190.22*/if(count == 3)/*190.36*/{_display_(Seq[Any](format.raw/*190.37*/("""
+                        """),format.raw/*191.25*/("""<div class="box-12col-horizont" """),_display_(/*191.58*/if(post.isEmpty)/*191.74*/{_display_(Seq[Any](format.raw/*191.75*/("""style="display: none;"""")))}),format.raw/*191.98*/(""">
+                    """)))}),format.raw/*192.22*/("""
+                        """),_display_(/*193.26*/if(post.isDefined)/*193.44*/{_display_(Seq[Any](format.raw/*193.45*/("""
+                            """),format.raw/*194.29*/("""<a href=""""),_display_(/*194.39*/routes/*194.45*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*194.94*/("""" class="dg-feed__image """),_display_(/*194.119*/{if(count != 3) " box-6col-imgwrapper" else ""}),format.raw/*194.166*/(""" """),_display_(/*194.168*/{if(count != 0) " feed--arrow" else ""}),format.raw/*194.207*/(""" """),_display_(/*194.209*/{if(count == 2) " box--left" else ""}),format.raw/*194.246*/(""" """),_display_(/*194.248*/{if(count == 3) " box-3col-horizont-imgwrapper box-6col-horizont-imgwrapper" else ""}),format.raw/*194.333*/("""" """),_display_(/*194.336*/post/*194.340*/.get.getImage("blog.image", "postthumb").map/*194.384*/{img =>_display_(Seq[Any](format.raw/*194.391*/(""" """),format.raw/*194.392*/("""style="background-image: url("""),_display_(/*194.422*/img/*194.425*/.url),format.raw/*194.429*/(""")"""")))}),format.raw/*194.432*/(""" """),format.raw/*194.433*/(""">
+                        """)))}),format.raw/*195.26*/("""
+                        """),_display_(/*196.26*/if(post.isEmpty)/*196.42*/{_display_(Seq[Any](format.raw/*196.43*/("""
+                            """),format.raw/*197.29*/("""<a href="#" class="dg-feed__image """),_display_(/*197.64*/{if(count != 3) " box-6col-imgwrapper" else ""}),format.raw/*197.111*/(""" """),_display_(/*197.113*/{if(count != 0) " feed--arrow" else ""}),format.raw/*197.152*/(""" """),_display_(/*197.154*/{if(count == 2) " box--left" else ""}),format.raw/*197.191*/(""" """),_display_(/*197.193*/{if(count == 3) " box-3col-horizont-imgwrapper box-6col-horizont-imgwrapper" else ""}),format.raw/*197.278*/("""">
+                        """)))}),format.raw/*198.26*/("""
+                            """),format.raw/*199.29*/("""<span class="read-more button">ЧИТАТЬ</span>
                         </a>
-                        """),_display_(/*164.26*/if(count == 0)/*164.40*/ {_display_(Seq[Any](format.raw/*164.42*/("""
-                            """),format.raw/*165.29*/("""<div class="clear"></div>
+                        """),_display_(/*201.26*/if(count == 0)/*201.40*/ {_display_(Seq[Any](format.raw/*201.42*/("""
+                            """),format.raw/*202.29*/("""<div class="clear"></div>
                             <div class="dg-feed__info">
-                        """)))}),format.raw/*167.26*/("""
-                        """),_display_(/*168.26*/if(count == 1)/*168.40*/ {_display_(Seq[Any](format.raw/*168.42*/("""
-                            """),format.raw/*169.29*/("""<div class="dg-feed__info--horizont">
-                        """)))}),format.raw/*170.26*/("""
-                        """),_display_(/*171.26*/if(count == 2)/*171.40*/ {_display_(Seq[Any](format.raw/*171.42*/("""
-                            """),format.raw/*172.29*/("""<div class="dg-feed__info--horizont box--right">
-                        """)))}),format.raw/*173.26*/("""
-                        """),_display_(/*174.26*/if(count == 3)/*174.40*/ {_display_(Seq[Any](format.raw/*174.42*/("""
-                            """),format.raw/*175.29*/("""<div class="dg-feed__info--horizont box-9col-horizont">
-                        """)))}),format.raw/*176.26*/("""
-                            """),format.raw/*177.29*/("""<div class="dg-feed__info__util">
-                                <p class="dg-feed__info__util__sector">"""),_display_(/*178.73*/post/*178.77*/.map(_.getText("blog.category").getOrElse("Общая")).getOrElse("")),format.raw/*178.142*/("""</p>
-                                <p class="dg-feed__info__util__time">"""),_display_(/*179.71*/post/*179.75*/.map(_.getText("blog.body").map{text => text.length/900 + "мин"}).getOrElse("")),format.raw/*179.154*/("""</p>
+                        """)))}),format.raw/*204.26*/("""
+                        """),_display_(/*205.26*/if(count == 1)/*205.40*/ {_display_(Seq[Any](format.raw/*205.42*/("""
+                            """),format.raw/*206.29*/("""<div class="dg-feed__info--horizont">
+                        """)))}),format.raw/*207.26*/("""
+                        """),_display_(/*208.26*/if(count == 2)/*208.40*/ {_display_(Seq[Any](format.raw/*208.42*/("""
+                            """),format.raw/*209.29*/("""<div class="dg-feed__info--horizont box--right">
+                        """)))}),format.raw/*210.26*/("""
+                        """),_display_(/*211.26*/if(count == 3)/*211.40*/ {_display_(Seq[Any](format.raw/*211.42*/("""
+                            """),format.raw/*212.29*/("""<div class="dg-feed__info--horizont box-9col-horizont">
+                        """)))}),format.raw/*213.26*/("""
+                            """),format.raw/*214.29*/("""<div class="dg-feed__info__util">
+                                <p class="dg-feed__info__util__sector">"""),_display_(/*215.73*/post/*215.77*/.map(_.getText("blog.category").getOrElse("Общая")).getOrElse("")),format.raw/*215.142*/("""</p>
+                                <p class="dg-feed__info__util__time">"""),_display_(/*216.71*/post/*216.75*/.map(_.getText("blog.body").map{text => text.length/900 + "мин"}).getOrElse("")),format.raw/*216.154*/("""</p>
                             </div>
-                            """),_display_(/*181.30*/if(count == 0)/*181.44*/ {_display_(Seq[Any](format.raw/*181.46*/("""
-                                """),format.raw/*182.33*/("""<div class="dg-feed__info__header">
-                                    <h2>"""),_display_(/*183.42*/post/*183.46*/.map(_.getText("blog.title").getOrElse("")).getOrElse("")),format.raw/*183.103*/("""</h2>
+                            """),_display_(/*218.30*/if(count == 0)/*218.44*/ {_display_(Seq[Any](format.raw/*218.46*/("""
+                                """),format.raw/*219.33*/("""<div class="dg-feed__info__header">
+                                    <h2>"""),_display_(/*220.42*/post/*220.46*/.map(_.getText("blog.title").getOrElse("")).getOrElse("")),format.raw/*220.103*/("""</h2>
                                 </div>
-                            """)))}),format.raw/*185.30*/("""
-                            """),_display_(/*186.30*/if(count != 0)/*186.44*/ {_display_(Seq[Any](format.raw/*186.46*/("""
-                                """),_display_(/*187.34*/if(post.isDefined)/*187.52*/{_display_(Seq[Any](format.raw/*187.53*/("""
-                                    """),format.raw/*188.37*/("""<a href=""""),_display_(/*188.47*/routes/*188.53*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*188.102*/("""" class="dg-feed__info__header">
-                                """)))}),format.raw/*189.34*/("""
-                                """),_display_(/*190.34*/if(post.isEmpty)/*190.50*/{_display_(Seq[Any](format.raw/*190.51*/("""
-                                    """),format.raw/*191.37*/("""<a href="#" class="dg-feed__info__header">
-                                """)))}),format.raw/*192.34*/("""
-                                    """),format.raw/*193.37*/("""<h2>"""),_display_(/*193.42*/post/*193.46*/.map(_.getText("blog.title").getOrElse("")).getOrElse("")),format.raw/*193.103*/("""</h2>
+                            """)))}),format.raw/*222.30*/("""
+                            """),_display_(/*223.30*/if(count != 0)/*223.44*/ {_display_(Seq[Any](format.raw/*223.46*/("""
+                                """),_display_(/*224.34*/if(post.isDefined)/*224.52*/{_display_(Seq[Any](format.raw/*224.53*/("""
+                                    """),format.raw/*225.37*/("""<a href=""""),_display_(/*225.47*/routes/*225.53*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*225.102*/("""" class="dg-feed__info__header">
+                                """)))}),format.raw/*226.34*/("""
+                                """),_display_(/*227.34*/if(post.isEmpty)/*227.50*/{_display_(Seq[Any](format.raw/*227.51*/("""
+                                    """),format.raw/*228.37*/("""<a href="#" class="dg-feed__info__header">
+                                """)))}),format.raw/*229.34*/("""
+                                    """),format.raw/*230.37*/("""<h2>"""),_display_(/*230.42*/post/*230.46*/.map(_.getText("blog.title").getOrElse("")).getOrElse("")),format.raw/*230.103*/("""</h2>
                                 </a>
-                            """)))}),format.raw/*195.30*/("""
-                            """),format.raw/*196.29*/("""<div class="dg-feed__info__tags">
+                            """)))}),format.raw/*232.30*/("""
+                            """),format.raw/*233.29*/("""<div class="dg-feed__info__tags">
                                 <ul>
-                                """),_display_(/*198.34*/post/*198.38*/.map(_.tags.map { tag =>
+                                """),_display_(/*235.34*/post/*235.38*/.map(_.tags.map { tag =>
                                     Html("<li>#" + tag + "</li>")
-                                }).getOrElse("")),format.raw/*200.49*/("""
-                                """),format.raw/*201.33*/("""</ul>
+                                }).getOrElse("")),format.raw/*237.49*/("""
+                                """),format.raw/*238.33*/("""</ul>
                             </div>
-                            """),_display_(/*203.30*/if(count == 0)/*203.44*/{_display_(Seq[Any](format.raw/*203.45*/("""
-                                """),format.raw/*204.33*/("""<hr class="delimeter-white">
-                            """)))}),format.raw/*205.30*/("""
-                            """),_display_(/*206.30*/if(count != 0)/*206.44*/{_display_(Seq[Any](format.raw/*206.45*/("""
-                                """),format.raw/*207.33*/("""<hr class="delimeter-gray">
-                            """)))}),format.raw/*208.30*/("""
-                            """),format.raw/*209.29*/("""<ul class="dg-feed__info__actions">
+                            """),_display_(/*240.30*/if(count == 0)/*240.44*/{_display_(Seq[Any](format.raw/*240.45*/("""
+                                """),format.raw/*241.33*/("""<hr class="delimeter-white">
+                            """)))}),format.raw/*242.30*/("""
+                            """),_display_(/*243.30*/if(count != 0)/*243.44*/{_display_(Seq[Any](format.raw/*243.45*/("""
+                                """),format.raw/*244.33*/("""<hr class="delimeter-gray">
+                            """)))}),format.raw/*245.30*/("""
+                            """),format.raw/*246.29*/("""<ul class="dg-feed__info__actions">
                                 <li>
-                                    """),format.raw/*211.304*/("""
-                                """),format.raw/*212.33*/("""</li>
+                                    """),format.raw/*248.304*/("""
+                                """),format.raw/*249.33*/("""</li>
                                 <li>
                                     <a href="#" class="dg-feed__info__actions--like"></a>
                                 </li>
                                 <li>
-                                    """),_display_(/*217.38*/if(post.isDefined)/*217.56*/ {_display_(Seq[Any](format.raw/*217.58*/("""
-                                        """),format.raw/*218.41*/("""<a href=""""),_display_(/*218.51*/routes/*218.57*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*218.106*/("""#disqus_thread" class="dg-feed__info__actions--comment">
+                                    """),_display_(/*254.38*/if(post.isDefined)/*254.56*/ {_display_(Seq[Any](format.raw/*254.58*/("""
+                                        """),format.raw/*255.41*/("""<a href=""""),_display_(/*255.51*/routes/*255.57*/.Application.blogPost(post.get.id, post.get.slug)),format.raw/*255.106*/("""#disqus_thread" class="dg-feed__info__actions--comment">
                                             0</a>
-                                    """)))}),format.raw/*220.38*/("""
-                                """),format.raw/*221.33*/("""</li>
+                                    """)))}),format.raw/*257.38*/("""
+                                """),format.raw/*258.33*/("""</li>
                             </ul>
                         </div>
                     </div>
-                """)))}),format.raw/*225.18*/("""
-                """),format.raw/*226.17*/("""</div>
+                """)))}),format.raw/*262.18*/("""
+                """),format.raw/*263.17*/("""</div>
 
                 <div class="clear"></div>
 
@@ -240,7 +277,7 @@ Seq[Any](format.raw/*1.162*/("""
                     </div>
                 </div>
                 <div class="dg-feed__btn-wrapper">
-                    <a class="dg-feed__btn" href="#" data-next-page="2" """),_display_(/*236.74*/if(posts.length < 5)/*236.94*/{_display_(Seq[Any](format.raw/*236.95*/("""style="display: none;"""")))}),format.raw/*236.118*/(""">
+                    <a class="dg-feed__btn" href="#" data-next-page="2" """),_display_(/*273.74*/if(posts.length < 5)/*273.94*/{_display_(Seq[Any](format.raw/*273.95*/("""style="display: none;"""")))}),format.raw/*273.118*/(""">
                         <span class="load-icon"></span>
                         <span>ЕЩЕ СТАТЬИ</span>
                     </a>
@@ -249,18 +286,18 @@ Seq[Any](format.raw/*1.162*/("""
                 <div class="clear"></div>
             </section>
 
-            """),format.raw/*245.39*/("""
-            """),format.raw/*246.13*/("""<script type="text/javascript">
+            """),format.raw/*282.39*/("""
+            """),format.raw/*283.13*/("""<script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'diapost-community'; // required: replace example with your forum shortname
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function () """),format.raw/*251.26*/("""{"""),format.raw/*251.27*/("""
-            """),format.raw/*252.13*/("""var s = document.createElement('script'); s.async = true;
+            (function () """),format.raw/*288.26*/("""{"""),format.raw/*288.27*/("""
+            """),format.raw/*289.13*/("""var s = document.createElement('script'); s.async = true;
             s.type = 'text/javascript';
             s.src = '//' + disqus_shortname + '.disqus.com/count.js';
             (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-            """),format.raw/*256.13*/("""}"""),format.raw/*256.14*/("""());
+            """),format.raw/*293.13*/("""}"""),format.raw/*293.14*/("""());
             </script>
             
             <section class="dg-blog-feed">
@@ -272,20 +309,20 @@ Seq[Any](format.raw/*1.162*/("""
 
         <div class="clear"></div>
 
-        """),_display_(/*268.10*/footer(blogCategories)),format.raw/*268.32*/("""
+        """),_display_(/*305.10*/footer(blogCategories)),format.raw/*305.32*/("""
 
-        """),format.raw/*270.9*/("""</div>
+        """),format.raw/*307.9*/("""</div>
 
         
-        <script src=""""),_display_(/*273.23*/routes/*273.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*273.69*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*274.23*/routes/*274.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*274.75*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*275.23*/routes/*275.29*/.Assets.at("javascripts/classie.js")),format.raw/*275.65*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*276.23*/routes/*276.29*/.Assets.at("javascripts/navigation.js")),format.raw/*276.68*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*277.23*/routes/*277.29*/.Assets.at("javascripts/layerslider.kreaturamedia.jquery.js")),format.raw/*277.90*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*278.23*/routes/*278.29*/.Assets.at("javascripts/main.js")),format.raw/*278.62*/(""""></script>
-        """),_display_(/*279.10*/postDetailScripts()),format.raw/*279.29*/("""
+        <script src=""""),_display_(/*310.23*/routes/*310.29*/.Assets.at("javascripts/jquery.lazy.js")),format.raw/*310.69*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*311.23*/routes/*311.29*/.Assets.at("javascripts/jquery.easing.min.js")),format.raw/*311.75*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*312.23*/routes/*312.29*/.Assets.at("javascripts/classie.js")),format.raw/*312.65*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*313.23*/routes/*313.29*/.Assets.at("javascripts/navigation.js")),format.raw/*313.68*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*314.23*/routes/*314.29*/.Assets.at("javascripts/layerslider.kreaturamedia.jquery.js")),format.raw/*314.90*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*315.23*/routes/*315.29*/.Assets.at("javascripts/main.js")),format.raw/*315.62*/(""""></script>
+        """),_display_(/*316.10*/postDetailScripts()),format.raw/*316.29*/("""
 
-    """),format.raw/*281.5*/("""</body>
+    """),format.raw/*318.5*/("""</body>
 </html>
 
 """))}
@@ -300,11 +337,11 @@ Seq[Any](format.raw/*1.162*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 26 00:49:19 MSK 2015
-                  SOURCE: /home/n0tel/projects/DoneDia/app/views/post/posts.scala.html
-                  HASH: 6c5212d87db7b406f645fb486b04bccf17fde9fc
-                  MATRIX: 604->1|853->161|881->163|1318->573|1355->589|1384->590|1905->1084|1920->1090|1973->1122|2042->1164|2057->1170|2112->1204|2180->1245|2195->1251|2253->1288|2305->1313|2320->1319|2396->1374|2457->1408|2472->1414|2546->1467|2619->1524|2660->1537|2895->1762|2927->1767|3012->1824|3041->1825|3073->1830|3364->2094|3392->2095|3936->2612|3959->2626|3972->2630|4016->2636|4065->2657|4106->2671|4121->2677|4175->2710|4205->2713|4241->2739|4281->2740|4325->2752|4355->2754|4368->2757|4393->2760|4451->2787|4496->2804|4961->3242|4976->3248|5017->3268|5704->3928|5730->3944|5777->3969|5986->4151|6023->4179|6062->4180|6091->4181|6131->4190|6218->4250|6260->4276|6299->4277|6368->4318|6403->4326|6477->4390|6517->4391|6566->4408|6596->4410|6632->4436|6672->4437|6716->4449|6746->4451|6759->4454|6784->4457|6862->4504|6923->4537|7384->4970|7413->4971|7550->5079|7580->5080|7722->5193|7752->5194|7782->5195|7890->5581|7948->5610|8233->6175|8291->6204|8699->6583|8729->6584|8791->6616|8822->6617|8940->6914|9002->6947|9168->7102|9214->7119|9286->7162|9316->7163|9362->7180|9508->7297|9538->7298|9568->7299|9998->7700|10028->7701|10058->7702|10117->7754|10164->7772|10256->7836|10374->7936|10415->7937|10465->7959|10489->7973|10530->7975|10580->7996|10631->8019|10657->8035|10697->8036|10752->8059|10807->8082|10857->8104|10895->8132|10936->8134|10986->8155|11046->8187|11072->8203|11112->8204|11167->8227|11222->8250|11272->8272|11296->8286|11336->8287|11390->8312|11451->8345|11477->8361|11517->8362|11572->8385|11627->8408|11681->8434|11709->8452|11749->8453|11807->8482|11845->8492|11861->8498|11932->8547|11986->8572|12056->8619|12087->8621|12149->8660|12180->8662|12240->8699|12271->8701|12379->8786|12411->8789|12426->8793|12481->8837|12528->8844|12559->8845|12618->8875|12632->8878|12659->8882|12695->8885|12726->8886|12785->8913|12839->8939|12865->8955|12905->8956|12963->8985|13026->9020|13096->9067|13127->9069|13189->9108|13220->9110|13280->9147|13311->9149|13419->9234|13479->9262|13537->9291|13664->9390|13688->9404|13729->9406|13787->9435|13926->9542|13980->9568|14004->9582|14045->9584|14103->9613|14198->9676|14252->9702|14276->9716|14317->9718|14375->9747|14481->9821|14535->9847|14559->9861|14600->9863|14658->9892|14771->9973|14829->10002|14963->10108|14977->10112|15065->10177|15168->10252|15182->10256|15284->10335|15381->10404|15405->10418|15446->10420|15508->10453|15613->10530|15627->10534|15707->10591|15813->10665|15871->10695|15895->10709|15936->10711|15998->10745|16026->10763|16066->10764|16132->10801|16170->10811|16186->10817|16258->10866|16356->10932|16418->10966|16444->10982|16484->10983|16550->11020|16658->11096|16724->11133|16757->11138|16771->11142|16851->11199|16955->11271|17013->11300|17145->11404|17159->11408|17320->11547|17382->11580|17480->11650|17504->11664|17544->11665|17606->11698|17696->11756|17754->11786|17778->11800|17818->11801|17880->11834|17969->11891|18027->11920|18166->12296|18228->12329|18501->12574|18529->12592|18570->12594|18640->12635|18678->12645|18694->12651|18766->12700|18942->12844|19004->12877|19151->12992|19197->13009|19628->13412|19658->13432|19698->13433|19754->13456|20016->13715|20058->13728|20398->14039|20428->14040|20470->14053|20794->14348|20824->14349|21023->14520|21067->14542|21105->14552|21172->14591|21188->14597|21250->14637|21335->14694|21351->14700|21419->14746|21504->14803|21520->14809|21578->14845|21663->14902|21679->14908|21740->14947|21825->15004|21841->15010|21924->15071|22009->15128|22025->15134|22080->15167|22129->15188|22170->15207|22204->15213
-                  LINES: 19->1|22->1|24->3|32->11|32->11|32->11|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|40->19|40->19|40->19|41->20|41->20|41->20|44->23|45->24|50->29|51->30|52->31|52->31|53->32|58->37|58->37|70->49|70->49|70->49|70->49|71->50|71->50|71->50|71->50|71->50|71->50|71->50|71->50|71->50|71->50|71->50|72->51|73->52|85->64|85->64|85->64|98->77|98->77|98->77|101->80|101->80|101->80|101->80|101->80|102->81|102->81|102->81|103->82|103->82|103->82|103->82|103->82|103->82|103->82|103->82|103->82|103->82|103->82|103->82|104->83|105->84|116->95|116->95|116->95|116->95|116->95|116->95|116->95|118->103|119->104|123->113|124->114|130->120|130->120|130->120|130->120|132->125|133->126|140->133|141->134|141->134|141->134|142->135|143->136|143->136|143->136|149->142|149->142|149->142|150->143|152->145|153->146|153->146|153->146|154->147|154->147|154->147|155->148|155->148|155->148|155->148|155->148|156->149|157->150|157->150|157->150|158->151|158->151|158->151|158->151|158->151|159->152|160->153|160->153|160->153|161->154|161->154|161->154|161->154|161->154|162->155|163->156|163->156|163->156|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|164->157|165->158|166->159|166->159|166->159|167->160|167->160|167->160|167->160|167->160|167->160|167->160|167->160|167->160|168->161|169->162|171->164|171->164|171->164|172->165|174->167|175->168|175->168|175->168|176->169|177->170|178->171|178->171|178->171|179->172|180->173|181->174|181->174|181->174|182->175|183->176|184->177|185->178|185->178|185->178|186->179|186->179|186->179|188->181|188->181|188->181|189->182|190->183|190->183|190->183|192->185|193->186|193->186|193->186|194->187|194->187|194->187|195->188|195->188|195->188|195->188|196->189|197->190|197->190|197->190|198->191|199->192|200->193|200->193|200->193|200->193|202->195|203->196|205->198|205->198|207->200|208->201|210->203|210->203|210->203|211->204|212->205|213->206|213->206|213->206|214->207|215->208|216->209|218->211|219->212|224->217|224->217|224->217|225->218|225->218|225->218|225->218|227->220|228->221|232->225|233->226|243->236|243->236|243->236|243->236|252->245|253->246|258->251|258->251|259->252|263->256|263->256|275->268|275->268|277->270|280->273|280->273|280->273|281->274|281->274|281->274|282->275|282->275|282->275|283->276|283->276|283->276|284->277|284->277|284->277|285->278|285->278|285->278|286->279|286->279|288->281
+                  DATE: Sun Mar 22 12:29:55 MSK 2015
+                  SOURCE: C:/Users/d1sp/Desktop/Girhub/DoneDia/DoneDia/app/views/post/posts.scala.html
+                  HASH: c4b7b557bceedee3547f5053ba0bc7c2754c135b
+                  MATRIX: 604->1|853->161|883->165|1328->583|1365->599|1394->600|1920->1099|1935->1105|1988->1137|2058->1180|2073->1186|2128->1220|2197->1262|2212->1268|2270->1305|2323->1331|2338->1337|2414->1392|2476->1427|2491->1433|2565->1486|2641->1546|2683->1560|3027->1876|3056->1877|3093->1887|3157->1923|3186->1924|3223->1934|3255->1938|3284->1939|3321->1949|3386->1986|3415->1987|3563->2107|3592->2108|3631->2120|3660->2121|3689->2122|3726->2131|3755->2132|3784->2133|3813->2134|3850->2144|3879->2145|4031->2269|4060->2270|4089->2271|4150->2304|4179->2305|4424->2522|4453->2523|4490->2533|4576->2592|4605->2593|4634->2594|4667->2599|4696->2600|4725->2601|4758->2606|4787->2607|4824->2617|4853->2618|5593->3348|5630->3358|5720->3420|5749->3421|5786->3431|6102->3720|6131->3721|6687->4250|6710->4264|6723->4268|6767->4274|6817->4296|6858->4310|6873->4316|6927->4349|6957->4352|6993->4378|7033->4379|7077->4391|7107->4393|7120->4396|7145->4399|7204->4427|7250->4445|7728->4895|7744->4901|7786->4921|8487->5594|8514->5610|8562->5635|8775->5820|8813->5848|8853->5849|8883->5850|8924->5859|9013->5920|9056->5946|9096->5947|9167->5989|9203->5997|9278->6061|9319->6062|9369->6079|9400->6081|9437->6107|9478->6108|9523->6120|9554->6122|9568->6125|9594->6128|9674->6176|9737->6210|10210->6654|10240->6655|10378->6763|10409->6764|10552->6877|10583->6878|10614->6879|10724->7273|10783->7303|11072->7877|11131->7907|11545->8292|11575->8293|11637->8325|11668->8326|11788->8628|11851->8662|12024->8824|12071->8842|12143->8885|12173->8886|12220->8904|12367->9022|12397->9023|12427->9024|12863->9431|12893->9432|12923->9433|12983->9486|13032->9506|13125->9571|13243->9671|13284->9672|13335->9695|13359->9709|13400->9711|13451->9733|13502->9756|13528->9772|13568->9773|13623->9796|13679->9820|13730->9843|13768->9871|13809->9873|13860->9895|13920->9927|13946->9943|13986->9944|14041->9967|14097->9991|14148->10014|14172->10028|14212->10029|14267->10055|14328->10088|14354->10104|14394->10105|14449->10128|14505->10152|14560->10179|14588->10197|14628->10198|14687->10228|14725->10238|14741->10244|14812->10293|14866->10318|14936->10365|14967->10367|15029->10406|15060->10408|15120->10445|15151->10447|15259->10532|15291->10535|15306->10539|15361->10583|15408->10590|15439->10591|15498->10621|15512->10624|15539->10628|15575->10631|15606->10632|15666->10660|15721->10687|15747->10703|15787->10704|15846->10734|15909->10769|15979->10816|16010->10818|16072->10857|16103->10859|16163->10896|16194->10898|16302->10983|16363->11012|16422->11042|16551->11143|16575->11157|16616->11159|16675->11189|16816->11298|16871->11325|16895->11339|16936->11341|16995->11371|17091->11435|17146->11462|17170->11476|17211->11478|17270->11508|17377->11583|17432->11610|17456->11624|17497->11626|17556->11656|17670->11738|17729->11768|17864->11875|17878->11879|17966->11944|18070->12020|18084->12024|18186->12103|18285->12174|18309->12188|18350->12190|18413->12224|18519->12302|18533->12306|18613->12363|18721->12439|18780->12470|18804->12484|18845->12486|18908->12521|18936->12539|18976->12540|19043->12578|19081->12588|19097->12594|19169->12643|19268->12710|19331->12745|19357->12761|19397->12762|19464->12800|19573->12877|19640->12915|19673->12920|19687->12924|19767->12981|19873->13055|19932->13085|20066->13191|20080->13195|20243->13336|20306->13370|20406->13442|20430->13456|20470->13457|20533->13491|20624->13550|20683->13581|20707->13595|20747->13596|20810->13630|20900->13688|20959->13718|21100->14096|21163->14130|21441->14380|21469->14398|21510->14400|21581->14442|21619->14452|21635->14458|21707->14507|21885->14653|21948->14687|22099->14806|22146->14824|22587->15237|22617->15257|22657->15258|22713->15281|22984->15549|23027->15563|23372->15879|23402->15880|23445->15894|23773->16193|23803->16194|24014->16377|24058->16399|24098->16411|24168->16453|24184->16459|24246->16499|24332->16557|24348->16563|24416->16609|24502->16667|24518->16673|24576->16709|24662->16767|24678->16773|24739->16812|24825->16870|24841->16876|24924->16937|25010->16995|25026->17001|25081->17034|25131->17056|25172->17075|25208->17083
+                  LINES: 19->1|22->1|24->3|32->11|32->11|32->11|37->16|37->16|37->16|38->17|38->17|38->17|39->18|39->18|39->18|40->19|40->19|40->19|41->20|41->20|41->20|44->23|45->24|53->32|53->32|54->33|54->33|54->33|55->34|55->34|55->34|56->35|56->35|56->35|60->39|60->39|61->40|61->40|61->40|61->40|61->40|61->40|61->40|62->41|62->41|66->45|66->45|66->45|66->45|66->45|71->50|71->50|72->51|73->52|73->52|73->52|73->52|73->52|73->52|73->52|73->52|74->53|74->53|87->66|88->67|89->68|89->68|90->69|95->74|95->74|107->86|107->86|107->86|107->86|108->87|108->87|108->87|108->87|108->87|108->87|108->87|108->87|108->87|108->87|108->87|109->88|110->89|122->101|122->101|122->101|135->114|135->114|135->114|138->117|138->117|138->117|138->117|138->117|139->118|139->118|139->118|140->119|140->119|140->119|140->119|140->119|140->119|140->119|140->119|140->119|140->119|140->119|140->119|141->120|142->121|153->132|153->132|153->132|153->132|153->132|153->132|153->132|155->140|156->141|160->150|161->151|167->157|167->157|167->157|167->157|169->162|170->163|177->170|178->171|178->171|178->171|179->172|180->173|180->173|180->173|186->179|186->179|186->179|187->180|189->182|190->183|190->183|190->183|191->184|191->184|191->184|192->185|192->185|192->185|192->185|192->185|193->186|194->187|194->187|194->187|195->188|195->188|195->188|195->188|195->188|196->189|197->190|197->190|197->190|198->191|198->191|198->191|198->191|198->191|199->192|200->193|200->193|200->193|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|201->194|202->195|203->196|203->196|203->196|204->197|204->197|204->197|204->197|204->197|204->197|204->197|204->197|204->197|205->198|206->199|208->201|208->201|208->201|209->202|211->204|212->205|212->205|212->205|213->206|214->207|215->208|215->208|215->208|216->209|217->210|218->211|218->211|218->211|219->212|220->213|221->214|222->215|222->215|222->215|223->216|223->216|223->216|225->218|225->218|225->218|226->219|227->220|227->220|227->220|229->222|230->223|230->223|230->223|231->224|231->224|231->224|232->225|232->225|232->225|232->225|233->226|234->227|234->227|234->227|235->228|236->229|237->230|237->230|237->230|237->230|239->232|240->233|242->235|242->235|244->237|245->238|247->240|247->240|247->240|248->241|249->242|250->243|250->243|250->243|251->244|252->245|253->246|255->248|256->249|261->254|261->254|261->254|262->255|262->255|262->255|262->255|264->257|265->258|269->262|270->263|280->273|280->273|280->273|280->273|289->282|290->283|295->288|295->288|296->289|300->293|300->293|312->305|312->305|314->307|317->310|317->310|317->310|318->311|318->311|318->311|319->312|319->312|319->312|320->313|320->313|320->313|321->314|321->314|321->314|322->315|322->315|322->315|323->316|323->316|325->318
                   -- GENERATED --
               */
           

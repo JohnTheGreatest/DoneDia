@@ -1,6 +1,6 @@
-// @SOURCE:/home/n0tel/projects/DoneDia/conf/routes
-// @HASH:191f936182c4f1aa884f74909ac9980239887a95
-// @DATE:Thu Feb 26 00:49:19 MSK 2015
+// @SOURCE:C:/Users/d1sp/Desktop/Girhub/DoneDia/DoneDia/conf/routes
+// @HASH:9ebcc4c7f41aad8b33f3623448411acd93e69faf
+// @DATE:Sun Mar 22 12:21:57 MSK 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._

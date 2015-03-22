@@ -75,6 +75,15 @@
   text-align: center;
   display: block;
 
+  .dg-blog__body__author--wrapper {
+    @include vertical-align-block-wrapper();
+    margin: 0 auto;
+
+    @include MQ(M) {
+      margin: 0;
+    }
+  }
+
   @include MQ(M) {
     float: left;
     text-align: left;
@@ -82,6 +91,15 @@
 
   img {
     border-radius: 50px;
+    @include vertical-align-block();
+    margin: 0;
+  }
+
+  .dg-blog__body__author__author-text {
+    @include vertical-align-block();
+    text-align: left;
+    color: #484848;
+    padding-left: 30px;
   }
 }
 
