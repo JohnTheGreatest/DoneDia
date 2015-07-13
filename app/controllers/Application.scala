@@ -37,6 +37,9 @@ object Application extends Controller {
     // Author
     case (Fragment.DocumentLink(id, "authors", _, slug, false), _) => routes.Application.author(id, slug).absoluteURL()
 
+    // Video
+    case (Fragment.DocumentLink(id, "videos", _, slug, false), _) => routes.Application.video(id, slug).absoluteURL()
+
     case anyOtherLink => routes.Application.brokenLink.absoluteURL()
   }
 
@@ -158,6 +161,7 @@ object Application extends Controller {
     for {
       authors <- ctx.api.forms("authors")
         .ref(ctx.ref)
+        .pageSize(50)
         .submit()
     } yield {
       Ok(views.html.authors.authors(authors.results, BlogCategories))
@@ -171,6 +175,29 @@ object Application extends Controller {
       checkSlug(author, slug) {
         case Left(newSlug) => MovedPermanently(routes.Application.author(id, newSlug).url)
         case Right(author)   => Ok(views.html.authors.author(author, BlogCategories))
+      }
+    }
+  }
+
+  def videos = Prismic.action { implicit request =>
+    for {
+      videos <- ctx.api.forms("videos")
+        .ref(ctx.ref)
+        .orderings("[my.video.date desc]")
+        .pageSize(50)
+        .submit()
+    } yield {
+      Ok(views.html.videos.videos(videos.results, BlogCategories))
+    }
+  }
+
+  def video(id: String, slug: String) = Prismic.action { implicit request =>
+    for {
+      video <- getDocument(id)
+    } yield {
+      checkSlug(video, slug) {
+        case Left(newSlug) => MovedPermanently(routes.Application.video(id, newSlug).url)
+        case Right(video)   => Ok(views.html.videos.video(video, BlogCategories))
       }
     }
   }

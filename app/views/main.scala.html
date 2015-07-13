@@ -102,10 +102,10 @@
             <header class="dg-header">
                 <div class="container">
                     <div class="logo-wrapper">
-                        <a href="@routes.Application.index()" class="logo">
-                            <p class="logo__name">ДИАПОСТ</p>
-                            <h1 class="logo__descr">Молодежный информационно-<br/>аналитический портал</h1>
-                        </a>
+                        <div class="logo-center">
+                            <a href="@routes.Application.index()" class="logo">Диапост</a>
+                        </div>
+                        <h1 class="logo__descr">Молодежный информационно-<br/>аналитический портал</h1>
                     </div>
 
                     <nav class="topmenu">
@@ -113,6 +113,7 @@
                             <li><a href="@routes.Application.about()" @if(title=="О проекте"){class="topmenu-active"}>О ПРОЕКТЕ</a></li>
                             <li><a href="@routes.Application.blogCategory("")">СТАТЬИ</a></li>
                             <li><a href="@routes.Application.authors()" @if(title=="Авторы"){class="topmenu-active"}>АВТОРЫ</a></li>
+                            <li><a href="@routes.Application.videos()" @if(title=="Видео"){class="topmenu-active"}>ВИДЕО</a></li>
                             <!--<li><a href="#">ПОИСК</a><span class="search-icon"></span></li>-->
                             <!--<li><a href="#">ВОЙТИ</a><span class="person-icon"></span></li>-->
                         </ul>
