@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/d1sp/Desktop/Girhub/DoneDia/DoneDia/conf/routes
-// @HASH:9ebcc4c7f41aad8b33f3623448411acd93e69faf
-// @DATE:Sun Mar 22 12:21:57 MSK 2015
+// @SOURCE:C:/Users/d1sp/Documents/GitHub/DoneDia/conf/routes
+// @HASH:400ed7ebfe0fb4f9819b597dcc318cb215e3c547
+// @DATE:Mon Sep 28 13:56:36 MSK 2015
 
 package controllers;
 

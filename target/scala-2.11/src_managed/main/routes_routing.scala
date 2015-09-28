@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/d1sp/Desktop/Girhub/DoneDia/DoneDia/conf/routes
-// @HASH:9ebcc4c7f41aad8b33f3623448411acd93e69faf
-// @DATE:Sun Mar 22 12:21:57 MSK 2015
+// @SOURCE:C:/Users/d1sp/Documents/GitHub/DoneDia/conf/routes
+// @HASH:400ed7ebfe0fb4f9819b597dcc318cb215e3c547
+// @DATE:Mon Sep 28 13:56:36 MSK 2015
 
 
 import play.core._
@@ -60,47 +60,61 @@ HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "author"
         
 
 // @LINE:15
-private[this] lazy val controllers_Application_blogCategory4_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("blog"))))
-private[this] lazy val controllers_Application_blogCategory4_invoker = createInvoker(
+private[this] lazy val controllers_Application_videos4_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("videos"))))
+private[this] lazy val controllers_Application_videos4_invoker = createInvoker(
+controllers.Application.videos,
+HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "videos", Nil,"GET", """ Videos""", Routes.prefix + """videos"""))
+        
+
+// @LINE:16
+private[this] lazy val controllers_Application_video5_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("videos/"),DynamicPart("id", """[-_a-zA-Z0-9]{16}""",false),StaticPart("/"),DynamicPart("slug", """[^/]+""",true))))
+private[this] lazy val controllers_Application_video5_invoker = createInvoker(
+controllers.Application.video(fakeValue[String], fakeValue[String]),
+HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "video", Seq(classOf[String], classOf[String]),"GET", """""", Routes.prefix + """videos/$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>"""))
+        
+
+// @LINE:19
+private[this] lazy val controllers_Application_blogCategory6_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("blog"))))
+private[this] lazy val controllers_Application_blogCategory6_invoker = createInvoker(
 controllers.Application.blogCategory(fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "blogCategory", Seq(classOf[String]),"GET", """ Blog""", Routes.prefix + """blog"""))
         
 
-// @LINE:16
-private[this] lazy val controllers_Application_blogCategory5_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("blog/"),DynamicPart("category", """[^/]+""",true))))
-private[this] lazy val controllers_Application_blogCategory5_invoker = createInvoker(
+// @LINE:20
+private[this] lazy val controllers_Application_blogCategory7_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("blog/"),DynamicPart("category", """[^/]+""",true))))
+private[this] lazy val controllers_Application_blogCategory7_invoker = createInvoker(
 controllers.Application.blogCategory(fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "blogCategory", Seq(classOf[String]),"GET", """""", Routes.prefix + """blog/$category<[^/]+>"""))
         
 
-// @LINE:17
-private[this] lazy val controllers_Application_blogPost6_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),DynamicPart("id", """[-_a-zA-Z0-9]{16}""",false),StaticPart("/"),DynamicPart("slug", """[^/]+""",true))))
-private[this] lazy val controllers_Application_blogPost6_invoker = createInvoker(
+// @LINE:21
+private[this] lazy val controllers_Application_blogPost8_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),DynamicPart("id", """[-_a-zA-Z0-9]{16}""",false),StaticPart("/"),DynamicPart("slug", """[^/]+""",true))))
+private[this] lazy val controllers_Application_blogPost8_invoker = createInvoker(
 controllers.Application.blogPost(fakeValue[String], fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "blogPost", Seq(classOf[String], classOf[String]),"GET", """""", Routes.prefix + """$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>"""))
         
 
-// @LINE:18
-private[this] lazy val controllers_Application_blogAjax7_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("blogAjax"))))
-private[this] lazy val controllers_Application_blogAjax7_invoker = createInvoker(
+// @LINE:22
+private[this] lazy val controllers_Application_blogAjax9_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("blogAjax"))))
+private[this] lazy val controllers_Application_blogAjax9_invoker = createInvoker(
 controllers.Application.blogAjax(fakeValue[Option[String]], fakeValue[Int]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "blogAjax", Seq(classOf[Option[String]], classOf[Int]),"GET", """""", Routes.prefix + """blogAjax"""))
         
 
-// @LINE:21
-private[this] lazy val controllers_Application_brokenLink8_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("not-found"))))
-private[this] lazy val controllers_Application_brokenLink8_invoker = createInvoker(
+// @LINE:25
+private[this] lazy val controllers_Application_brokenLink10_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("not-found"))))
+private[this] lazy val controllers_Application_brokenLink10_invoker = createInvoker(
 controllers.Application.brokenLink(),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "brokenLink", Nil,"GET", """ NotFound""", Routes.prefix + """not-found"""))
         
 
-// @LINE:24
-private[this] lazy val controllers_Assets_at9_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
-private[this] lazy val controllers_Assets_at9_invoker = createInvoker(
+// @LINE:28
+private[this] lazy val controllers_Assets_at11_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+private[this] lazy val controllers_Assets_at11_invoker = createInvoker(
 controllers.Assets.at(fakeValue[String], fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """about""","""controllers.Application.about"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """authors""","""controllers.Application.authors"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """authors/$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>""","""controllers.Application.author(id:String, slug:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """blog""","""controllers.Application.blogCategory(category:String ?= "")"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """blog/$category<[^/]+>""","""controllers.Application.blogCategory(category:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>""","""controllers.Application.blogPost(id:String, slug:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """blogAjax""","""controllers.Application.blogAjax(category:Option[String] ?= None, page:Int ?= 1)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """not-found""","""controllers.Application.brokenLink()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """about""","""controllers.Application.about"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """authors""","""controllers.Application.authors"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """authors/$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>""","""controllers.Application.author(id:String, slug:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """videos""","""controllers.Application.videos"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """videos/$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>""","""controllers.Application.video(id:String, slug:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """blog""","""controllers.Application.blogCategory(category:String ?= "")"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """blog/$category<[^/]+>""","""controllers.Application.blogCategory(category:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """$id<[-_a-zA-Z0-9]{16}>/$slug<[^/]+>""","""controllers.Application.blogPost(id:String, slug:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """blogAjax""","""controllers.Application.blogAjax(category:Option[String] ?= None, page:Int ?= 1)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """not-found""","""controllers.Application.brokenLink()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]]
 }}
@@ -141,49 +155,65 @@ case controllers_Application_author3_route(params) => {
         
 
 // @LINE:15
-case controllers_Application_blogCategory4_route(params) => {
-   call(params.fromQuery[String]("category", Some(""))) { (category) =>
-        controllers_Application_blogCategory4_invoker.call(controllers.Application.blogCategory(category))
+case controllers_Application_videos4_route(params) => {
+   call { 
+        controllers_Application_videos4_invoker.call(controllers.Application.videos)
    }
 }
         
 
 // @LINE:16
-case controllers_Application_blogCategory5_route(params) => {
-   call(params.fromPath[String]("category", None)) { (category) =>
-        controllers_Application_blogCategory5_invoker.call(controllers.Application.blogCategory(category))
-   }
-}
-        
-
-// @LINE:17
-case controllers_Application_blogPost6_route(params) => {
+case controllers_Application_video5_route(params) => {
    call(params.fromPath[String]("id", None), params.fromPath[String]("slug", None)) { (id, slug) =>
-        controllers_Application_blogPost6_invoker.call(controllers.Application.blogPost(id, slug))
+        controllers_Application_video5_invoker.call(controllers.Application.video(id, slug))
    }
 }
         
 
-// @LINE:18
-case controllers_Application_blogAjax7_route(params) => {
-   call(params.fromQuery[Option[String]]("category", Some(None)), params.fromQuery[Int]("page", Some(1))) { (category, page) =>
-        controllers_Application_blogAjax7_invoker.call(controllers.Application.blogAjax(category, page))
+// @LINE:19
+case controllers_Application_blogCategory6_route(params) => {
+   call(params.fromQuery[String]("category", Some(""))) { (category) =>
+        controllers_Application_blogCategory6_invoker.call(controllers.Application.blogCategory(category))
+   }
+}
+        
+
+// @LINE:20
+case controllers_Application_blogCategory7_route(params) => {
+   call(params.fromPath[String]("category", None)) { (category) =>
+        controllers_Application_blogCategory7_invoker.call(controllers.Application.blogCategory(category))
    }
 }
         
 
 // @LINE:21
-case controllers_Application_brokenLink8_route(params) => {
-   call { 
-        controllers_Application_brokenLink8_invoker.call(controllers.Application.brokenLink())
+case controllers_Application_blogPost8_route(params) => {
+   call(params.fromPath[String]("id", None), params.fromPath[String]("slug", None)) { (id, slug) =>
+        controllers_Application_blogPost8_invoker.call(controllers.Application.blogPost(id, slug))
    }
 }
         
 
-// @LINE:24
-case controllers_Assets_at9_route(params) => {
+// @LINE:22
+case controllers_Application_blogAjax9_route(params) => {
+   call(params.fromQuery[Option[String]]("category", Some(None)), params.fromQuery[Int]("page", Some(1))) { (category, page) =>
+        controllers_Application_blogAjax9_invoker.call(controllers.Application.blogAjax(category, page))
+   }
+}
+        
+
+// @LINE:25
+case controllers_Application_brokenLink10_route(params) => {
+   call { 
+        controllers_Application_brokenLink10_invoker.call(controllers.Application.brokenLink())
+   }
+}
+        
+
+// @LINE:28
+case controllers_Assets_at11_route(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_at9_invoker.call(controllers.Assets.at(path, file))
+        controllers_Assets_at11_invoker.call(controllers.Assets.at(path, file))
    }
 }
         

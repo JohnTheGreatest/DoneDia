@@ -51,18 +51,32 @@ Seq[Any](format.raw/*1.63*/("""
     <div class="container">
         <div class="footer-logo">
             <a class="footer-logo__content">Диапост</a>
+            <p class="footer-text" style="margin-top: 10px">При реализации проекта используются средства государственной поддержки, выделенные в качестве гранта в соответствии c распоряжением Президента Российской Федерации №243-рп от 25.07.2014 и на основании конкурса, проведенного Общероссийской общественной организацией «Российский Союз Молодежи»<br></p>
+            <p class="footer-text" style="margin-top: 10px">Свидетельство о регистрации СМИ № ФС77-61355 от 7 апреля 2015 года</p>
+            <p class="footer-text">Диапост &copy; 2015</p>
         </div>
 
         <div class="footer-menu">
             <h2 class="footer-social__header">Статьи</h2>
             <ul>
-                """),_display_(/*38.18*/for(blogCategory <- blogCategories) yield /*38.53*/{_display_(Seq[Any](format.raw/*38.54*/("""
-                    """),format.raw/*39.21*/("""<li><a href=""""),_display_(/*39.35*/routes/*39.41*/.Application.blogCategory(blogCategory._1)),format.raw/*39.83*/("""" """),_display_(/*39.86*/if(blogCategory._1.contains("kon-footer"))/*39.128*/{_display_(Seq[Any](format.raw/*39.129*/("""class="kon"""")))}),format.raw/*39.141*/(""">"""),_display_(/*39.143*/blogCategory/*39.155*/._2),format.raw/*39.158*/("""</a></li>
-                """)))}),format.raw/*40.18*/("""
-            """),format.raw/*41.13*/("""</ul>
+                """),_display_(/*41.18*/for(blogCategory <- blogCategories) yield /*41.53*/{_display_(Seq[Any](format.raw/*41.54*/("""
+                    """),format.raw/*42.21*/("""<li><a href=""""),_display_(/*42.35*/routes/*42.41*/.Application.blogCategory(blogCategory._1)),format.raw/*42.83*/("""" """),_display_(/*42.86*/if(blogCategory._1.contains("kon-footer"))/*42.128*/{_display_(Seq[Any](format.raw/*42.129*/("""class="kon"""")))}),format.raw/*42.141*/(""">"""),_display_(/*42.143*/blogCategory/*42.155*/._2),format.raw/*42.158*/("""</a></li>
+                """)))}),format.raw/*43.18*/("""
+            """),format.raw/*44.13*/("""</ul>
         </div>
     </div>
-</footer>"""))}
+</footer>
+
+<script>
+(function(i,s,o,g,r,a,m)"""),format.raw/*50.25*/("""{"""),format.raw/*50.26*/("""i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()"""),format.raw/*50.76*/("""{"""),format.raw/*50.77*/("""
+"""),format.raw/*51.1*/("""(i[r].q=i[r].q||[]).push(arguments)"""),format.raw/*51.36*/("""}"""),format.raw/*51.37*/(""",i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+"""),format.raw/*53.1*/("""}"""),format.raw/*53.2*/(""")(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-68170534-1', 'auto');
+ga('send', 'pageview');
+
+</script>"""))}
   }
 
   def render(blogCategories:collection.immutable.ListMap[String, String]): play.twirl.api.HtmlFormat.Appendable = apply(blogCategories)
@@ -74,11 +88,11 @@ Seq[Any](format.raw/*1.63*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 22 12:29:55 MSK 2015
-                  SOURCE: C:/Users/d1sp/Desktop/Girhub/DoneDia/DoneDia/app/views/footer.scala.html
-                  HASH: 43d2c510a3fe30e619efb11e2fa39e10dea46a21
-                  MATRIX: 544->1|693->62|723->66|2599->1915|2650->1950|2689->1951|2739->1973|2780->1987|2795->1993|2858->2035|2888->2038|2940->2080|2980->2081|3024->2093|3054->2095|3076->2107|3101->2110|3160->2138|3202->2152
-                  LINES: 19->1|22->1|24->3|59->38|59->38|59->38|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|60->39|61->40|62->41
+                  DATE: Mon Sep 28 13:56:37 MSK 2015
+                  SOURCE: C:/Users/d1sp/Documents/GitHub/DoneDia/app/views/footer.scala.html
+                  HASH: bafbaf29c8f0f81e130998db6d488750b81b33a2
+                  MATRIX: 544->1|693->62|721->64|3112->2428|3163->2463|3202->2464|3251->2485|3292->2499|3307->2505|3370->2547|3400->2550|3452->2592|3492->2593|3536->2605|3566->2607|3588->2619|3613->2622|3671->2649|3712->2662|3816->2738|3845->2739|3923->2789|3952->2790|3980->2791|4043->2826|4072->2827|4222->2950|4250->2951
+                  LINES: 19->1|22->1|24->3|62->41|62->41|62->41|63->42|63->42|63->42|63->42|63->42|63->42|63->42|63->42|63->42|63->42|63->42|64->43|65->44|71->50|71->50|71->50|71->50|72->51|72->51|72->51|74->53|74->53
                   -- GENERATED --
               */
           
