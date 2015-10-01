@@ -184,7 +184,7 @@ object Application extends Controller {
       videos <- ctx.api.forms("videos")
         .ref(ctx.ref)
         .orderings("[my.video.date desc]")
-        .pageSize(50)
+        .pageSize(100)
         .submit()
     } yield {
       Ok(views.html.videos.videos(videos.results, BlogCategories))
